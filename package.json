@@ -1,0 +1,27 @@
+{
+  "name": "BMH website",
+  "version": "1.0.0",
+  "description": "Company website",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/it-bmh/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/it-bmh/website/issues"
+  },
+  "homepage": "https://github.com/it-bmh/website#readme",
+  "dependencies": {
+    "vuepress": "^1.0.2"
+  }
+}
