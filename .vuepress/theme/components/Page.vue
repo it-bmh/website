@@ -58,6 +58,7 @@
     </div>
 
     <slot name="bottom"/>
+    <div class="copyright">{{ footerText }}</div>
   </main>
 </template>
 
@@ -68,6 +69,10 @@ export default {
   props: ['sidebarItems'],
 
   computed: {
+    footerText () {
+      return this.$themeLocaleConfig.copyright
+    },
+
     lastUpdated () {
       return this.$page.lastUpdated
     },
@@ -198,6 +203,10 @@ function flatten (items, res) {
 .page
   padding-bottom 2rem
   display block
+
+.copyright
+  text-align center
+  font-size 0.7em
 
 .page-edit
   @extend $wrapper

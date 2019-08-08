@@ -36,5 +36,3 @@ Fax  (+420) 585 150 649
 
 **Sledujte nás**
 
-BMH spol. s r. o. | copyright © 2006-current
-
