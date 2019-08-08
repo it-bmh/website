@@ -4,10 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: CZ
 - type: document
   path: README.md
   label: Index
-  match: "**/*"
 - type: directory
   path: blog
   label: Blog
