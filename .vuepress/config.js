@@ -22,6 +22,7 @@ module.exports = {
             // algolia docsearch options for current locale
             algolia: {},
             copyright: 'BMH s.r.o. | copyright © 2006-2019',
+            blogpath: '/blog/',
             nav: [
                 { text: 'Domů', link: '/' },
                 { text: 'Blog', link: '/blog/' },
@@ -50,6 +51,7 @@ module.exports = {
               }
             },
             copyright: 'BMH s.r.o. | copyright © 2006-2019',
+            blogpath: '/en/blog/',
             nav: [
                 { text: 'Home', link: '/en/' },
                 { text: 'Blog', link: '/en/blog/' },

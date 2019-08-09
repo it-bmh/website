@@ -1,5 +1,5 @@
 ---
-title: Nadpis
+title: První článek na blogu
 date: 2018-07-28
 description:
     Toto je popis našeho prvního článku
