@@ -23,6 +23,7 @@ module.exports = {
             algolia: {},
             copyright: 'BMH s.r.o. | copyright © 2006-2019',
             blogpath: '/blog/',
+            blogreadmore: 'přečíst',
             nav: [
                 { text: 'Domů', link: '/' },
                 { text: 'Blog', link: '/blog/' },
@@ -52,6 +53,7 @@ module.exports = {
             },
             copyright: 'BMH s.r.o. | copyright © 2006-2019',
             blogpath: '/en/blog/',
+            blogreadmore: 'read more',
             nav: [
                 { text: 'Home', link: '/en/' },
                 { text: 'Blog', link: '/en/blog/' },

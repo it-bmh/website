@@ -7,7 +7,7 @@
         
         <p>{{ post.frontmatter.description }}</p>
 
-        <p><router-link :to="post.path">číst</router-link></p>
+        <p><router-link :to="post.path">{{ readmore }}</router-link></p>
     </div>
 </div>
 </template>
@@ -19,6 +19,9 @@ export default {
             return this.$site.pages
                 .filter(x => x.path.startsWith(this.$themeLocaleConfig.blogpath) && !x.frontmatter.blog_index)
                 .sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date));
+        },
+        readmore() {
+            return this.$themeLocaleConfig.blogreadmore
         }
     }
 }
