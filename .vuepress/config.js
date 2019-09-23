@@ -31,10 +31,10 @@ module.exports = {
             ],
             servicesName: 'Naše služby',
             services: [
-                { text: 'Kanalizace', link: '/sluzby/kanalizace/' },
-                { text: 'Vodovody', link: '/sluzby/vodovody/' },
-                { text: 'Revizní šachty', link: '/sluzby/revizni-sachty/' },
-                { text: 'Robotika', link: '/sluzby/robotika/' }
+                { text: 'Kanalizace', link: '/sluzby/kanalizace/', img: '/img/kanalizace.jpg' },
+                { text: 'Vodovody', link: '/sluzby/vodovody/', img: '/img/vodovod.jpg' },
+                { text: 'Revizní šachty', link: '/sluzby/revizni-sachty/', img: '/img/revizni_sachty.jpg' },
+                { text: 'Robotika', link: '/sluzby/robotika/', img: '/img/robotika.jpg' }
             ],
             sidebar: {
               '/': [/* ... */],
@@ -61,10 +61,10 @@ module.exports = {
             ],
             servicesName: 'Our services',
             services: [
-                { text: 'Sewerage', link: '/en/services/sewerage/' },
-                { text: 'Water mains', link: '/en/services/water-mains/' },
-                { text: 'Sewer manholes', link: '/en/services/sewer-manholes/' },
-                { text: 'Robotics', link: '/en/services/robotics/' }
+                { text: 'Sewerage', link: '/en/services/sewerage/', img: '/img/kanalizace.jpg'  },
+                { text: 'Water mains', link: '/en/services/water-mains/', img: '/img/vodovod.jpg' },
+                { text: 'Sewer manholes', link: '/en/services/sewer-manholes/', img: '/img/revizni_sachty.jpg' },
+                { text: 'Robotics', link: '/en/services/robotics/', img: '/img/robotika.jpg' }
             ],
             algolia: {},
             sidebar: {

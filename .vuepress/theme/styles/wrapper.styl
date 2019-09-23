@@ -1,9 +1,11 @@
 $wrapper
-  max-width $contentWidth
-  margin 0 auto
-  padding 2rem 2.5rem
-  @media (max-width: $MQNarrow)
-    padding 2rem
-  @media (max-width: $MQMobileNarrow)
-    padding 1.5rem
-
+  :not(.frontpage) &
+    max-width $contentWidth
+    margin 0 auto
+    padding 2rem 2.5rem
+    @media (max-width: $MQNarrow)
+      padding 2rem
+    @media (max-width: $MQMobileNarrow)
+      padding 1.5rem
+  .frontpage &
+    max-width 100%
