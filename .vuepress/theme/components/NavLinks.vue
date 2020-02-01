@@ -42,17 +42,27 @@ export default {
   components: { NavLink, DropdownLink },
 
   computed: {
+    aboutNav () {
+      return this.$themeLocaleConfig.aboutnav || this.$site.themeConfig.aboutnav || []
+    },
+
     userNav () {
       return this.$themeLocaleConfig.nav || this.$site.themeConfig.nav || []
     },
 
-    nav () {
-      const { locales } = this.$site
-      if (locales && Object.keys(locales).length > 1) {
-        const currentLink = this.$page.path
-        const routes = this.$router.options.routes
-        const themeLocales = this.$site.themeConfig.locales || {}
-        const languageDropdown = {
+    servicesDropdown () {
+      return {
+          text: this.$themeLocaleConfig.servicesName,
+          items: this.$themeLocaleConfig.services
+      }
+    },
+
+    languageDropdown () {
+      const currentLink = this.$page.path
+      const routes = this.$router.options.routes
+      const themeLocales = this.$site.themeConfig.locales || {}
+
+      return {
           text: this.$themeLocaleConfig.selectText || 'Languages',
           items: Object.keys(locales).map(path => {
             const locale = locales[path]
@@ -72,11 +82,12 @@ export default {
             return { text, link }
           })
         }
-        const services = {
-          text: this.$themeLocaleConfig.servicesName,
-          items: this.$themeLocaleConfig.services
-        }
-        return [...this.userNav, services, languageDropdown]
+    },
+
+    nav () {
+      const { locales } = this.$site
+      if (locales && Object.keys(locales).length > 1) {
+        return [...this.aboutNav, this.servicesDropdown, ...this.userNav, /*this.languageDropdown*/]
       }
       return this.userNav
     },
@@ -125,18 +136,20 @@ export default {
   a
     line-height 1.4rem
     color inherit
+    font-weight 700
+    transition all 500ms
     &:hover, &.router-link-active
-      color white
+      color $redColor
       font-weight bold
   .nav-item
     position relative
     display inline-block
-    margin-left 1.5rem
+    margin-left 2.5rem
     line-height 2rem
     &:first-child
       margin-left 0
   .repo-link
-    margin-left 1.5rem
+    margin-left 2.5rem
 
 @media (max-width: $MQMobile)
   .nav-links
@@ -146,9 +159,5 @@ export default {
 @media (min-width: $MQMobile)
   .nav-links a
     &:hover, &.router-link-active
-      color white
-  .nav-item > a:not(.external)
-    &:hover, &.router-link-active
-      margin-bottom -2px
-      border-bottom 2px solid #FF3037
+      color $redColor
 </style>

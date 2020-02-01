@@ -1,38 +1,43 @@
 <template>
-  <header class="navbar">
-    <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
+  <header :class="{ navbar: true, fixed: isFixed }">
+    <main class="navbar__content">
+      <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
 
-    <router-link
-      :to="$localePath"
-      class="home-link"
-    >
-      <img
-        class="logo"
-        v-if="$site.themeConfig.logo"
-        :src="$withBase($site.themeConfig.logo)"
-        :alt="$siteTitle"
+      <router-link
+        :to="$localePath"
+        class="home-link"
       >
-      <span
-        ref="siteName"
-        class="site-name"
-        v-if="$siteTitle"
-        :class="{ 'can-hide': $site.themeConfig.logo }"
-      >{{ $siteTitle }}</span>
-    </router-link>
+        <img
+          :class="{
+            logo: true,
+            big: hasBigLogo
+          }"
+          v-if="$site.themeConfig.logo"
+          :src="$withBase($site.themeConfig.logo)"
+          :alt="$siteTitle"
+        >
+        <span
+          ref="siteName"
+          class="site-name"
+          v-if="$siteTitle"
+          :class="{ 'can-hide': $site.themeConfig.logo }"
+        >{{ $siteTitle }}</span>
+      </router-link>
 
-    <div
-      class="links"
-      :style="linksWrapMaxWidth ? {
-        'max-width': linksWrapMaxWidth + 'px'
-      } : {}"
-    >
-      <!-- <AlgoliaSearchBox
-        v-if="isAlgoliaSearch"
-        :options="algolia"
-      />
-      <SearchBox v-else-if="$site.themeConfig.search !== false && $page.frontmatter.search !== false"/> -->
-      <NavLinks class="can-hide"/>
-    </div>
+      <div
+        class="links"
+        :style="linksWrapMaxWidth ? {
+          'max-width': linksWrapMaxWidth + 'px'
+        } : {}"
+      >
+        <!-- <AlgoliaSearchBox
+          v-if="isAlgoliaSearch"
+          :options="algolia"
+        />
+        <SearchBox v-else-if="$site.themeConfig.search !== false && $page.frontmatter.search !== false"/> -->
+        <NavLinks class="can-hide"/>
+      </div>
+    </main>
   </header>
 </template>
 
@@ -41,6 +46,8 @@ import SidebarButton from '@theme/components/SidebarButton.vue'
 import NavLinks from '@theme/components/NavLinks.vue'
 
 export default {
+  props: ['isFixed', 'hasBigLogo'],
+
   components: { SidebarButton, NavLinks, /*SearchBox, AlgoliaSearchBox*/ },
 
   data () {
@@ -84,21 +91,44 @@ function css (el, property) {
 </script>
 
 <style lang="stylus">
-$navbar-vertical-padding = 0.7rem
+$navbar-vertical-padding = 1.0rem
 $navbar-horizontal-padding = 1.5rem
 
+.navbar__content
+  position relative
+  display flex
+  flex auto
+  max-width $pageMaxWidth
+
 .navbar
-  padding $navbar-vertical-padding $navbar-horizontal-padding
-  line-height $navbarHeight - 1.4rem
+  line-height $navbarHeight - 2*$navbar-vertical-padding
+  display flex
+  align-items center
+  justify-content center
+  height $navbarHeight
+  background-color #00027D
+  position relative
+
+  &.fixed
+    position fixed
+    z-index 20
+    top 0
+    left 0
+    right 0
+
   a, span, img
     display inline-block
   a
     color white
   .logo
-    height $navbarHeight - 1.4rem
-    min-width $navbarHeight - 1.4rem
+    height $navbarLogoSize
+    min-width $navbarLogoSize
     margin-right 0.8rem
-    vertical-align top
+    vertical-align middle
+    transition all 500ms
+  .logo.big
+    height $navbarLogoSizeBig
+    min-width $navbarLogoSizeBig
   .site-name
     font-size 1.3rem
     font-weight 600
@@ -109,11 +139,13 @@ $navbar-horizontal-padding = 1.5rem
     box-sizing border-box
     background-color #00027D
     white-space nowrap
-    font-size 0.9rem
+    font-size 1rem
+    font-weight bold
     position absolute
-    right $navbar-horizontal-padding
-    top $navbar-vertical-padding
+    //right $navbar-horizontal-padding
+    // top $navbar-vertical-padding
     display flex
+    right 0
     .search-box
       flex: 0 0 auto
       vertical-align top

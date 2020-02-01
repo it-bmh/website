@@ -9,9 +9,21 @@
     >
       <span class="title">{{ item.text }}</span>
       <span
-        class="arrow"
+        class="dropdown-arrow"
         :class="open ? 'down' : 'right'"
-      ></span>
+      >
+      <svg width="13px" height="8px" viewBox="0 0 13 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="General" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="01" transform="translate(-986.000000, -53.000000)" stroke-width="2">
+                  <g id="Group-2" transform="translate(715.000000, 45.000000)">
+                      <g id="Group" transform="translate(177.000000, 0.000000)">
+                          <polyline id="Stroke-1" points="106 9 100.500146 14.499854 95 9"></polyline>
+                      </g>
+                  </g>
+              </g>
+          </g>
+      </svg>
+      </span>
     </a>
 
     <DropdownTransition>
@@ -77,6 +89,12 @@ export default {
 </script>
 
 <style lang="stylus">
+.dropdown-arrow > svg g 
+    stroke $whiteColor
+
+.dropdown-title:hover .dropdown-arrow > svg g
+  stroke $redColor
+
 .dropdown-wrapper
   cursor pointer
   .dropdown-title
@@ -168,7 +186,7 @@ export default {
       overflow-y auto
       position absolute
       top 100%
-      right 0
+      right -1rem
       background-color #fff
       padding 0.6rem 0
       border 1px solid #ddd
@@ -177,4 +195,5 @@ export default {
       border-radius 0.25rem
       white-space nowrap
       margin 0
+      z-index 50
 </style>

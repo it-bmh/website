@@ -120,5 +120,5 @@ a.sidebar-link
     padding-bottom 0.25rem
     border-left none
     &.active
-      font-weight 500
+      font-weight 400
 </style>

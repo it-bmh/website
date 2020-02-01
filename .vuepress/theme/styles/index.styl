@@ -5,7 +5,7 @@
 @require './wrapper'
 @require './toc'
 
-@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700&display=swap')
 
 html, body
   padding 0
@@ -21,17 +21,6 @@ body
 
 .page
   padding-left $sidebarWidth
-
-.navbar
-  position fixed
-  z-index 20
-  top 0
-  left 0
-  right 0
-  height $navbarHeight
-  background-color #00027D
-  box-sizing border-box
-  border-bottom 1px solid $borderColor
 
 .sidebar-mask
   position fixed
@@ -80,7 +69,7 @@ body
     max-width 100%
 
 a
-  font-weight 500
+  font-weight 400
   color #FF3037
   text-decoration none
 
@@ -202,3 +191,6 @@ th, td
       padding-left 0
 
 @require 'mobile.styl'
+
+.frontpage
+  @require './page/landing.styl'

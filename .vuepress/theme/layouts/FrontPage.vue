@@ -8,8 +8,7 @@
     <Navbar
       v-if="shouldShowNavbar"
       @toggle-sidebar="toggleSidebar"
-      :isFixed="isNavbarFixed"
-      :hasBigLogo="false"
+      :hasBigLogo="true"
     />
 
     <div
@@ -36,7 +35,7 @@
     <Page
       v-else
       :sidebar-items="sidebarItems"
-      :hasCustomContent="false"
+      :hasCustomContent="true"
     >
       <slot
         name="page-top"
@@ -62,8 +61,7 @@ export default {
 
   data () {
     return {
-      isSidebarOpen: false,
-      isNavbarFixed: true
+      isSidebarOpen: false
     }
   },
 

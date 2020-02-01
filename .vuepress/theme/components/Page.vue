@@ -2,7 +2,10 @@
   <main class="page">
     <slot name="top"/>
     
-    <Content class="theme-default-content"/>
+    <Content :class="{
+      'theme-default-content': true,
+      'custom': hasCustomContent
+    }"/>
 
     <footer class="page-edit">
       <div
@@ -58,7 +61,15 @@
     </div>
 
     <slot name="bottom"/>
-    <div class="copyright">{{ footerText }}</div>
+    <div class="copyright">
+      <div class="copyright__content">
+        <span>{{ footerText }}</span>
+        <span class="copyright__doneby">
+          <span class="copyright__design">Designed by <a target="_blank" href="https://www.behance.net/LenkaSiva/">Lenka Sivá</a></span>
+          <span class="copyright__programming"> developed by <a target="_blank" href="https://michalweiser.com">Michał Weiser</a></span>
+        </span>
+      </div>
+    </div>
   </main>
 </template>
 
@@ -66,7 +77,7 @@
 import { resolvePage, outboundRE, endingSlashRE } from '../util'
 
 export default {
-  props: ['sidebarItems'],
+  props: ['sidebarItems', 'hasCustomContent'],
 
   computed: {
     footerText () {
@@ -201,17 +212,31 @@ function flatten (items, res) {
 @require '../styles/wrapper.styl'
 
 .page
-  padding-bottom 2rem
   display block
 
 .copyright
-  text-align center
+  display flex
+  align-items center
+  justify-content center
+  height 3rem
+
+.copyright__content
+  display flex
+  justify-content space-between
+  width 100%
+  max-width $pageMaxWidth
   font-size 0.7em
+  
+  color #A1A1A1
+  font-family Cabin
+  font-size 1rem
+  letter-spacing 0.5px
+  line-height 1.5rem
 
 .page-edit
   @extend $wrapper
   padding-top 1rem
-  padding-bottom 1rem
+  // padding-bottom 1rem
   overflow auto
   .edit-link
     display inline-block
@@ -222,7 +247,7 @@ function flatten (items, res) {
     float right
     font-size 0.9em
     .prefix
-      font-weight 500
+      font-weight 400
       color lighten($textColor, 25%)
     .time
       font-weight 400

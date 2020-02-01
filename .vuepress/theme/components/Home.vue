@@ -119,7 +119,7 @@ export default {
     max-width 30%
     h2
       font-size 1.4rem
-      font-weight 500
+      font-weight 400
       border-bottom none
       padding-bottom 0
       color lighten($textColor, 10%)

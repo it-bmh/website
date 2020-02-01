@@ -21,13 +21,17 @@ module.exports = {
             },
             // algolia docsearch options for current locale
             algolia: {},
-            copyright: 'BMH s.r.o. | copyright © 2006-2019',
+            copyright: 'Copyright © 2020 B M H spol. s. r. o  |  Ochrana soukromí',
             blogpath: '/blog/',
             blogreadmore: 'přečíst',
+            aboutnav: [
+              { text: 'Domů', link: '/' },
+              { text: 'O nás', link: '/o-nas/' }
+            ],
             nav: [
-                { text: 'Domů', link: '/' },
+                { text: 'Reference', link: '/reference/' },
                 { text: 'Blog', link: '/blog/' },
-                { text: 'O společnosti', link: '/o-spolecnosti/' }
+                { text: 'Kontakt', link: '/kontakt/' }
             ],
             servicesName: 'Naše služby',
             services: [
@@ -51,7 +55,7 @@ module.exports = {
                 buttonText: "Refresh"
               }
             },
-            copyright: 'BMH s.r.o. | copyright © 2006-2019',
+            copyright: 'Copyright © 2020 B M H spol. s. r. o  |  Ochrana soukromí',
             blogpath: '/en/blog/',
             blogreadmore: 'read more',
             nav: [
