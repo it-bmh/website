@@ -76,3 +76,5 @@ Media
 - [Sovak č. 7-8/2017 - Vodovodní přivaděč Jabloňák - sanace vodovodního přivaděče](http://bmh.cz/wp-content/uploads/2017/08/sovak_2017.pdf)
 - [Sovak č. 10/2015 - vysvětlení nejasností o technologiích CIPP](http://bmh.cz/wp-content/uploads/2017/08/sovak_102015.pdf)
 - [Stavební server 2016 - rozhovor ](http://bmh.cz/wp-content/uploads/2017/08/rozhovor-Stavebn%C3%AD-server.pdf)
+
+<Contact />

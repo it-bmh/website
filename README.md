@@ -32,7 +32,7 @@ layout: FrontPage
             </div>
         </main>
     </section>
-    <section class="section section--wide section--gray proc-zvolit-bezvykopovou-metodu">
+    <section class="section section--wide section--gray section--centered proc-zvolit-bezvykopovou-metodu">
         <header class="section__header header--small">
             <h3 class="section__title title--small">Proč zvolit bezvýkopovou metodu?</h3>
         </header>
@@ -119,13 +119,86 @@ layout: FrontPage
                 <img class="service-link__img" src="/img/frontpage/3.png" alt=""/>
                 <main class="service-link__content">
                     <h4 class="service-link__content__header">Rekonstrukce a opravy vodovodů</h4>
-                    <p class="service-link__content__text">Opravy a rekonstrukce vodovodů realizujeme buď pomocí bezvýkopové metody cementace nebo za použití unikátního UV rukávce SAERTEX-LINER H₂O, který je speciálně určený k sanaci potrubí na pitnou vodu.
-                    </p>
+                    <p class="service-link__content__text">Opravy a rekonstrukce vodovodů realizujeme buď pomocí bezvýkopové metody cementace nebo za použití unikátního UV rukávce <b>SAERTEX-LINER H₂O</b>, který je speciálně určený k sanaci potrubí na pitnou vodu.</p>
+                    <a class="service-link__content__cta">zjistit více</a>
+                </main>
+            </div>
+            <div class="service-link service-link--revizni-sachty service-link--image-left service-link--white">
+                <header class="service-link__header">
+                    <h3 class="service-link__title">REVIZNI ŠACHTY</h3>
+                </header>
+                <img class="service-link__img" src="/img/frontpage/7.png" alt=""/>
+                <main class="service-link__content">
+                    <h4 class="service-link__content__header">Rekonstrukce revizních šachet</h4>
+                    <p class="service-link__content__text">Opravujeme a rekonstruujeme revizní nebo kanalizační šachty různého typu (kruhové i hranaté s proměnlivým průřezem). Využíváme při tom inovativní bezvýkopovou technologii Vertiliner nebo klasickou zednickou metodu.</p>
+                    <a class="service-link__content__cta">zjistit více</a>
+                </main>
+            </div>
+            <div class="service-link service-link--robotika service-link--image-right service-link--blue">
+                <header class="service-link__header">
+                    <h3 class="service-link__title">ROBOTIKA</h3>
+                </header>
+                <img class="service-link__img" src="/img/frontpage/8.png" alt=""/>
+                <main class="service-link__content">
+                    <h4 class="service-link__content__header">Monitoring a lokální bezvýkopové opravy</h4>
+                    <p class="service-link__content__text">Vlastníme 5 unikátních robotů s nejmodernější technologií. Každý robot se specializuje na určitý druh činnosti a je na to vybaven specifickým nástrojem či kamerou. Roboty ovládá operátor z kabiny vozu.</p>
                     <a class="service-link__content__cta">zjistit více</a>
                 </main>
             </div>
         </main>
     </section>
+     <section class="section section--wide section--blue section--centered rikaji-o-nas">
+         <header class="section__header header--default">
+            <h5 class="section__subtitle">Reference</h5>
+            <h2 class="section__title title--big">Říkají o nás</h2>
+        </header>
+        <main class="section__content">
+            <p class="section__content__text">Realizujeme zakázky napříč celou republikou. Podívejte se, kde všude už s naší prací mají zkušenost a co o nás říkají naši klienti.</p>
+            <a class="section__content__cta">zjistit více</a>
+            <div class="references">
+                <div class="references__masonry">
+                    <div class="references__masonry__brick">
+                        <div class="reference">
+                            <p class="reference__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore.”</p>
+                            <div class="reference__name">JAROMÍR NOVÁK</div>
+                            <div class="reference__location">BRNO</div>
+                        </div>
+                    </div>
+                    <div class="references__masonry__brick">
+                        <div class="reference">
+                            <p class="reference__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.”</p>
+                            <div class="reference__name">JAROMÍR NOVÁK</div>
+                            <div class="reference__location">BRNO</div>
+                        </div>
+                    </div>
+                    <div class="references__masonry__brick">
+                        <div class="reference">
+                            <p class="reference__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.”</p>
+                            <div class="reference__name">JAROMÍR NOVÁK</div>
+                            <div class="reference__location">BRNO</div>
+                        </div>
+                    </div>
+                    <div class="references__masonry__brick">
+                        <div class="reference">
+                            <p class="reference__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore.”</p>
+                            <div class="reference__name">JAROMÍR NOVÁK</div>
+                            <div class="reference__location">BRNO</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+     </section>
+     <section class="section section--wide section--centered">
+     <div class="service-link service-link--white service-link--image-right">
+        <img class="service-link__img" src="/img/frontpage/6.png" alt="">
+        <main class="service-link__content">
+            <h4 class="service-link__content__header">O nás</h4>
+            <p class="service-link__content__text">Stavební společnost BMH spol. s r. o. sídlí v Olomouci a vznikla v roce 1991, a to se záměrem stavět a opravovat trubní systémy. Stavěli jsme nové kanalizace i vodovody, zároveň jsme opravovali stávající trubní sítě. Od roku 1996 ale provádíme opravy a rekonstrukce vodovodního řádu výhradně bezvýkopovou metodou. Šetříme tak čas a finance měst, obcí i mnoha dalších institucí.</p>
+            <a class="service-link__content__cta">zjistit více</a>
+        </main>
+      </div>
+     </section>
 </main>
 
 
