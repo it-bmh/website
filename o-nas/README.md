@@ -1,80 +1,163 @@
-O společnosti
-=============
+<header class="page-header page-header--centered">
+    <h2 class="page-header__subtitle">O nás</h2>
+    <h1 class="page-header__title">O BMH</h1>
+</header>
 
-Stavební společnost BMH spol. s r.o. se sídlem v Olomouci je specialistou na bezvýkopové opravy kanalizace a vodovodního potrubí. Takže její slogan „S námi budete mít vítr v potrubí“ je zcela na místě. Snažíme se stále růst a zlepšovat se. Jsme nejlépe vybavenou firmou v České republice, co se týká veškerých moderních technologií v našem oboru.
 
-Inženýrské služby
-=================
+<section class="section section--wide section--centered">
+    <div class="info-box info-box--image-left info-box--blue info-box--image-small">
+        <img class="info-box__img" src="/img/frontpage/2.png" alt=""/>
+        <main class="info-box__content">
+            <h4 class="info-box__content__header">Specialista na bezvýkopové technologie</h4>
+            <p class="info-box__content__text">Už téměř 30 let zajišťujeme opravy a rekonstrukce trubních systémů. Pro bezvýkopovou sanaci kanalizačního nebo vodovodního potrubí vždy navrhujeme to nejlepší technologické řešení.<br/>Na míru.</p>
+        </main>
+    </div>
+</section>
 
-Společnost BMH spol. s r.o. zajišťuje inženýrskou činnost nutnou pro realizaci díla. Při provádění bezvýkopových sanací, odstraňování následků havárií a průzkumu trubních sítí není zpravidla nutné vyřizovat stavební povolení. Po dohodě s objednatelem zajistíme rozhodnutí, vyjádření a souhlasy úřadů a organizací (přechodné dopravní značení, zábory, povolení ke zvláštnímu užívání komunikace, vytyčení podzemních inženýrských sítí apod.) nutné k realizaci díla.
+<section class="page-paragraph">
+    <main class="page-paragraph__content">
+        <h3 class="page-paragraph__header">Zajišťujeme opravy a rekonstrukce trubních systémů.<br/>Už téměř 30 let.</h3>
+        <p class="page-paragraph__text">
+        Stavební společnost BMH spol. s r. o. sídlí v Olomouci a vznikla v roce 1991, a to se záměrem stavět a opravovat trubní systémy. Stavěli jsme nové kanalizace i vodovody, zároveň jsme opravovali stávající trubní sítě. Od roku 1996 ale provádíme opravy a rekonstrukce vodovodního řádu výhradně bezvýkopovou metodou. Šetříme tak čas a finance měst, obcí i mnoha dalších institucí.
+        </p>
+    </main>
+</section>
 
-Certifikace
-===========
+<section class="page-paragraph">
+    <main class="page-paragraph__content">
+        <h3 class="page-paragraph__header">Inovujeme a sledujeme trendy. Nepřetržitě.</h3>
+        <p class="page-paragraph__text">
+        Jsme technologicky nejlépe vybavenou firmou v České republice. Tam, kde jiní končí, my pokračujeme dále. Máme řadu dlouholetých zaměstnanců, kteří jsou skutečnými experty ve svém oboru. Díky jejich zkušenostem a nejmodernějším technologiím dokážeme vždy navrhnout správné technologické řešení. Komplexně a na míru.
+        </p>
+    </main>
+</section>
 
-Kvalitou prováděných prací a množstvím kvalitního technického vybavení patří společnost BMH spol. s r.o. mezi absolutní špičku na našem trhu v oblasti monitoringu potrubí, v oblasti bezvýkopových oprav kanalizací rukávcovou metodou, lokálních oprav pomocí krátkých rukávů a klobouků a prací speciálními kanalizačními roboty.
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
+        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
+    </main>
+</section>
 
-Společnost klade důraz na vysokou odbornost a profesionalitu svých pracovníků, na osobní přístup k zákazníkovi již od prvního kontaktu, následně při přípravě stavby i při vlastní realizaci. Do dnešního dne společnost nezaznamenala a nemusela řešit žádnou vážnější reklamaci nebo závadu.
+<section class="page-paragraph">
+    <main class="page-paragraph__content">
+        <h3 class="page-paragraph__header">Máme vlastní výrobní program textilních komponentů pro sanační práce</h3>
+        <p class="page-paragraph__text">
+        Jako jediná firma v České republice, orientovaná na bezvýkopové sanace, si sami vyrábíme textilní rukávce, které tvoří základ naší technologie INSAK. Vlastníme zařízení na šití rukávců (šicí linku i svařovací stolici) a na provádění tahových zkoušek (trhací stolici). Vyrábíme také textilní prvky pro vložkování kanalizačního potrubí.
+        </p>
+    </main>
+</section>
 
-Kvalitu a jakost výrobků pro bezvýkopové opravy kanalizací prováděné společností BMH spol. s r.o. Olomouc osvědčují certifikáty vydané Technickým a zkušebním ústavem stavebním Praha, s.p.:
+<section class="image-preview image-preview--single">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/frontpage/9.png" alt=""/>
+    </main>
+</section>
 
-**Certifikáty**
+<section class="page-paragraph">
+    <main class="page-paragraph__content">
+        <h3 class="page-paragraph__header">Postaráme se o sanaci potrubí od prvních plánů až po ukončovací práce</h3>
+        <p class="page-paragraph__text">
+        Zprostředkujeme všechnu inženýrskou činnost potřebnou pro realizaci díla. Po dohodě s klientem vyřídíme vše po vlastní ose: zajistíme nezbytná rozhodnutí, vyjádření a souhlasy úřadů či organizací. Jedná se například o přechodné dopravní značení, zábory, povolení ke zvláštnímu užívání komunikace, vytyčení podzemních inženýrských sítí a další.</p>
+    </main>
+</section>
 
-- Certifikát č. 204/C5a/2010/090-024314 na výrobek Sanační vložka pro kanalizační potrubní systémy a pro průmyslové přivaděče systém INSAK® ze dne 17.9.2010
-- Certifikát č. 090-020136 na výrobek Krátký sanační rukáv ze dne 11.11.2008
-- Certifikát č. 090-020139 na výrobek Sanační klobouk ze dne 11.11.2008
-- Certifikát jakosti dle ČSN EN ISO 9001 a certifikát EMS dle ČSN EN ISO 14001
-- Certifikát kvalifikačního kurzu operátorů kamerových systémů dle norem EN ISO 9001 a ISYNBAU xml 2006 CZ
+<header class="page-header page-header--centered">
+    <h2 class="page-header__subtitle">Jak pracujeme</h2>
+</header>
 
-**Zkoušky těsnosti**
+<section class="info-graphics">
+    <main class="info-graphics__content">
+        <span  class="info-graphics__claim">INFOGRAFIKA</span>
+    </main>
+</section>
 
-Provádíme zkoušky těsnosti vodou i vzduchem nových potrubí i potrubí opravených vložkováním dle normy ČSN EN 1610. Naši zaměstnanci byli proškoleni na provádění zkoušek těsnosti vzduchem pomocí technologického zařízení DPK 1000 LVW-M od firmy SKLARZ. Průběh provádění sleduje obsluha na displeji, technická data se ukládají v počítači a po skončení je vytištěn protokol o zkoušce těsnosti.
+<section class="section section--wide section--blue section--centered rikaji-o-nas">
+    <header class="section__header header--default">
+        <h5 class="section__subtitle">Reference</h5>
+        <h2 class="section__title title--big">Říkají o nás</h2>
+    </header>
+    <main class="section__content">
+        <p class="section__content__text">Realizujeme zakázky napříč celou republikou. Podívejte se, kde všude už s naší prací mají zkušenost a co o nás říkají naši klienti.</p>
+        <a class="section__content__cta">zjistit více</a>
+        <div class="references">
+            <div class="references__masonry">
+                <div class="references__masonry__brick">
+                    <div class="reference">
+                        <p class="reference__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore.”</p>
+                        <div class="reference__name">JAROMÍR NOVÁK</div>
+                        <div class="reference__location">BRNO</div>
+                    </div>
+                </div>
+                <div class="references__masonry__brick">
+                    <div class="reference">
+                        <p class="reference__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.”</p>
+                        <div class="reference__name">JAROMÍR NOVÁK</div>
+                        <div class="reference__location">BRNO</div>
+                    </div>
+                </div>
+                <div class="references__masonry__brick">
+                    <div class="reference">
+                        <p class="reference__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.”</p>
+                        <div class="reference__name">JAROMÍR NOVÁK</div>
+                        <div class="reference__location">BRNO</div>
+                    </div>
+                </div>
+                <div class="references__masonry__brick">
+                    <div class="reference">
+                        <p class="reference__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore.”</p>
+                        <div class="reference__name">JAROMÍR NOVÁK</div>
+                        <div class="reference__location">BRNO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</section>
 
-Kontakty
-========
+<header class="page-header page-header--centered">
+    <h2 class="page-header__subtitle">Blog</h2>
+    <h1 class="page-header__title">Píšeme o technologiích</h1>
+</header>
 
-BMH spol. s r.o. <br>
-IČ:42869668 <br>
-Zapsána u Krajského soudu v Ostravě, oddíl C, vložka 1897
-
-e-mail bmh@bmh.cz <br>
-telefon (+420) 585 313 549, (+420) 585 314 997 <br>
-fax  (+420) 585 150 649 <br>
-
-<div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=bmh%20olomouc&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:350px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:350px;width:600px;}</style></div>
-
-Olomouc
--------
-Ondřejova 592/11A <br>
-779 00 Olomouc <br>
-CZECH REPUBLIC
-
-Praha
------
-Vyskočilova 1481/4 <br>
-140 00 Praha 4 - Michle <br>
-CZECH REPUBLIC
-
-Dokumenty ke stažení
-==========
-- [Čištění kanalizací](http://bmh.cz/wp-content/uploads/2016/10/BMH_letak_cistici_stroj_kamera_screen.pdf)
-- [Monitoring kanalizací](http://bmh.cz/wp-content/uploads/2016/10/BMH_letak_kamery_CZ-screen.pdf)
-- [Kanalizační roboty Kasro](http://bmh.cz/wp-content/uploads/2016/10/BMH_letak_Kasro_CZ-screen.pdf)
-- [Sanace metoudou Insak](http://bmh.cz/wp-content/uploads/2016/10/BMH_letak_Insak_CZscreen.pdf)
-- [Sanace UV-liner](http://bmh.cz/wp-content/uploads/2016/10/BMH_letak_UV_linerscreen.pdf)
-- [Vložka Brandernburger](http://bmh.cz/wp-content/uploads/2016/10/BMH_letak_Brandenburg-screen.pdf)
-- [Cementace vodovodního potrubí](http://bmh.cz/wp-content/uploads/2016/10/BMH_letak_cementace_screen.pdf)
-- [Přehled techniky BMH](http://bmh.cz/wp-content/uploads/2016/10/BMH_letak_PREHLED_VOZIDELscreen.pdf)
-- [Novinka ve vybavení](http://bmh.cz/wp-content/uploads/2016/10/BMH_letak_Novinka_ve_vybaveni-screen.pdf)
-
-Media
-=====
-
-- [Sovak 2019 - úspěšná bezvýkopová sanace revizních kanalizačních šachet v ČR](https://bmh.cz/wp-content/uploads/2019/05/%C4%8Dl%C3%A1nek-a-pozv%C3%A1nka-na-v%C3%BDstavu-sovak-5-2019.pdf)
-- [Stavební server 2018 - Obnova revizních kanalizačních šachet metodou Vertiliner](https://bmh.cz/wp-content/uploads/2019/05/inzerce-%C4%8Dl%C3%A1nek-stavebn%C3%AD-server-2018-vertiliner.pdf)
-- [Hospodářské noviny - V budoucnu se inženýrské sítě budou obnovovat zejména bezvýkopově](https://bmh.cz/wp-content/uploads/2019/05/19.04.08.-P%C5%99edstavujeme-se_BMH_v1.3.pdf)
-- [Sovak č. 6/2017 - První rekonstrukce revizní šachty metodou Vertiliner v ČR](http://bmh.cz/wp-content/uploads/2017/10/Vrtiliner-BMH.pdf)
-- [Sovak č. 7-8/2017 - Vodovodní přivaděč Jabloňák - sanace vodovodního přivaděče](http://bmh.cz/wp-content/uploads/2017/08/sovak_2017.pdf)
-- [Sovak č. 10/2015 - vysvětlení nejasností o technologiích CIPP](http://bmh.cz/wp-content/uploads/2017/08/sovak_102015.pdf)
-- [Stavební server 2016 - rozhovor ](http://bmh.cz/wp-content/uploads/2017/08/rozhovor-Stavebn%C3%AD-server.pdf)
+<section class="section section--wide section--centered">
+    <div class="blog-preview">
+        <div class="blogpost-preview blogpost-preview--big blogpost-preview--blue">
+            <header class="blogpost-preview__header">
+                <img  class="blogpost-preview__img" src="/img/frontpage/3.png" alt="">
+            </header>
+            <main class="blogpost-preview__content">
+                <span class="blogpost-preview__date">12.10.2019</span>
+                <h5 class="blogpost-preview__title">Lorem ipsum dolor sit amet, consectetur.</h5>
+                <p class="blogpost-preview__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <a class="blogpost-preview__link">Číst více</a>
+            </main>
+        </div>
+        <div class="blog-preview__double-box">
+            <div class="blogpost-preview blogpost-preview--small blogpost-preview--white">
+                <header class="blogpost-preview__header">
+                    <img  class="blogpost-preview__img" src="/img/frontpage/3.png" alt="">
+                </header>
+                <main class="blogpost-preview__content">
+                    <span class="blogpost-preview__date">12.10.2019</span>
+                    <h5 class="blogpost-preview__title">Lorem ipsum dolor sit amet, consectetur.</h5>
+                    <p class="blogpost-preview__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <a class="blogpost-preview__link">Číst více</a>
+                </main>
+            </div>
+            <div class="blogpost-preview blogpost-preview--small blogpost-preview--white">
+                <header class="blogpost-preview__header">
+                    <img  class="blogpost-preview__img" src="/img/frontpage/3.png" alt="">
+                </header>
+                <main class="blogpost-preview__content">
+                    <span class="blogpost-preview__date">12.10.2019</span>
+                    <h5 class="blogpost-preview__title">Lorem ipsum dolor sit amet, consectetur.</h5>
+                    <p class="blogpost-preview__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <a class="blogpost-preview__link">Číst více</a>
+                </main>
+            </div>
+        </div>
+    </div>
+</section>
 
 <Contact />

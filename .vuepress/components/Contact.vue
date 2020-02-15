@@ -15,7 +15,9 @@
                         <a class="contact__mail" href="mailto:bmh@bmh.cz">bmh@bmh.cz</a>
                     </section>
                     <section class="contact__social-media">
-                        Sledujte nás na <a target="_blank" class="contact__social-media__link" href="https://www.facebook.com/BMH-spol-s-ro-177657498924824/"><img src="/img/facebook.svg" alt=""></a><a class="contact__social-media__link"><img src="/img/twitter.svg" alt=""></a>
+                        Sledujte nás na
+                        <a target="_blank" class="contact__social-media__link" href="https://www.facebook.com/BMH-spol-s-ro-177657498924824/"><img src="/img/facebook.svg" alt=""></a>
+                        <!-- <a class="contact__social-media__link"><img src="/img/twitter.svg" alt=""></a> -->
                     </section>
                 </div>
                 <div class="contact__group">

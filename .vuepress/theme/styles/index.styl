@@ -19,167 +19,179 @@ body
   font-size 16px
   color $textColor
 
-.page
-  padding-left $sidebarWidth
+a,
+a:visited
+  text-decoration none
+  color $redColor
 
-.sidebar-mask
-  position fixed
-  z-index 9
-  top 0
-  left 0
-  width 100vw
-  height 100vh
-  display none
-
-.sidebar
-  font-size 16px
-  background-color #fff
-  width $sidebarWidth
-  position fixed
-  z-index 10
+h1, h2, h3, h4, h5, h6, p
   margin 0
-  top $navbarHeight
-  left 0
-  bottom 0
-  box-sizing border-box
-  border-right 1px solid $borderColor
-  overflow-y auto
+  padding 0
+  border 0
 
 {$contentClass}:not(.custom)
   @extend $wrapper
   > *:first-child
-    margin-top $navbarHeight
+    margin-top 12rem
 
-  a:hover
-    text-decoration underline
+{$contentClass}
+  width 100%
 
-  p.demo
-    padding 1rem 1.5rem
-    border 1px solid #ddd
-    border-radius 4px
+.rikaji-o-nas
+  margin-bottom 12.7rem
 
-  img
-    max-width 100%
+// .page
+//   padding-left $sidebarWidth
 
-{$contentClass}.custom
-  padding 0
-  margin 0
+// .sidebar-mask
+//   position fixed
+//   z-index 9
+//   top 0
+//   left 0
+//   width 100vw
+//   height 100vh
+//   display none
 
-  img
-    max-width 100%
+// .sidebar
+//   font-size 16px
+//   background-color #fff
+//   width $sidebarWidth
+//   position fixed
+//   z-index 10
+//   margin 0
+//   top $navbarHeight
+//   left 0
+//   bottom 0
+//   box-sizing border-box
+//   border-right 1px solid $borderColor
+//   overflow-y auto
 
-a
-  font-weight 400
-  color #FF3037
-  text-decoration none
+//   a:hover
+//     text-decoration underline
 
-p a code
-  font-weight 400
-  color $accentColor
+//   p.demo
+//     padding 1rem 1.5rem
+//     border 1px solid #ddd
+//     border-radius 4px
 
-kbd
-  background #eee
-  border solid 0.15rem #ddd
-  border-bottom solid 0.25rem #ddd
-  border-radius 0.15rem
-  padding 0 0.15em
+// {$contentClass}.custom
+//   padding 0
+//   margin 0
 
-blockquote
-  font-size 1rem
-  color #999;
-  border-left .2rem solid #dfe2e5
-  margin 1rem 0
-  padding .25rem 0 .25rem 1rem
+//   img
+//     max-width 100%
 
-  & > p
-    margin 0
+// a
+//   font-weight 400
+//   color #FF3037
+//   text-decoration none
 
-ul, ol
-  padding-left 1.2em
+// p a code
+//   font-weight 400
+//   color $accentColor
 
-strong
-  font-weight 600
+// kbd
+//   background #eee
+//   border solid 0.15rem #ddd
+//   border-bottom solid 0.25rem #ddd
+//   border-radius 0.15rem
+//   padding 0 0.15em
 
-h1, h2, h3, h4, h5, h6
-  font-weight 600
-  line-height 1.25
+// blockquote
+//   font-size 1rem
+//   color #999;
+//   border-left .2rem solid #dfe2e5
+//   margin 1rem 0
+//   padding .25rem 0 .25rem 1rem
 
-  {$contentClass}:not(.custom) > &
-    margin-top (0.5rem - $navbarHeight)
-    padding-top ($navbarHeight + 1rem)
-    margin-bottom 0
+//   & > p
+//     margin 0
 
-    &:first-child
-      margin-top -1.5rem
-      margin-bottom 1rem
+// ul, ol
+//   padding-left 1.2em
 
-      + p, + pre, + .custom-block
-        margin-top 2rem
+// strong
+//   font-weight 600
 
-  &:hover .header-anchor
-    opacity: 1
+// h1, h2, h3, h4, h5, h6
+//   font-weight 600
+//   line-height 1.25
 
-h1
-  font-size 2.2rem
+//   {$contentClass}:not(.custom) > &
+//     margin-top (0.5rem - $navbarHeight)
+//     padding-top ($navbarHeight + 1rem)
+//     margin-bottom 0
 
-h2
-  font-size 1.65rem
-  padding-bottom .3rem
-  border-bottom 1px solid $borderColor
+//     &:first-child
+//       margin-top -1.5rem
+//       margin-bottom 1rem
 
-h3
-  font-size 1.35rem
+//       + p, + pre, + .custom-block
+//         margin-top 2rem
 
-a.header-anchor
-  display: none
-  font-size 0.85em
-  float left
-  margin-left -0.87em
-  padding-right 0.23em
-  margin-top 0.125em
-  opacity 0
+//   &:hover .header-anchor
+//     opacity: 1
 
-  &:hover
-    text-decoration none
+// h1
+//   font-size 2.2rem
 
-code, kbd, .line-number
-  font-family source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
+// h2
+//   font-size 1.65rem
+//   padding-bottom .3rem
 
-p, ul, ol
-  line-height 1.7
+// h3
+//   font-size 1.35rem
 
-hr
-  border 0
-  border-top 1px solid $borderColor
+// a.header-anchor
+//   display: none
+//   font-size 0.85em
+//   float left
+//   margin-left -0.87em
+//   padding-right 0.23em
+//   margin-top 0.125em
+//   opacity 0
 
-table
-  border-collapse collapse
-  margin 1rem 0
-  display: block
-  overflow-x: auto
+//   &:hover
+//     text-decoration none
 
-tr
-  border-top 1px solid #dfe2e5
+// code, kbd, .line-number
+//   font-family source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
 
-  &:nth-child(2n)
-    background-color #f6f8fa
+// p, ul, ol
+//   line-height 1.7
 
-th, td
-  border 1px solid #dfe2e5
-  padding .6em 1em
+// hr
+//   border 0
+//   border-top 1px solid $borderColor
 
-.theme-container
-  &.sidebar-open
-    .sidebar-mask
-      display: block
+// table
+//   border-collapse collapse
+//   margin 1rem 0
+//   display: block
+//   overflow-x: auto
 
-  &.no-navbar
-    {$contentClass}:not(.custom) > h1, h2, h3, h4, h5, h6
-      margin-top 1.5rem
-      padding-top 0
+// tr
+//   border-top 1px solid #dfe2e5
 
-    .sidebar
-      top 0
+//   &:nth-child(2n)
+//     background-color #f6f8fa
+
+// th, td
+//   border 1px solid #dfe2e5
+//   padding .6em 1em
+
+// .theme-container
+//   &.sidebar-open
+//     .sidebar-mask
+//       display: block
+
+//   &.no-navbar
+//     {$contentClass}:not(.custom) > h1, h2, h3, h4, h5, h6
+//       margin-top 1.5rem
+//       padding-top 0
+
+//     .sidebar
+//       top 0
 
 
 @media (min-width: ($MQMobile + 1px))
@@ -194,3 +206,14 @@ th, td
 
 .frontpage
   @require './page/landing.styl'
+
+//components
+@require './components/info-box.styl'
+@require './components/page-header.styl'
+@require './components/page-paragraph.styl'
+@require './components/image-preview.styl'
+@require './components/info-graphics.styl'
+@require './components/references.styl'
+@require './components/section.styl'
+@require './components/blogpost-preview.styl'
+  @require './components/blog-preview.styl'

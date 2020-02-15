@@ -212,13 +212,16 @@ function flatten (items, res) {
 @require '../styles/wrapper.styl'
 
 .page
-  display block
+  display flex
+  flex-flow column
+  align-items center
 
 .copyright
   display flex
   align-items center
   justify-content center
   height 3rem
+  width 100%
 
 .copyright__content
   display flex

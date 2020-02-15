@@ -1,0 +1,138 @@
+$infoBoxWidth = 69.375rem
+
+$infoBoxImageBigHeight = 22.5rem
+$infoBoxImageSmallHeight = 18.75rem
+$infoBoxImageTopMargin = 2.25rem
+$infoBoxImageWidth = 31.5625rem
+$infoBoxImageOverlap = 1.875rem
+
+$infoBoxHeaderHeight = 3.125rem
+
+$infoBoxContentWidth = 35.625rem
+$infoBoxContentHorizontalPadding = 5.9375rem
+$infoBoxContentVerticalPadding = 2.5rem
+
+.info-box
+  width $infoBoxWidth
+  height auto
+
+.info-box *
+  box-sizing border-box
+
+.info-box__content
+  width $infoBoxContentWidth
+  height auto
+
+.info-box__img
+  width $infoBoxImageWidth
+  height auto
+
+.info-box
+  display flex
+  align-items flex-start
+  justify-content flex-end
+
+.info-box
+  position relative
+
+.info-box__header
+  position absolute
+
+.info-box__img
+  position relative
+
+.info-box__img
+  z-index 1
+
+.info-box__header,
+.info-box__content
+  z-index 0
+
+.info-box__img
+  padding-top $infoBoxImageTopMargin
+
+.info-box__title
+  color #F2F2F2
+  font-size 2.5rem
+  font-weight 700
+  text-transform uppercase
+  letter-spacing 0.01px
+  display inline-flex
+  justify-content center
+  margin 0
+  transform-origin center center
+  transform scale(-1, -1) 
+  height $infoBoxHeaderHeight
+
+.info-box--image-big .info-box__title
+  width ($infoBoxImageBigHeight - $infoBoxHeaderHeight)
+
+
+.info-box--image-small .info-box__title
+  width ($infoBoxImageSmallHeight - $infoBoxHeaderHeight)
+
+.info-box__content
+  border-radius $boxesRadius
+  padding $infoBoxContentVerticalPadding $infoBoxContentHorizontalPadding
+
+.info-box__content__header
+  font-family Cabin
+  font-weight 600
+  letter-spacing 0.07px
+  line-height 48px
+  margin-bottom 0.75rem
+
+.info-box__content__text
+  font-family Cabin
+  font-size 1rem
+  letter-spacing 0.5px
+  line-height 1.5rem
+  margin-bottom 2.25rem
+
+h4.info-box__content__header
+  font-size 30px
+
+h5.info-box__content__header
+  font-size 24px
+
+.info-box
+  h1, h2, h3, h4, h5, h6
+    margin 0
+
+//IMAGE RIGTH
+.info-box.info-box--image-right
+  flex-flow row-reverse
+
+.info-box--image-right .info-box__img
+  right $infoBoxImageOverlap
+
+.info-box--image-right .info-box__header
+  transform-origin bottom right
+  transform rotate(270deg)
+  right 2.4rem
+  top ($infoBoxImageTopMargin - $infoBoxHeaderHeight)
+
+//IMAGE LEFT
+.info-box.info-box--image-left
+  flex-flow row
+
+.info-box--image-left .info-box__img
+  left $infoBoxImageOverlap
+
+.info-box--image-left .info-box__header
+  transform-origin bottom left
+  transform rotate(90deg)
+  left 2.4rem
+  top ($infoBoxImageTopMargin - $infoBoxHeaderHeight)
+
+//BLUE
+.info-box--blue .info-box__content
+  background-color $accentColor
+  color $whiteColor
+
+//WHITE
+.info-box--white .info-box__content
+  background-color $whiteColor
+  color $textColor
+  border 1px solid $shadeColor
+

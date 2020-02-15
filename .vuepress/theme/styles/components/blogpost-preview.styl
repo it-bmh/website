@@ -1,0 +1,123 @@
+.blogpost-preview
+  display flex
+  flex-direction column
+
+.blogpost-preview__date
+  display inline-block
+  font-family Cabin
+  font-weight 500
+  font-size 1rem
+  letter-spacing 2px
+  line-height 1.5rem
+
+.blogpost-preview__title
+  font-family Cabin
+  font-weight 500
+  font-size 1.5rem
+  letter-spacing 0.24px
+  line-height 2.25rem
+
+.blogpost-preview__text
+  font-family Cabin
+  font-size 1rem
+  letter-spacing 0.5px
+  line-height 1.5rem
+
+.blogpost-preview__link
+  text-decoration underline
+  align-self flex-end
+
+.blogpost-preview__link::after
+  content ''
+  display inline-block
+  width 10px
+  height 18px
+  margin-left 7px
+  position relative
+  bottom -4px
+  background url('/img/arrow-right-red.svg')
+  background-repeat no-repeat
+
+.blogpost-preview__content
+  display flex
+  flex-flow column
+  box-sizing border-box
+  height 100%
+
+.blogpost-preview--small
+  height 276px
+  width 540px
+  flex-direction row
+
+.blogpost-preview--small .blogpost-preview__header,
+.blogpost-preview--small .blogpost-preview__img
+  width 255px
+  height 276px
+
+.blogpost-preview--small .blogpost-preview__img
+  border-top-left-radius $boxesRadius
+  border-bottom-left-radius $boxesRadius
+
+.blogpost-preview--small .blogpost-preview__content
+  padding-left 1.875rem
+  justify-content space-between
+
+.blogpost-preview--small .blogpost-preview__date
+  margin-bottom 0.5625rem
+
+.blogpost-preview--small .blogpost-preview__title
+  margin-bottom 0.2rem
+
+.blogpost-preview--small .blogpost-preview__text
+  margin-bottom 1.5rem
+
+
+.blogpost-preview--big
+  height 588px
+  width 540px
+  flex-direction column
+
+.blogpost-preview--big .blogpost-preview__content
+  border-bottom-right-radius $boxesRadius
+  border-bottom-left-radius $boxesRadius
+
+.blogpost-preview--big .blogpost-preview__img
+  border-top-left-radius $boxesRadius
+  border-top-right-radius $boxesRadius
+
+.blogpost-preview--big .blogpost-preview__header,
+.blogpost-preview--big .blogpost-preview__img
+  width 540px
+  height 312px
+
+.blogpost-preview--big .blogpost-preview__content
+  padding 1.875rem 4.0625rem
+
+.blogpost-preview--big .blogpost-preview__date,
+.blogpost-preview--big .blogpost-preview__title,
+.blogpost-preview--big .blogpost-preview__text
+  margin-bottom 0.8125rem
+
+.blogpost-preview--blue .blogpost-preview__date
+  color $whiteColor
+
+.blogpost-preview--blue .blogpost-preview__title
+  color $accentLightColor
+
+.blogpost-preview--blue .blogpost-preview__text
+  color $whiteColor
+
+.blogpost-preview--blue .blogpost-preview__content
+  background-color $accentColor
+
+.blogpost-preview--white .blogpost-preview__date
+  color $lightGrayColor
+
+.blogpost-preview--white .blogpost-preview__title
+  color $accentLightColor
+
+.blogpost-preview--white .blogpost-preview__text
+  color $textLighterColor
+
+.blogpost-preview--white .blogpost-preview__content
+  background-color $whiteColor
