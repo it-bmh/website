@@ -238,7 +238,7 @@ function flatten (items, res) {
 
 .page-edit
   @extend $wrapper
-  padding-top 1rem
+  //padding-top 1rem
   // padding-bottom 1rem
   overflow auto
   .edit-link

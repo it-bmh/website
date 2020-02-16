@@ -3,15 +3,14 @@
     <h1 class="page-header__title">O BMH</h1>
 </header>
 
-
 <section class="section section--wide section--centered">
-    <div class="info-box info-box--image-left info-box--blue info-box--image-small">
-        <img class="info-box__img" src="/img/frontpage/2.png" alt=""/>
-        <main class="info-box__content">
-            <h4 class="info-box__content__header">Specialista na bezvýkopové technologie</h4>
-            <p class="info-box__content__text">Už téměř 30 let zajišťujeme opravy a rekonstrukce trubních systémů. Pro bezvýkopovou sanaci kanalizačního nebo vodovodního potrubí vždy navrhujeme to nejlepší technologické řešení.<br/>Na míru.</p>
-        </main>
-    </div>
+<div class="info-box info-box--image-left info-box--blue info-box--image-small">
+    <img class="info-box__img" src="/img/frontpage/2.png" alt=""/>
+    <main class="info-box__content">
+        <h4 class="info-box__content__header">Specialista na bezvýkopové technologie</h4>
+        <p class="info-box__content__text">Už téměř 30 let zajišťujeme opravy a rekonstrukce trubních systémů. Pro bezvýkopovou sanaci kanalizačního nebo vodovodního potrubí vždy navrhujeme to nejlepší technologické řešení.<br/>Na míru.</p>
+    </main>
+</div>
 </section>
 
 <section class="page-paragraph">
