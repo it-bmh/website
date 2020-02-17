@@ -17,7 +17,7 @@
         <main class="info-box__content">
             <h4 class="info-box__content__header">Města a obce</h4>
             <p class="info-box__content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a class="button button--white">Zjistit více</a>
+            <router-link to="/reference/mesta-a-obce" class="button button--white">Zjistit více</router-link>
         </main>
     </div>
     <div class="info-box info-box--image-right info-box--white info-box--image-small">
@@ -25,7 +25,7 @@
         <main class="info-box__content">
             <h4 class="info-box__content__header">Podniky a instituce</h4>
             <p class="info-box__content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-            <a class="button button--white">Zjistit více</a>
+            <router-link to="/reference/podniky-a-instituce"  class="button button--white">Zjistit více</router-link>
         </main>
     </div>
     <div class="info-box info-box--image-left info-box--white info-box--image-small">
@@ -33,7 +33,7 @@
         <main class="info-box__content">
             <h4 class="info-box__content__header">Provozovatelé VaK</h4>
             <p class="info-box__content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <a class="button button--white">Zjistit více</a>
+            <router-link to="/reference/provozovatele-vak" class="button button--white">Zjistit více</router-link>
         </main>
     </div>
     <div class="info-box info-box--image-right info-box--white info-box--image-small">
@@ -41,7 +41,7 @@
         <main class="info-box__content">
             <h4 class="info-box__content__header">Stavební firmy</h4>
             <p class="info-box__content__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-            <a class="button button--white">Zjistit více</a>
+            <router-link to="/reference/stavebni-firmy" class="button button--white">Zjistit více</router-link>
         </main>
     </div>
 </section>

@@ -87,7 +87,8 @@ export default {
     nav () {
       const { locales } = this.$site
       if (locales && Object.keys(locales).length > 1) {
-        return [...this.aboutNav, this.servicesDropdown, ...this.userNav, /*this.languageDropdown*/]
+        // return [...this.aboutNav, this.servicesDropdown, ...this.userNav, /*this.languageDropdown*/]
+        return [...this.aboutNav, ...this.userNav, /*this.languageDropdown*/]
       }
       return this.userNav
     },

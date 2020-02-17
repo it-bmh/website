@@ -26,7 +26,8 @@ module.exports = {
             blogreadmore: 'přečíst',
             aboutnav: [
               { text: 'Domů', link: '/' },
-              { text: 'O nás', link: '/o-nas/' }
+              { text: 'O nás', link: '/o-nas/' },
+              { text: 'Naše služby', link: '/sluzby/' }
             ],
             nav: [
                 { text: 'Reference', link: '/reference/' },
@@ -38,7 +39,7 @@ module.exports = {
                 { text: 'Kanalizace', link: '/sluzby/kanalizace/', img: '/img/kanalizace.jpg' },
                 { text: 'Vodovody', link: '/sluzby/vodovody/', img: '/img/vodovod.jpg' },
                 { text: 'Revizní šachty', link: '/sluzby/revizni-sachty/', img: '/img/revizni_sachty.jpg' },
-                { text: 'Robotika', link: '/sluzby/robotika/', img: '/img/robotika.jpg' }
+                { text: 'Monitoring', link: '/sluzby/monitoring/', img: '/img/robotika.jpg' }
             ],
             sidebar: {
               '/': [/* ... */],

@@ -1,1 +1,1 @@
-kontakt
+<Contact/>

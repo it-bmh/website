@@ -61,102 +61,23 @@
     </main>
 </section>
 
-<header class="page-header page-header--centered">
-    <h2 class="page-header__subtitle">Jak pracujeme</h2>
-</header>
-
-<section class="info-graphics">
-    <main class="info-graphics__content">
-        <span  class="info-graphics__claim">INFOGRAFIKA</span>
-    </main>
-</section>
-
-<section class="section section--wide section--blue section--centered rikaji-o-nas">
-    <header class="section__header header--default">
-        <h5 class="section__subtitle">Reference</h5>
-        <h2 class="section__title title--big">Říkají o nás</h2>
+<section class="section section--wide section--gray section--centered proc-zvolit-bezvykopovou-metodu">
+    <header class="section__header header--small">
+        <h3 class="section__title title--small">Jak pracujeme?</h3>
     </header>
-    <main class="section__content">
-        <p class="section__content__text">Realizujeme zakázky napříč celou republikou. Podívejte se, kde všude už s naší prací mají zkušenost a co o nás říkají naši klienti.</p>
-        <a class="section__content__cta">zjistit více</a>
-        <div class="references">
-            <div class="references__masonry">
-                <div class="references__masonry__brick">
-                    <div class="reference">
-                        <p class="reference__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore.”</p>
-                        <div class="reference__name">JAROMÍR NOVÁK</div>
-                        <div class="reference__location">BRNO</div>
-                    </div>
-                </div>
-                <div class="references__masonry__brick">
-                    <div class="reference">
-                        <p class="reference__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.”</p>
-                        <div class="reference__name">JAROMÍR NOVÁK</div>
-                        <div class="reference__location">BRNO</div>
-                    </div>
-                </div>
-                <div class="references__masonry__brick">
-                    <div class="reference">
-                        <p class="reference__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.”</p>
-                        <div class="reference__name">JAROMÍR NOVÁK</div>
-                        <div class="reference__location">BRNO</div>
-                    </div>
-                </div>
-                <div class="references__masonry__brick">
-                    <div class="reference">
-                        <p class="reference__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore.”</p>
-                        <div class="reference__name">JAROMÍR NOVÁK</div>
-                        <div class="reference__location">BRNO</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <main class="section__content why-boxes why-boxes--six">
+        <WhyBox title="Pečlivě prozkoumáme lokaci a objektivně popíšeme situaci." text="" imageUrl="/img/why-precise.svg"/>
+        <WhyBox title="Navrhneme individuální řešení s ohledem na specifika zakázky." text="" imageUrl="/img/why-individual.svg"/>
+        <WhyBox title="Stanovíme reálný termín, v němž zakázku dokončíme." text="" imageUrl="/img/why-real.svg"/>
+        <WhyBox title="Dílo dodáme v odpovídající kvalitě i v dohodnutém termínu." text="" imageUrl="/img/why-quality.svg"/>
+        <WhyBox title="Naši klienti vědí, že je na nás 100% spolehnutí." text="" imageUrl="/img/why-besure.svg"/>
+        <WhyBox title="Působíme po celé České republice a máme 
+tržní ceny." text="" imageUrl="/img/why-wholecountry.svg"/>
     </main>
 </section>
 
-<header class="page-header page-header--centered">
-    <h2 class="page-header__subtitle">Blog</h2>
-    <h1 class="page-header__title">Píšeme o technologiích</h1>
-</header>
+<ReferencesSection/>
 
-<section class="section section--wide section--centered">
-    <div class="blog-preview">
-        <div class="blogpost-preview blogpost-preview--big blogpost-preview--blue">
-            <header class="blogpost-preview__header">
-                <img  class="blogpost-preview__img" src="/img/frontpage/3.png" alt="">
-            </header>
-            <main class="blogpost-preview__content">
-                <span class="blogpost-preview__date">12.10.2019</span>
-                <h5 class="blogpost-preview__title">Lorem ipsum dolor sit amet, consectetur.</h5>
-                <p class="blogpost-preview__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                <a class="blogpost-preview__link">Číst více</a>
-            </main>
-        </div>
-        <div class="blog-preview__double-box">
-            <div class="blogpost-preview blogpost-preview--small blogpost-preview--white">
-                <header class="blogpost-preview__header">
-                    <img  class="blogpost-preview__img" src="/img/frontpage/3.png" alt="">
-                </header>
-                <main class="blogpost-preview__content">
-                    <span class="blogpost-preview__date">12.10.2019</span>
-                    <h5 class="blogpost-preview__title">Lorem ipsum dolor sit amet, consectetur.</h5>
-                    <p class="blogpost-preview__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                    <a class="blogpost-preview__link">Číst více</a>
-                </main>
-            </div>
-            <div class="blogpost-preview blogpost-preview--small blogpost-preview--white">
-                <header class="blogpost-preview__header">
-                    <img  class="blogpost-preview__img" src="/img/frontpage/3.png" alt="">
-                </header>
-                <main class="blogpost-preview__content">
-                    <span class="blogpost-preview__date">12.10.2019</span>
-                    <h5 class="blogpost-preview__title">Lorem ipsum dolor sit amet, consectetur.</h5>
-                    <p class="blogpost-preview__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-                    <a class="blogpost-preview__link">Číst více</a>
-                </main>
-            </div>
-        </div>
-    </div>
-</section>
+<BlogPreviewSection/>
 
 <Contact />

@@ -79,3 +79,13 @@
         </div>
     </div>
 </div>
+
+<Reference name="LITOMYŠL" category="Města a obce" :isMedium="true" imageUrl="/img/reference/litomysl.png"/>
+
+<Reference name="POLICIE ČESKÉ REPUBLIKY" category="Podniky a instituce" :isMedium="true" imageUrl="/img/reference/policiecr.png"/>
+
+<Reference name="VEOLIA ČESKÁ REPUBLIKA" category="PROVOZOVATELÉ VAK" :isSmall="true" imageUrl="/img/reference/veolia.png"/>
+
+<Reference name="SKANSKA A.S." category="Podniky a instituce" :isSmall="true" imageUrl="/img/reference/skanska.png"/>
+
+<ReferencesSection/>

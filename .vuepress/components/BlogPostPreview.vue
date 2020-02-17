@@ -27,6 +27,6 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
  @require '../theme/styles/components/blogpost-preview.styl'
 </style>

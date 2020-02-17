@@ -31,6 +31,6 @@ export default {
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
     @require '../theme/styles/components/blog-preview.styl'
 </style>
