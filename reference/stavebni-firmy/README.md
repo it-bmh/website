@@ -7,13 +7,11 @@
   <div class="references-row">
     <Reference
       name="STRABAG a.s."
-      category="2019"
       imageUrl="/img/reference/strabag.png"
       :isLarge="true"
     />
     <Reference
       name="skanska a.s."
-      category="2019"
       imageUrl="/img/reference/skanskabig.png"
       :isLarge="true"
     />
@@ -21,13 +19,11 @@
   <div class="references-row">
     <Reference
       name="PORR a.s."
-      category="2019"
       imageUrl="/img/reference/porr.png"
       :isLarge="true"
     />
     <Reference
       name="ohl žs a.s."
-      category="2019"
       imageUrl="/img/reference/ohlzs.png"
       :isLarge="true"
     />
@@ -35,13 +31,11 @@
   <div class="references-row">
     <Reference
       name="INSTA CZ s.r.o."
-      category="2019"
       imageUrl="/img/reference/insta.png"
       :isLarge="true"
     />
     <Reference
       name="EVT Stavby s.r.o."
-      category="2019"
       imageUrl="/img/reference/evtstavby.png"
       :isLarge="true"
     />

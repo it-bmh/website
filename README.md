@@ -39,6 +39,13 @@ layout: FrontPage
         <main class="section__content why-boxes why-boxes--eight">
             <div class="why-box why-box--fixed-height">
                 <div class="why-box__img-box">
+                    <img src="/img/frontpage/why-money.svg" alt="Finanční úspora"/>
+                </div>
+                <h6 class="why-box__title">Finanční úspora<br/>&nbsp;</h6>
+                <p class="why-box__text">Ekonomicky efektivnější řešení než klasické výkopové práce.</p>
+            </div>
+            <div class="why-box why-box--fixed-height">
+                <div class="why-box__img-box">
                     <img src="/img/frontpage/why-clock.svg" alt="Časová úspora"/>
                 </div>
                 <h6 class="why-box__title">Časová úspora<br/>&nbsp;</h6>
@@ -46,17 +53,10 @@ layout: FrontPage
             </div>
             <div class="why-box why-box--fixed-height">
                 <div class="why-box__img-box">
-                    <img src="/img/frontpage/why-calendar.svg" alt="Vysoká jakost a životnost až 80 let"/>
+                    <img class="why-box__img" src="/img/frontpage/why-agreement.svg" alt="Bez narušení pozemních komunikací"/>
                 </div>
-                <h6 class="why-box__title">Vysoká jakost a životnost až 80 let</h6>
-                <p class="why-box__text">Bez výkopů ušetříte až 80% času oproti klasickým výkopovým pracím.</p>
-            </div>
-            <div class="why-box why-box--fixed-height">
-                <div class="why-box__img-box">
-                    <img src="/img/frontpage/why-limitation.svg" alt="Minimální omezení dopravy"/>
-                </div>
-                <h6 class="why-box__title">Minimální omezení dopravy</h6>
-                <p class="why-box__text">Při realizaci oprav dochází jen k záboru nejnutnějšího prostoru pro práci.</p>
+                <h6 class="why-box__title">Stavební povolení netřeba</h6>
+                <p class="why-box__text">Realizace je tak šetrná k okolí, že na ni nemusíte mít stavební povolení, ani ohlašovat stavbu.</p>
             </div>
             <div class="why-box why-box--fixed-height">
                 <div class="why-box__img-box">
@@ -67,10 +67,17 @@ layout: FrontPage
             </div>
             <div class="why-box why-box--fixed-height">
                 <div class="why-box__img-box">
-                    <img class="why-box__img" src="/img/frontpage/why-dust.svg" alt="Bez narušení pozemních komunikací"/>
+                    <img src="/img/frontpage/why-limitation.svg" alt="Minimální omezení dopravy"/>
                 </div>
-                <h6 class="why-box__title">Téměř bez prachu a hluku</h6>
-                <p class="why-box__text">Práce jsou bezprašné a vzniká při nich minimum hluku.</p>
+                <h6 class="why-box__title">Minimální omezení dopravy</h6>
+                <p class="why-box__text">Při realizaci oprav dochází jen k záboru nejnutnějšího prostoru pro práci.</p>
+            </div>
+            <div class="why-box why-box--fixed-height">
+                <div class="why-box__img-box">
+                    <img src="/img/frontpage/why-calendar.svg" alt="Vysoká jakost a životnost až 80 let"/>
+                </div>
+                <h6 class="why-box__title">Vysoká jakost a životnost až 80 let</h6>
+                <p class="why-box__text">Potrubí nepraská, odolá abrazi i chemikáliím a má samonosnou konstrukci.</p>
             </div>
             <div class="why-box why-box--fixed-height">
                 <div class="why-box__img-box">
@@ -81,17 +88,10 @@ layout: FrontPage
             </div>
             <div class="why-box why-box--fixed-height">
                 <div class="why-box__img-box">
-                    <img class="why-box__img" src="/img/frontpage/why-weather.svg" alt="Bez narušení pozemních komunikací"/>
+                    <img class="why-box__img" src="/img/frontpage/why-dust.svg" alt="Bez narušení pozemních komunikací"/>
                 </div>
-                <h6 class="why-box__title">Instalace skoro za každého počasí</h6>
-                <p class="why-box__text">Povětrností podmínky nemají na realizaci prací žádný významný vliv, stačí když nemrzne.</p>
-            </div>
-            <div class="why-box why-box--fixed-height">
-                <div class="why-box__img-box">
-                    <img class="why-box__img" src="/img/frontpage/why-agreement.svg" alt="Bez narušení pozemních komunikací"/>
-                </div>
-                <h6 class="why-box__title">Stavební povolení netřeba</h6>
-                <p class="why-box__text">Realizace je tak šetrná k okolí, že na ni nemusíte mít stavební povolení, ani ohlašovat stavbu.</p>
+                <h6 class="why-box__title">Téměř bez prachu a hluku</h6>
+                <p class="why-box__text">Práce jsou bezprašné a vzniká při nich minimum hluku.</p>
             </div>
         </main>
     </section>

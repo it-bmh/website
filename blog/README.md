@@ -7,3 +7,5 @@ blog_index: true
 Vítejte na našem blogu
 
 <BlogIndex />
+
+<Contact/>

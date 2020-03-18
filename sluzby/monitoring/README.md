@@ -27,6 +27,43 @@ potrubí pomocí robotů"
     />
 </section>
 
+<header class="page-header page-header--centered">
+    <h3 class="page-header__section-title">Lokální opravy</h3>
+</header>
+
+<section class="section section--wide section--centered">
+    <InfoBox
+      title="Bezvýkopová oprava krátkým sanačním rukávcem"
+      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      ctaUrl="#"
+      ctaText="Zjistit více"
+      imageUrl="/img/frontpage/4.png"
+      :imageRight="true"
+      :imageBig="true"
+      :isBlue="true"
+    />
+    <InfoBox
+      title="Bezvýkopová oprava kloboukem"
+      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      ctaUrl="#"
+      ctaText="Zjistit více"
+      imageUrl="/img/frontpage/4.png"
+      :imageLeft="true"
+      :imageBig="true"
+      :isWhite="true"
+    />
+    <InfoBox
+      title="Bezvýkopová oprava technologií Quick-Lock"
+      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      ctaUrl="#"
+      ctaText="Zjistit více"
+      imageUrl="/img/frontpage/4.png"
+      :imageRight="true"
+      :imageBig="true"
+      :isBlue="true"
+    />
+</section>
+
 <ReferencesSection/>
 
 <AboutUsSection/>

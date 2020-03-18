@@ -7,13 +7,11 @@
   <div class="references-row">
     <Reference
       name="Olomouc"
-      category="2019"
       imageUrl="/img/reference/olomouc.png"
       :isLarge="true"
     />
     <Reference
       name="Litomyšl"
-      category="2019"
       imageUrl="/img/reference/litomyslbig.png"
       :isLarge="true"
     />
@@ -21,13 +19,11 @@
   <div class="references-row">
     <Reference
       name="Fulnek"
-      category="2019"
       imageUrl="/img/reference/fulnek.png"
       :isLarge="true"
     />
     <Reference
       name="Křelov"
-      category="2019"
       imageUrl="/img/reference/krelov.png"
       :isLarge="true"
     />
@@ -35,13 +31,11 @@
   <div class="references-row">
     <Reference
       name="Dřevčice"
-      category="2019"
       imageUrl="/img/reference/drevcice.png"
       :isLarge="true"
     />
     <Reference
       name="Drásov"
-      category="2019"
       imageUrl="/img/reference/drasov.png"
       :isLarge="true"
     />
@@ -49,13 +43,11 @@
   <div class="references-row">
     <Reference
       name="Vlčnov"
-      category="2019"
       imageUrl="/img/reference/vlcnov.png"
       :isLarge="true"
     />
     <Reference
       name="Nivnice"
-      category="2019"
       imageUrl="/img/reference/nivnice.png"
       :isLarge="true"
     />

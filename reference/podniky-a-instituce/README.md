@@ -7,13 +7,11 @@
   <div class="references-row">
     <Reference
       name="Škoda auto"
-      category="2019"
       imageUrl="/img/reference/skodaauto.png"
       :isLarge="true"
     />
     <Reference
       name="policie české republiky"
-      category="2019"
       imageUrl="/img/reference/policiecr.png"
       :isLarge="true"
     />
@@ -21,13 +19,11 @@
   <div class="references-row">
     <Reference
       name="ČEZ"
-      category="2019"
       imageUrl="/img/reference/cez.png"
       :isLarge="true"
     />
     <Reference
       name="vězeňská služba čr"
-      category="2019"
       imageUrl="/img/reference/vezenskasluzba.png"
       :isLarge="true"
     />
@@ -36,13 +32,11 @@
     <Reference
       name="institut klinické 
 a experimentální medicíny"
-      category="2019"
       imageUrl="/img/reference/ikem.png"
       :isLarge="true"
     />
     <Reference
       name="národní muzeum"
-      category="2019"
       imageUrl="/img/reference/narodnimuzeum.png"
       :isLarge="true"
     />
@@ -51,14 +45,12 @@ a experimentální medicíny"
     <Reference
       name="22. zakladna vrtulnikoveho letectva 
 Náměšť nad Oslavou"
-      category="2019"
       imageUrl="/img/reference/vrtulnikoveletectvo.png"
       :isLarge="true"
     />
     <Reference
       name="Gymnazium Jana Blahoslava 
 a Strední pedagogická škola Přerov"
-      category="2019"
       imageUrl="/img/reference/gymnaziumjanablahoslava.png"
       :isLarge="true"
     />
