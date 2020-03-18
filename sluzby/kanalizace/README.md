@@ -17,7 +17,7 @@
     <InfoBox
       title="Bezvýkopová sanace kanalizace metodou INSAK"
       text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      ctaUrl="#"
+      ctaUrl="/sluzby/kanalizace/insak"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
       :imageRight="true"
@@ -27,7 +27,7 @@
     <InfoBox
       title="Bezvýkopová sanace kanalizace pomocí metody UV Liner"
       text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      ctaUrl="#"
+      ctaUrl="/sluzby/kanalizace/uv-liner"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
       :imageLeft="true"
@@ -44,7 +44,7 @@
     <InfoBox
       title="Bezvýkopová oprava krátkým sanačním rukávcem"
       text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      ctaUrl="#"
+      ctaUrl="/sluzby/kanalizace/lokalni-opravy/sanacnim-rukavcem"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
       :imageRight="true"
@@ -54,7 +54,7 @@
     <InfoBox
       title="Bezvýkopová oprava kloboukem"
       text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      ctaUrl="#"
+      ctaUrl="/sluzby/kanalizace/lokalni-opravy/kloboukem"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
       :imageLeft="true"
@@ -64,7 +64,7 @@
     <InfoBox
       title="Bezvýkopová oprava technologií Quick-Lock"
       text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      ctaUrl="#"
+      ctaUrl="/sluzby/kanalizace/lokalni-opravy/quick-lock"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
       :imageRight="true"

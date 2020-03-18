@@ -1,14 +1,43 @@
-UV liner
-========
+<header class="page-header page-header--centered">
+    <h2 class="page-header__subtitle">Naše služby</h2>
+    <h1 class="page-header__title">Bezvýkopová sanace kanalizace<br>pomocí metody UV Liner</h1>
+</header>
 
-Metoda UV liner patří mezi bezvýkopové rukávcové metody. Bezešvá vložka ze skelných vláken se strukturou mřížky je dle vypočítané tloušťky vyrobena na dané rozměry potrubí (obvod, DN, délka) ve tvaru rukávce (hadice).
+<section class="section section--wide section--centered">
+    <InfoBox
+      title="Bezvýkopová sanace kanalizace pomocí metody UV Liner"
+      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      imageUrl="/img/frontpage/2.png"
+      :imageLeft="true"
+      :imageBig="true"
+      :isBlue="true"
+    />
+</section>
 
-Tloušťka stěny vložky je stanovena na základě statického výpočtu s ohledem na profil, stupeň poškození, výšku hladiny spodní vody a hloubku uložení potrubí.
+<section class="page-paragraph page-paragraph--with-title">
+    <main class="page-paragraph__content">
+        <p class="page-paragraph__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </main>
+</section>
 
-Vložka je současně s výrobou rukávce nasycena vhodně formulovanou polyesterovou nebo vinylesterovou pryskyřicí s minimálním obsahem styrénu.  Vložka zatažená do kanalizace se vytvrdí působením UV záření. V kanalizaci tak vznikne tak nové plastové potrubí.
+<section class="page-paragraph">
+    <main class="page-paragraph__content">
+        <p class="page-paragraph__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </main>
+</section>
 
-Hodnoty důležitých veličin z průběhu tlakování a vytvrzování, tj. průběh teplot, tlaku a rychlosti posunu UV lamp, jsou průběžně ukládány do počítače a po ukončení procesu vytvrzování jsou vytištěny ve formě protokolů.
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
+        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
+    </main>
+</section>
 
-Zaslepené domovní přípojky se po sanaci otevřou bezvýkopově kanalizačním robotem (odfrézováním), v případě požadavku se do místa napojení přípojky na stoku osadí klobouk, nebo se otevřou ručně v průlezných profilech vč. zednického zapravení. Kamerou se provede kontrolní prohlídka včetně záznamu na CD nebo DVD.
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
+        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
+    </main>
+</section>
 
-Ve staré a poškozené kanalizaci vznikne nové potrubí z tvrzeného plastu.
+<Contact/>

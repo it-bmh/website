@@ -1,0 +1,53 @@
+.list
+  display flex
+  flex-flow column
+  align-items center
+
+.list__content
+  max-width 730px
+  width 100%
+
+.list__header
+  color $accentLightColor
+  font-family Cabin
+  font-size 24px
+  letter-spacing 0.24px
+  line-height 36px
+
+.list__item
+  color $blackColor
+  font-family Cabin
+  font-size 16px
+  letter-spacing 0
+  line-height 28px
+
+.list--bullets .list__list
+    list-style none
+
+.list--numbers .list__list
+    list-style none
+    counter-reset li
+
+.list--bullets .list__item::before
+    content "•"
+    font-size 34px
+    line-height 10px
+    padding-right 16px
+    color $accentLightColor
+    position relative
+    top 3px
+    display table-cell
+    text-align center
+
+.list--bullets .list__item
+  display table-row
+
+.list--numbers .list__item::before
+  content counter(li) ")"
+  color $accentLightColor
+  display table-cell
+  padding-right 14px
+
+.list--numbers .list__item
+  counter-increment li
+  display table-row

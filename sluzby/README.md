@@ -37,7 +37,7 @@
     <InfoBox
       title="Monitoring a lokální bezvýkopové opravy"
       text="Vlastníme 5 unikátních robotů s nejmodernější technologií. Každý robot se specializuje na určitý druh činnosti a je na to vybaven specifickým nástrojem či kamerou. Roboty ovládá operátor z kabiny vozu."
-      ctaUrl="/sluzby/monitoring"
+      ctaUrl="/sluzby/monitoring-a-lokalni-opravy"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
       :imageLeft="true"

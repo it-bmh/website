@@ -17,7 +17,7 @@
     <InfoBox
       title="Rekonstrukce revizních šachet metodou Vertiliner"
       text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      ctaUrl="#"
+      ctaUrl="/sluzby/revizni-sachty/vertiliner"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
       :imageRight="true"
@@ -27,7 +27,7 @@
     <InfoBox
       title="Rekonstrukce kanalizačních šachet zednickou metodou"
       text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      ctaUrl="#"
+      ctaUrl="/sluzby/revizni-sachty/zednicka-metoda"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
       :imageLeft="true"

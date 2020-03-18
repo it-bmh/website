@@ -53,6 +53,7 @@
         color #ffffff
         background-color #00027D
         padding 3rem 0
+        margin-top 4rem
     
     .contact__content
         width 100%

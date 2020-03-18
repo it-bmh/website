@@ -1,11 +1,11 @@
 <header class="page-header page-header--centered">
     <h2 class="page-header__subtitle">Naše služby</h2>
-    <h1 class="page-header__title">Rekonstrukce kanalizačních šachet<br>zednickou metodou</h1>
+    <h1 class="page-header__title">Bezvýkopová oprava krátkým<br>sanačním rukávcem</h1>
 </header>
 
 <section class="section section--wide section--centered">
     <InfoBox
-      title="Rekonstrukce kanalizačních šachet zednickou metodou"
+      title="Bezvýkopová oprava krátkým sanačním rukávcem"
       text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
       imageUrl="/img/frontpage/2.png"
       :imageLeft="true"
