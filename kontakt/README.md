@@ -1,6 +1,6 @@
 <header class="page-header page-header--block">
-    <h2 class="page-header__subtitle">Kontakt</h2>
-    <h1 class="page-header__title">Kde nás najdete?</h1>
+    <h2 class="page-section__subtitle">Kontakt</h2>
+    <h1 class="page-section__title">Kde nás najdete?</h1>
 </header>
 
 <section class="section section--centered">
@@ -23,9 +23,9 @@
     </main>
 </section>
 
-<header class="page-header page-header--block">
-    <h2 class="page-header__subtitle">Kontakt</h2>
-    <h1 class="page-header__title">Napište nám</h1>
+<header class="page-header page-header--block contact-us">
+    <h2 class="page-section__subtitle">Kontakt</h2>
+    <h1 class="page-section__title">Napište nám</h1>
 </header>
 
 <section class="section section--centered">
