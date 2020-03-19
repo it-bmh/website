@@ -13,7 +13,7 @@
         <main class="info-box__content">
             <h4 class="info-box__content__header">{{ title }}</h4>
             <p class="info-box__content__text">{{ text }}</p>
-            <router-link :to="ctaUrl" :class="{
+            <router-link v-if="ctaUrl" :to="ctaUrl" :class="{
               'button': true,
               'button--blue': isBlue,
               'button--white': isWhite

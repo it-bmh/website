@@ -1,6 +1,6 @@
 <header class="page-header page-header--centered">
     <h2 class="page-header__subtitle">Naše služby</h2>
-    <h1 class="page-header__title">INSAK – nové potrubí z tvrzeného<br>plastu ve staré kanalizaci</h1>
+    <h1 class="page-header__title">INSAK - nové potrubí z tvrzeného<br>plastu ve staré kanalizaci</h1>
 </header>
 
 <section class="section section--wide section--centered">
