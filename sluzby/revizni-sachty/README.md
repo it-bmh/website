@@ -5,7 +5,7 @@
 
 <section class="page-paragraph">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Revizní a kanalizační šachty opravujeme buď klasickou zednickou prací, anebo prostřednictvím unikátní bezvýkopové technologie Vertiliner. Tato metoda funguje na principu vytvrzení formované pryskyřice v textilním rukávci se skelnými vlákny. Vytvrzení probíhá pomocí UV paprsku.  Metoda Vertiliner je rychlá, čistá a šetrná k životnímu prostředí. Takto sanovaná šachta má životnost až 100 let.</p>
+        <p class="page-paragraph__text">Revizní a kanalizační šachty opravujeme buď klasickou zednickou prací, anebo prostřednictvím unikátní bezvýkopové technologie Vertiliner. Tato metoda funguje na principu vytvrzení formované pryskyřice v textilním rukávci se skelnými vlákny. Vytvrzení probíhá pomocí UV paprsku. Metoda Vertiliner je rychlá, čistá a šetrná k životnímu prostředí. Takto sanovaná šachta má životnost až 100 let.</p>
     </main>
 </section>
 
@@ -15,8 +15,8 @@
 
 <section class="section section--wide section--centered">
     <InfoBox
-      title="Rekonstrukce revizních šachet metodou Vertiliner"
-      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      title="Bezvýkopová rekonstrukce revizních šachet metodou Vertiliner"
+      text="Tato metoda funguje na principu vytvrzení formované pryskyřice v textilním rukávci se skelnými vlákny. Metoda Vertiliner je rychlá a šetrná k životnímu prostředí. Takto sanovaná šachta má životnost až 100 let."
       ctaUrl="/sluzby/revizni-sachty/vertiliner"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
@@ -25,8 +25,8 @@
       :isBlue="true"
     />
     <InfoBox
-      title="Rekonstrukce kanalizačních šachet zednickou metodou"
-      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      title="Bezvýkopová rekonstrukce kanalizačních šachet Zednickou metodou"
+      text="Klasická zednická metoda opravy betonových kanalizačních šachet ze skruží DN 1000 s přechodovým konusem a rámem s poklopem."
       ctaUrl="/sluzby/revizni-sachty/zednicka-metoda"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"

@@ -16,7 +16,7 @@
 <section class="section section--wide section--centered">
     <InfoBox
       title="Bezvýkopová sanace kanalizace metodou INSAK"
-      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      text="Metoda INSAK patří mezi inverzní rukávcové bezvýkopové metody. Metoda je vhodná pro potrubí z různých materiálů i tvarů. Vložka se nasytí pryskyřicí a za pomocí tlaku vody nebo páry se instaluje/vytvrdí v potrubí."
       ctaUrl="/sluzby/kanalizace/insak"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
@@ -26,7 +26,7 @@
     />
     <InfoBox
       title="Bezvýkopová sanace kanalizace pomocí metody UV Liner"
-      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      text="Metoda UV liner patří mezi bezvýkopové rukávcové metody. Bezešvá vložka ze skelných vláken se strukturou mřížky, se nasytí vhodnou pryskyřicí a za pomocí UV záření vytvrdí."
       ctaUrl="/sluzby/kanalizace/uv-liner"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
@@ -43,7 +43,7 @@
 <section class="section section--wide section--centered">
     <InfoBox
       title="Bezvýkopová oprava krátkým sanačním rukávcem"
-      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      text=""
       ctaUrl="/sluzby/kanalizace/lokalni-opravy/sanacnim-rukavcem"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
@@ -53,7 +53,7 @@
     />
     <InfoBox
       title="Bezvýkopová oprava kloboukem"
-      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      text=""
       ctaUrl="/sluzby/kanalizace/lokalni-opravy/kloboukem"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
@@ -63,7 +63,7 @@
     />
     <InfoBox
       title="Bezvýkopová oprava technologií Quick-Lock"
-      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      text=""
       ctaUrl="/sluzby/kanalizace/lokalni-opravy/quick-lock"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"

@@ -1,6 +1,6 @@
 <header class="page-header page-header--centered">
     <h2 class="page-header__subtitle">Naše služby</h2>
-    <h1 class="page-header__title">Monitoring a lokální bezvýkopové opravy</h1>
+    <h1 class="page-header__title">Čištění, monitoring a lokální opravy potrubí</h1>
 </header>
 
 <section class="page-paragraph">
@@ -15,9 +15,8 @@
 
 <section class="section section--wide section--centered">
     <InfoBox
-      title="Čištění, monitoring a opravy 
-potrubí pomocí robotů"
-      text="V potrubí provádíme tyto práce: čištění, monitoring anebo opravy různého rozsahu (od lokálních oprav až po kompletní sanace trubních systémů).  Díky monitoringu rychle zjistíme, jaký je technický stav potrubí a navrhneme varianty oprav. Pro práci v trubních systémech používáme speciální monitorovací a frézovací roboty."
+      title="Čištění, monitoring a lokální opravy potrubí"
+      text="Díky monitoringu rychle zjistíme, jaký je technický stav potrubí a navrhneme varianty oprav. Pro práci v trubních systémech používáme speciální monitorovací a frézovací roboty."
       ctaUrl="/sluzby/monitoring-a-lokalni-opravy/monitoring"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
@@ -34,7 +33,7 @@ potrubí pomocí robotů"
 <section class="section section--wide section--centered">
     <InfoBox
       title="Bezvýkopová oprava krátkým sanačním rukávcem"
-      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      text=""
       ctaUrl="/sluzby/kanalizace/lokalni-opravy/sanacnim-rukavcem"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
@@ -44,7 +43,7 @@ potrubí pomocí robotů"
     />
     <InfoBox
       title="Bezvýkopová oprava kloboukem"
-      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      text=""
       ctaUrl="/sluzby/kanalizace/lokalni-opravy/kloboukem"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
@@ -54,7 +53,7 @@ potrubí pomocí robotů"
     />
     <InfoBox
       title="Bezvýkopová oprava technologií Quick-Lock"
-      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      text=""
       ctaUrl="/sluzby/kanalizace/lokalni-opravy/quick-lock"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
