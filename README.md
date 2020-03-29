@@ -142,7 +142,7 @@ layout: FrontPage
                 <main class="service-link__content">
                     <h4 class="service-link__content__header">Monitoring a lokální bezvýkopové opravy</h4>
                     <p class="service-link__content__text">Vlastníme 5 unikátních robotů s nejmodernější technologií. Každý robot se specializuje na určitý druh činnosti a je na to vybaven specifickým nástrojem či kamerou. Roboty ovládá operátor z kabiny vozu.</p>
-                    <router-link to="/sluzby/monitoring" class="service-link__content__cta">zjistit více</router-link>
+                    <router-link to="/sluzby/monitoring-a-lokalni-opravy" class="service-link__content__cta">zjistit více</router-link>
                 </main>
             </div>
         </main>
