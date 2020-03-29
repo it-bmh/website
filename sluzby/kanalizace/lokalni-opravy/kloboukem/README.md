@@ -6,7 +6,7 @@
 <section class="section section--wide section--centered">
     <InfoBox
       title="Bezvýkopová oprava kloboukem"
-      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      text="Kloboukem opravujeme netěsnosti v místě, kde se přípojka napojuje na hlavní řád. Tento druh opravy se hodí pro řešení jak netěsnosti způsobené nedosazenou spojkou, tak netěsnosti vzniklé kvůli neodbornému napojení výseku. Pozitivní dlouhodobé zkušenosti zákazníků Vám zaručují renovaci přípojek na nejvyšší úrovni."
       imageUrl="/img/frontpage/2.png"
       :imageLeft="true"
       :imageBig="true"
@@ -14,17 +14,23 @@
     />
 </section>
 
-<section class="page-paragraph page-paragraph--with-title">
+<section class="page-paragraph">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p class="page-paragraph__text">Kloboukovací jednotku můžeme použít pro přípojky DN 100 – 200 mm, které jsou k ose potrubí do hlavního řádu zaústěné pod úhlem 45° až 90°. Hlavní řád má v takovém případě profil DN 250 – 600 mm.</p>
     </main>
 </section>
 
-<section class="page-paragraph">
+<header class="page-header page-header--centered page-header--bottom-margin-small">
+    <h4 class="page-header__paragraph-title">Naše certifikace</h4>
+</header>
+
+<section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p class="page-paragraph__text">Certifikáty jakosti EN ISO 9001:2008 a EN ISO 14001:2004<br/><br/>Certifikát č. 090-030643 na výrobek Sanační klobouk ze dne 17. 10. 2013 (Technický a zkušební ústav stavební Praha)</p>
     </main>
 </section>
+
+
 
 <section class="image-preview image-preview--double">
     <main class="image-preview__content">
