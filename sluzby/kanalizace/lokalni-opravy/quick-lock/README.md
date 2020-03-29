@@ -26,9 +26,6 @@
     </main>
 </section>
 
-
-
-
 <header class="page-header page-header--centered page-header--bottom-margin-small">
     <h4 class="page-header__paragraph-title">Naše certifikace</h4>
 </header>
