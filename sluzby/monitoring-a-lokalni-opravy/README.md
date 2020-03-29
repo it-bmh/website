@@ -17,7 +17,7 @@
     <InfoBox
       title="Čištění, monitoring a lokální opravy potrubí"
       text="Díky monitoringu rychle zjistíme, jaký je technický stav potrubí a navrhneme varianty oprav. Pro práci v trubních systémech používáme speciální monitorovací a frézovací roboty."
-      ctaUrl="/sluzby/monitoring-a-lokalni-opravy/monitoring"
+      ctaUrl="/sluzby/monitoring-a-lokalni-opravy/cisteni"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/4.png"
       :imageRight="true"
