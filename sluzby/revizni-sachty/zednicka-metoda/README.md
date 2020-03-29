@@ -5,8 +5,8 @@
 
 <section class="section section--wide section--centered">
     <InfoBox
-      title="Rekonstrukce kanalizačních šachet zednickou metodou"
-      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      title="Bezvýkopová rekonstrukce kanalizačních šachet pomocí zednické metody"
+      text="Kanalizační šachtu je možné opravit také prostřednictvím klasické zednické práce. Tato metoda se hodí zejména pro sanaci betonových kanalizačních šachet se skruží DN 1000, které mají přechodový kónus a rám s poklopem."
       imageUrl="/img/frontpage/2.png"
       :imageLeft="true"
       :imageBig="true"
@@ -14,29 +14,48 @@
     />
 </section>
 
+<header class="page-header page-header--centered page-header--bottom-margin-small">
+    <h4 class="page-header__paragraph-title">Šachty vhodné pro použití této metody</h4>
+</header>
+
 <section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p class="page-paragraph__text">Klasickou zednickou metodou lze sanovat především betonové kanalizační šachty se skruží DN 1000, které disponují přechodným kónusem a rámem s poklopem.</p>
     </main>
 </section>
 
-<section class="page-paragraph">
+<header class="page-header page-header--centered page-header--bottom-margin-small">
+    <h4 class="page-header__paragraph-title">Jak to funguje</h4>
+</header>
+
+<section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p class="page-paragraph__text">Na očištěné stěny šachty se po sanaci trhlin a spár nanese sanační stěrka. Opravená kanalizační šachta se osadí novými stupadly. Na přání lze vyměnit rám s poklopem.</p>
     </main>
 </section>
 
-<section class="image-preview image-preview--double">
-    <main class="image-preview__content">
-        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
-        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
+<section class="list list--numbers">
+    <main class="list__content">
+        <h5 class="list__header">Průběh zednických prací</h5>
+        <ol class="list__list">
+            <li class="list__item">Očištění stěn a dna šachty tlakovou tryskou</li>
+            <li class="list__item">Odstranění stávajících stupadel</li>
+            <li class="list__item">Zatmelení spár a trhlin</li>
+            <li class="list__item">Penetrační nátěr a nanesení celoplošné sanační stěrky</li>
+            <li class="list__item">Zabudování stupadel s PE povlakem</li>
+            <li class="list__item">Vizuální prohlídka stavu sanační stěrky</li>
+            <li class="list__item">Kontrola pevnosti zabudovaných stupadel</li>
+        </ol>
     </main>
 </section>
 
-<section class="image-preview image-preview--double">
-    <main class="image-preview__content">
-        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
-        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
+<header class="page-header page-header--centered page-header--bottom-margin-small">
+    <h4 class="page-header__paragraph-title">Naše certifikace</h4>
+</header>
+
+<section class="page-paragraph page-paragraph--with-title">
+    <main class="page-paragraph__content">
+        <p class="page-paragraph__text">Certifikáty jakosti EN ISO 9001:2008 a EN ISO 14001:2004</p>
     </main>
 </section>
 
