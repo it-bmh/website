@@ -6,7 +6,7 @@
 <section class="section section--wide section--centered">
     <InfoBox
       title="Bezvýkopová oprava krátkým sanačním rukávcem"
-      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      text="Krátkým sanačním rukávcem zajišťujeme opravy lokálních závad v trubních systémech v té nejvyšší kvalitě. Tento typ lokální sanace je vhodný nejen pro netěsné spoje a napojení přípojek, ale také pro různé druhy trhlin nebo místa s vypadnutými střepy. Krátký sanační rukávec utěsní a stabilizuje poškozené místo v potrubí, nezávisle na materiálu potrubí. Místo zůstává po opravě elastické a přijímá případné pohyby potrubí."
       imageUrl="/img/frontpage/2.png"
       :imageLeft="true"
       :imageBig="true"
@@ -14,15 +14,19 @@
     />
 </section>
 
-<section class="page-paragraph page-paragraph--with-title">
+<section class="page-paragraph">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p class="page-paragraph__text">Krátký sanační rukávec využíváme v kruhových profilech DN 100 – 800 mm, a sice v délkách 500 mm. Při větších poškozeních v přímém úseku potrubí, můžeme osadit i několik lokálních rukávců za sebou.</p>
     </main>
 </section>
 
-<section class="page-paragraph">
+<header class="page-header page-header--centered page-header--bottom-margin-small">
+    <h4 class="page-header__paragraph-title">Naše certifikace</h4>
+</header>
+
+<section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p class="page-paragraph__text">Certifikáty jakosti EN ISO 9001:2008 a EN ISO 14001:2004<br/><br/>Certifikát č. 090-030643 na výrobek Sanační klobouk ze dne 17. 10. 2013 (Technický a zkušební ústav stavební Praha)</p>
     </main>
 </section>
 
