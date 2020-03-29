@@ -5,8 +5,8 @@
 
 <section class="section section--wide section--centered">
     <InfoBox
-      title="Bezvýkopová oprava technologií Quick-Lock"
-      text="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      title="Bezvýkopová oprava pomocí technologie Quick-Lock"
+      text="Pomocí technologie Quick-Lock řešíme lokální poškození potrubí nebo jeho závadu zavedením kompresní nerezové vložky s dlouhou životností. Nerezovou vložku systému Quick-Lock používáme při renovaci kanalizačních potrubí v profilech DN 200 – 600 mm."
       imageUrl="/img/frontpage/2.png"
       :imageLeft="true"
       :imageBig="true"
@@ -14,15 +14,28 @@
     />
 </section>
 
-<section class="page-paragraph page-paragraph--with-title">
-    <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<section class="list list--bullets">
+    <main class="list__content">
+        <h5 class="list__header">Výhody metody Quick-Lock</h5>
+        <ul class="list__list">
+            <li class="list__item">Jednoduchý proces instalace</li>
+            <li class="list__item">Dlouhodobě odolné materiály</li>
+            <li class="list__item">Žádná stavební chemie</li>
+            <li class="list__item">Odolnost proti proplachování podle DIN 19 523</li>
+        </ul>
     </main>
 </section>
 
-<section class="page-paragraph">
+
+
+
+<header class="page-header page-header--centered page-header--bottom-margin-small">
+    <h4 class="page-header__paragraph-title">Naše certifikace</h4>
+</header>
+
+<section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p class="page-paragraph__text">Certifikáty jakosti EN ISO 9001:2008 a EN ISO 14001:2004</p>
     </main>
 </section>
 
