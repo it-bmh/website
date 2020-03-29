@@ -62,8 +62,7 @@
 
 .frontpage__header__img
   position absolute
-  border-top-left-radius $imageCornerRadius
-  border-bottom-left-radius $imageCornerRadius
+  border-radius $imageCornerRadius
   right -12rem
   bottom -2rem
 
@@ -142,6 +141,7 @@
   position relative
   z-index 1
   order 2
+  border-radius $imageCornerRadius
 
 .service-link--image-left .service-link__img
   top 2.25rem
@@ -228,6 +228,7 @@
   line-height 1.5rem
   text-transform uppercase
   cursor pointer
+  transition all 150ms ease
 
 .section__content__cta
   display inline-flex
@@ -262,6 +263,11 @@
   color #000000
   border 2px solid #FF3037
 
+.service-link--white .service-link__content__cta:hover
+  color #ffffff
+  border 2px solid transparent
+  background-color #FF3037
+
 .service-link--blue .service-link__content
   background-color #00027D
   border 2px solid #00027D
@@ -274,6 +280,11 @@
 .service-link--blue .service-link__content__cta
   color #ffffff
   border 2px solid #ffffff
+
+.service-link--blue .service-link__content__cta:hover
+  color #00027D
+  border 2px solid #00027D
+  background-color #ffffff
 
 .co-nabizime .section__content
   display flex

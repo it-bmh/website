@@ -12,16 +12,34 @@
   line-height 1.5rem
   text-transform uppercase
   cursor pointer
+  transition all 150ms ease
 
 .button--white.button
-  color #000000
-  border 2px solid #FF3037
+  background-color $whiteColor
+  color $textColor
+  border 2px solid $redColor
+
+.button--white.button:hover
+  background-color $redColor
+  color $whiteColor
+  border 2px solid transparent
 
 .button--blue.button
+  background-color $accentColor
   color #ffffff
   border 2px solid #ffffff
 
+.button--blue.button:hover
+  color $accentColor
+  background-color #ffffff
+  border 2px solid transparent
+
 .button--red.button
   color #ffffff
-  background-color #FF3037
-  border 2px solid #FF3037
+  background-color $redColor
+  border 2px solid $redColor
+
+.button--red.button:hover
+  color $redColor
+  background-color $whiteColor
+  border 2px solid transparent
