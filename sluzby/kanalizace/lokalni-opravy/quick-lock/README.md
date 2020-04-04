@@ -7,7 +7,7 @@
     <InfoBox
       title="Bezvýkopová oprava pomocí technologie Quick-Lock"
       text="Pomocí technologie Quick-Lock řešíme lokální poškození potrubí nebo jeho závadu zavedením kompresní nerezové vložky s dlouhou životností. Nerezovou vložku systému Quick-Lock používáme při renovaci kanalizačních potrubí v profilech DN 200 – 600 mm."
-      imageUrl="/img/frontpage/2.png"
+      imageUrl="/img/sluzby/monitoring-a-lokalni-opravy/lokalni-opravy/quick-lock/1.png"
       :imageLeft="true"
       :imageBig="true"
       :isBlue="true"

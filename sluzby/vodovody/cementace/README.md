@@ -7,7 +7,7 @@
     <InfoBox
       title="Bezvýkopová sanace vodovodu pomocí klasické cementace"
       text="Cementace představuje nejrozšířenější metodu dodatečné ochrany vnitřního povrchu vodovodního potrubí. Tato tradiční bezvýkopová metoda se nejčastěji používá pro trubní vedení na pitnou a užitkovou vodu, ale běžně také pro kanalizaci."
-      imageUrl="/img/frontpage/2.png"
+      imageUrl="/img/sluzby/vodovody/cementace/1.png"
       :imageLeft="true"
       :imageBig="true"
       :isBlue="true"

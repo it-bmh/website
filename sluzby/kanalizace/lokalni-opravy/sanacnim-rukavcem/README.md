@@ -7,7 +7,7 @@
     <InfoBox
       title="Bezvýkopová oprava krátkým sanačním rukávcem"
       text="Krátkým sanačním rukávcem zajišťujeme opravy lokálních závad v trubních systémech v té nejvyšší kvalitě. Tento typ lokální sanace je vhodný nejen pro netěsné spoje a napojení přípojek, ale také pro různé druhy trhlin nebo místa s vypadnutými střepy. Krátký sanační rukávec utěsní a stabilizuje poškozené místo v potrubí, nezávisle na materiálu potrubí. Místo zůstává po opravě elastické a přijímá případné pohyby potrubí."
-      imageUrl="/img/frontpage/2.png"
+      imageUrl="/img/sluzby/monitoring-a-lokalni-opravy/lokalni-opravy/sanacnim-rukavcem/1.png"
       :imageLeft="true"
       :imageBig="true"
       :isBlue="true"

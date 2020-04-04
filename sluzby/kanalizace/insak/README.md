@@ -8,7 +8,7 @@
       title="Bezvýkopová sanace kanalizace 
 metodou INSAK"
       text="Technologie INSAK patří mezi bezvýkopové rukávcové inverzní metody a je vhodná pro sanaci různého kanalizačního potrubí, a to bez ohledu na materiál nebo tvar potrubí."
-      imageUrl="/img/frontpage/2.png"
+      imageUrl="/img/sluzby/kanalizace/insak/1.png"
       :imageLeft="true"
       :imageBig="true"
       :isBlue="true"

@@ -7,7 +7,7 @@
     <InfoBox
       title="Bezvýkopová rekonstrukce revizních šachet metodou Vertiliner"
       text="Vertiliner je původně německá technologie, která umožňuje bezvýkopové sanace revizních šachet. Využívá se hlavně při rekonstrukcích kruhových šachet s kónusem a hranatých šachet s proměnlivým průřezem. Pro těžce poškozené šachty s prasklinami, trhlinami, deformacemi, chybějícími částmi zdí nebo dokonce ohroženými zhroucením, je Vertiliner mnohem ekonomičtější alternativou k výkopům a klasické obnově šachty."
-      imageUrl="/img/frontpage/2.png"
+      imageUrl="/img/sluzby/revizni-sachty/vertiliner/1.png"
       :imageLeft="true"
       :imageBig="true"
       :isBlue="true"

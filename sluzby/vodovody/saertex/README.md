@@ -7,7 +7,7 @@
     <InfoBox
       title="Bezvýkopová sanace vodovodu pomocí rukávce SAERTEX-LINER H₂O"
       text="Unikátní technologie SAERTEX-LINER H₂O patří mezi bezvýkopové rukávcové metody. Jedná se o rychlou, čistou a velmi přesnou metodu sanace. V České republice tuto metodu používáme pouze my."
-      imageUrl="/img/frontpage/2.png"
+      imageUrl="/img/sluzby/vodovody/saertex/1.png"
       :imageLeft="true"
       :imageBig="true"
       :isBlue="true"

@@ -7,7 +7,7 @@
     <InfoBox
       title="Bezvýkopová rekonstrukce kanalizačních šachet pomocí zednické metody"
       text="Kanalizační šachtu je možné opravit také prostřednictvím klasické zednické práce. Tato metoda se hodí zejména pro sanaci betonových kanalizačních šachet se skruží DN 1000, které mají přechodový kónus a rám s poklopem."
-      imageUrl="/img/frontpage/2.png"
+      imageUrl="/img/sluzby/revizni-sachty/zednicka-metoda/1.png"
       :imageLeft="true"
       :imageBig="true"
       :isBlue="true"

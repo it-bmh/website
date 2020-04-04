@@ -7,7 +7,7 @@
     <InfoBox
       title="Bezvýkopová oprava kloboukem"
       text="Kloboukem opravujeme netěsnosti v místě, kde se přípojka napojuje na hlavní řád. Tento druh opravy se hodí pro řešení jak netěsnosti způsobené nedosazenou spojkou, tak netěsnosti vzniklé kvůli neodbornému napojení výseku. Pozitivní dlouhodobé zkušenosti zákazníků Vám zaručují renovaci přípojek na nejvyšší úrovni."
-      imageUrl="/img/frontpage/2.png"
+      imageUrl="/img/sluzby/monitoring-a-lokalni-opravy/lokalni-opravy/kloboukem/1.png"
       :imageLeft="true"
       :imageBig="true"
       :isBlue="true"

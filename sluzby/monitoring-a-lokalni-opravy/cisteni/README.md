@@ -7,7 +7,7 @@
     <InfoBox
       title="Čištění, monitoring a opravy potrubí pomocí robotů"
       text="Umíme potrubí rychle a efektivně vyčistit a následně také pomocí monitoringu zjistit, v jakém stavu se potrubí nachází.  V trubních systémech pracujeme se špičkovými kanalizačními roboty pro různé dimenze. Vybavení a uzpůsobení robota vždy odpovídá tomu, jaký druh činnosti robot provádí. Máme robota na přípravné práce před sanací, který odstraní překážky, další robot umí otevřít zaslepené otvory přípojek po sanaci a jiný zase zajistí vodotěsné napojení přípojek na hlavní řád kanalizace pomocí klobouků. Roboty řídí zkušený operátor přímo ze speciální kabiny vozu. Vlastníme monitorovací vozidla s různými typy kamer. Po provedeném monitoringu a diagnostice navrhneme řešení na míru problémům zjištěným v potrubí."
-      imageUrl="/img/frontpage/2.png"
+      imageUrl="/img/sluzby/monitoring-a-lokalni-opravy/cisteni/1.png"
       :imageLeft="true"
       :imageBig="true"
       :isBlue="true"

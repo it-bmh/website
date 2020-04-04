@@ -7,7 +7,7 @@
     <InfoBox
       title="Bezvýkopová sanace kanalizace pomocí metody UV Liner"
       text="Unikátní technologie UV liner pochází z Německa a řadíme ji mezi bezvýkopové rukávcové metody. Sanace kanalizace pomocí této metody zajišťuje čistou a velmi rychlou obnovu potrubí s kruhovým či vejčitým profilem. Metoda výrazně zkracuje čas potřebný k sanaci a šetří přírodu."
-      imageUrl="/img/frontpage/2.png"
+      imageUrl="/img/sluzby/kanalizace/uv-liner/1.png"
       :imageLeft="true"
       :imageBig="true"
       :isBlue="true"

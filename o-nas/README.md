@@ -33,8 +33,8 @@
 
 <section class="image-preview image-preview--double">
     <main class="image-preview__content">
-        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
-        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
+        <img class="image-preview__img" src="/img/o-nas/1.png" alt=""/>
+        <img class="image-preview__img" src="/img/o-nas/2.png" alt=""/>
     </main>
 </section>
 
@@ -49,7 +49,7 @@
 
 <section class="image-preview image-preview--single">
     <main class="image-preview__content">
-        <img class="image-preview__img" src="/img/frontpage/9.png" alt=""/>
+        <img class="image-preview__img" src="/img/o-nas/3.png" alt=""/>
     </main>
 </section>
 
@@ -78,6 +78,6 @@ tržní ceny." text="" imageUrl="/img/why-wholecountry.svg"/>
 
 <ReferencesSection/>
 
-<BlogPreviewSection/>
+<!-- <BlogPreviewSection/> -->
 
 <Contact />
