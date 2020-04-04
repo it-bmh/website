@@ -1,5 +1,5 @@
 <template>
-    <div class="contact">
+    <div :class="{ contact: true, 'contact--no-margin-top': nomargintop }">
         <main class="contact__content">
             <header class="contact__header header--default">
                 <h5 class="contact__subtitle">Máte dotaz?</h5>
@@ -45,6 +45,14 @@
     </div>
 </template>
 
+<script>
+export default {
+  props: [
+    'nomargintop'
+  ]
+}
+</script>
+
 <style lang="stylus" scoped>
     .contact
         display flex
@@ -54,6 +62,9 @@
         background-color #00027D
         padding 3rem 0
         margin-top 4rem
+
+    .contact.contact--no-margin-top
+        margin-top 0
     
     .contact__content
         width 100%

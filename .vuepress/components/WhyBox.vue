@@ -1,5 +1,5 @@
 <template>
-  <div class="why-box">
+  <div class="why-box why-box--fixed-height">
       <div class="why-box__img-box">
           <img :src="imageUrl" :alt="title"/>
       </div>
