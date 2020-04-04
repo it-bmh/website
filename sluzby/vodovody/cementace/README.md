@@ -72,11 +72,5 @@
     </main>
 </section>
 
-<section class="image-preview image-preview--single">
-    <main class="image-preview__content">
-        <img class="image-preview__img" src="/img/frontpage/9.png" alt=""/>
-    </main>
-</section>
-
 <WhyNoDiggingSection />
 <Contact nomargintop="true"/>

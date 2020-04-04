@@ -44,6 +44,13 @@
     </main>
 </section>
 
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/revizni-sachty/vertiliner/2.png" alt=""/>
+        <img class="image-preview__img" src="/img/sluzby/revizni-sachty/vertiliner/3.png" alt=""/>
+    </main>
+</section>
+
 <section class="list list--numbers">
     <main class="list__content">
         <h5 class="list__header">Proces instalace</h5>
@@ -74,6 +81,20 @@
     </main>
 </section>
 
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/revizni-sachty/vertiliner/4.png" alt=""/>
+        <img class="image-preview__img" src="/img/sluzby/revizni-sachty/vertiliner/5.png" alt=""/>
+    </main>
+</section>
+
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/revizni-sachty/vertiliner/6.png" alt=""/>
+        <img class="image-preview__img" src="/img/sluzby/revizni-sachty/vertiliner/7.png" alt=""/>
+    </main>
+</section>
+
 <section class="list list--bullets">
     <main class="list__content">
         <h5 class="list__header">Další technologické detaily</h5>
@@ -94,6 +115,12 @@
 <section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
         <p class="page-paragraph__text">Certifikáty jakosti EN ISO 9001:2008 a EN ISO 14001:2004</p>
+    </main>
+</section>
+
+<section class="image-preview image-preview--single">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/revizni-sachty/vertiliner/8.png" alt=""/>
     </main>
 </section>
 

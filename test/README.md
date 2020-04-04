@@ -89,3 +89,16 @@
 <Reference name="SKANSKA A.S." category="Podniky a instituce" :isSmall="true" imageUrl="/img/reference/skanska.png"/>
 
 <ReferencesSection/>
+
+<section class="image-preview image-preview--single">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/frontpage/9.png" alt=""/>
+    </main>
+</section>
+
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
+        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
+    </main>
+</section>

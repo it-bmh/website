@@ -30,17 +30,15 @@
     </main>
 </section>
 
-<section class="image-preview image-preview--double">
+<section class="image-preview image-preview--single">
     <main class="image-preview__content">
-        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
-        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
+        <img class="image-preview__img" src="/img/sluzby/monitoring-a-lokalni-opravy/lokalni-opravy/sanacnim-rukavcem/2.png" alt=""/>
     </main>
 </section>
 
-<section class="image-preview image-preview--double">
+<section class="image-preview image-preview--single">
     <main class="image-preview__content">
-        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
-        <img class="image-preview__img" src="/img/frontpage/1.png" alt=""/>
+        <img class="image-preview__img" src="/img/sluzby/monitoring-a-lokalni-opravy/lokalni-opravy/sanacnim-rukavcem/3.png" alt=""/>
     </main>
 </section>
 

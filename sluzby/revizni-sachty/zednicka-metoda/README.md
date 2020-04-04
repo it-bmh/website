@@ -34,6 +34,13 @@
     </main>
 </section>
 
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/revizni-sachty/zednicka-metoda/2.png" alt=""/>
+        <img class="image-preview__img" src="/img/sluzby/revizni-sachty/zednicka-metoda/3.png" alt=""/>
+    </main>
+</section>
+
 <section class="list list--numbers">
     <main class="list__content">
         <h5 class="list__header">Průběh zednických prací</h5>

@@ -27,6 +27,20 @@
     </main>
 </section>
 
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/monitoring-a-lokalni-opravy/cisteni/4.png" alt=""/>
+        <img class="image-preview__img" src="/img/sluzby/monitoring-a-lokalni-opravy/cisteni/5.png" alt=""/>
+    </main>
+</section>
+
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/monitoring-a-lokalni-opravy/cisteni/6.png" alt=""/>
+        <img class="image-preview__img" alt=""/>
+    </main>
+</section>
+
 <header class="page-header page-header--centered page-header--bottom-margin-small">
     <h4 class="page-header__paragraph-title">Potrubí vhodná pro práci robotů</h4>
 </header>
@@ -34,6 +48,13 @@
 <section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
         <p class="page-paragraph__text">Roboty se pohybují v profilech DN 150 – DN 600 mm. Pro vejčité profily využíváme speciálně upravené podvozkové lafety pro profily od DN 300/ 450 –  500/ 750 mm.</p>
+    </main>
+</section>
+
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/monitoring-a-lokalni-opravy/cisteni/2.png" alt=""/>
+        <img class="image-preview__img" src="/img/sluzby/monitoring-a-lokalni-opravy/cisteni/3.png" alt=""/>
     </main>
 </section>
 
@@ -58,6 +79,12 @@
             <li class="list__item">Návrh řešení problémů v potrubí</li>
             <li class="list__item">Odstranění lokálních závad nebo celková sanace</li>
         </ol>
+    </main>
+</section>
+
+<section class="image-preview image-preview--single">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/monitoring-a-lokalni-opravy/cisteni/7.png" alt=""/>
     </main>
 </section>
 

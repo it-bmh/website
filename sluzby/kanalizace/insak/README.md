@@ -24,6 +24,20 @@ metodou INSAK"
     </main>
 </section>
 
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/kanalizace/insak/2.png" alt=""/>
+        <img class="image-preview__img" src="/img/sluzby/kanalizace/insak/3.png" alt=""/>
+    </main>
+</section>
+
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/kanalizace/insak/4.png" alt=""/>
+        <img class="image-preview__img" src="/img/sluzby/kanalizace/insak/5.png" alt=""/>
+    </main>
+</section>
+
 <header class="page-header page-header--centered page-header--bottom-margin-small">
     <h4 class="page-header__paragraph-title">Vlastnosti rukávce pro metodu INSAK</h4>
 </header>
@@ -42,6 +56,12 @@ metodou INSAK"
     </main>
 </section>
 
+<section class="image-preview image-preview--single">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/kanalizace/insak/8.png" alt=""/>
+    </main>
+</section>
+
 <section class="list list--numbers">
     <main class="list__content">
         <h5 class="list__header">Proces instalace</h5>
@@ -56,6 +76,13 @@ metodou INSAK"
             <li class="list__item">Kamerová kontrolní prohlídka se záznamem na CD/DVD/SD</li>
             <li class="list__item">Uvedení do provozu</li>
         </ol>
+    </main>
+</section>
+
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/kanalizace/insak/6.png" alt=""/>
+        <img class="image-preview__img" src="/img/sluzby/kanalizace/insak/7.png" alt=""/>
     </main>
 </section>
 

@@ -24,6 +24,20 @@
     </main>
 </section>
 
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/kanalizace/uv-liner/2.png" alt=""/>
+        <img class="image-preview__img" src="/img/sluzby/kanalizace/uv-liner/3.png" alt=""/>
+    </main>
+</section>
+
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/kanalizace/uv-liner/4.png" alt=""/>
+        <img class="image-preview__img" src="/img/sluzby/kanalizace/uv-liner/5.png" alt=""/>
+    </main>
+</section>
+
 <header class="page-header page-header--centered page-header--bottom-margin-small">
     <h4 class="page-header__paragraph-title">Vlastnosti rukávce pro metodu UV Liner</h4>
 </header>
@@ -41,6 +55,12 @@
 <section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
         <p class="page-paragraph__text">Bezešvý textilní rukávec, kterým prostupují skelná vlákna nasycená polyesterovou nebo vinylesterovou pryskyřicí, se vtáhne do sanovaného potrubí a natlakuje vzduchem. Pomocí UV lamp se pryskyřice obsažená v rukávci vytvrdí. Ve staré kanalizaci tak vznikne úplně nové plastové potrubí, jež je samonosné.</p>
+    </main>
+</section>
+
+<section class="image-preview image-preview--single">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/kanalizace/uv-liner/6.png" alt=""/>
     </main>
 </section>
 
