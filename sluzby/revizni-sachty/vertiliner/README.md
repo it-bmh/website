@@ -74,4 +74,91 @@
     </main>
 </section>
 
+<section class="list list--bullets">
+    <main class="list__content">
+        <h5 class="list__header">Další technologické detaily</h5>
+        <ul class="list__list">
+            <li class="list__item">Při výrobě rukávce vždy zohledníme typ a tvar kuželu šachty i jednotlivé délky konstrukčních prvků.</li>
+            <li class="list__item">Standardní maximální délka rukávce je 11 m a jeho maximální kruhový průměr dosahuje 1,7 m. Umíme vyrobit také speciální délky rukávců do hlubších šachet.</li>
+            <li class="list__item">Sílu stěny přizpůsobujeme podmínkám v místě realizace. Tloušťka stěny se pohybuje v rozmezí od 7 do cca 20 mm.</li>
+            <li class="list__item">Během tlakování a vytvrzování monitorujeme hodnoty důležitých veličin a zaznamenáváme je. Po vytvrzení rukávce dáváme tato data k dispozici jako protokol.</li>
+            <li class="list__item">Bezešvá celistvá vložka sahá od horní hrany bermy až k rámu poklopu. Kruhovou mezeru vzniklou při vytvrzení utěsníme EPDM gumovým profilem. Těsnění umisťujeme zhruba 10 cm od spodního okraje izolace.</li>
+        </ul>
+    </main>
+</section>
+
+<header class="page-header page-header--centered page-header--bottom-margin-small">
+    <h4 class="page-header__paragraph-title">Naše certifikace</h4>
+</header>
+
+<section class="page-paragraph page-paragraph--with-title">
+    <main class="page-paragraph__content">
+        <p class="page-paragraph__text">Certifikáty jakosti EN ISO 9001:2008 a EN ISO 14001:2004</p>
+    </main>
+</section>
+
+<section class="section section--wide section--gray section--centered proc-zvolit-bezvykopovou-metodu">
+    <header class="section__header header--small">
+        <h3 class="section__title title--small">Proč zvolit bezvýkopovou metodu?</h3>
+    </header>
+    <main class="section__content why-boxes why-boxes--eight">
+        <div class="why-box why-box--fixed-height">
+            <div class="why-box__img-box">
+                <img src="/img/frontpage/why-money.svg" alt="Finanční úspora"/>
+            </div>
+            <h6 class="why-box__title">Finanční úspora<br/>&nbsp;</h6>
+            <p class="why-box__text">Ekonomicky efektivnější řešení než klasické výkopové práce.</p>
+        </div>
+        <div class="why-box why-box--fixed-height">
+            <div class="why-box__img-box">
+                <img src="/img/frontpage/why-clock.svg" alt="Časová úspora"/>
+            </div>
+            <h6 class="why-box__title">Časová úspora<br/>&nbsp;</h6>
+            <p class="why-box__text">Bez výkopů ušetříte až 80% času oproti klasickým výkopovým pracím.</p>
+        </div>
+        <div class="why-box why-box--fixed-height">
+            <div class="why-box__img-box">
+                <img class="why-box__img" src="/img/frontpage/why-agreement.svg" alt="Bez narušení pozemních komunikací"/>
+            </div>
+            <h6 class="why-box__title">Stavební povolení netřeba</h6>
+            <p class="why-box__text">Realizace je tak šetrná k okolí, že na ni nemusíte mít stavební povolení, ani ohlašovat stavbu.</p>
+        </div>
+        <div class="why-box why-box--fixed-height">
+            <div class="why-box__img-box">
+                <img class="why-box__img" src="/img/frontpage/why-road.svg" alt="Bez narušení pozemních komunikací"/>
+            </div>
+            <h6 class="why-box__title">Bez narušení pozemních komunikací</h6>
+            <p class="why-box__text">Povrchy pozemních komunikací zůstávají skoro netknuté.</p>
+        </div>
+        <div class="why-box why-box--fixed-height">
+            <div class="why-box__img-box">
+                <img src="/img/frontpage/why-limitation.svg" alt="Minimální omezení dopravy"/>
+            </div>
+            <h6 class="why-box__title">Minimální omezení dopravy</h6>
+            <p class="why-box__text">Při realizaci oprav dochází jen k záboru nejnutnějšího prostoru pro práci.</p>
+        </div>
+        <div class="why-box why-box--fixed-height">
+            <div class="why-box__img-box">
+                <img src="/img/frontpage/why-calendar.svg" alt="Vysoká jakost a životnost až 80 let"/>
+            </div>
+            <h6 class="why-box__title">Vysoká jakost a životnost až 80 let</h6>
+            <p class="why-box__text">Potrubí nepraská, odolá abrazi i chemikáliím a má samonosnou konstrukci.</p>
+        </div>
+        <div class="why-box why-box--fixed-height">
+            <div class="why-box__img-box">
+                <img class="why-box__img" src="/img/frontpage/why-pipe.svg" alt="Bez narušení pozemních komunikací"/>
+            </div>
+            <h6 class="why-box__title">Bez poškození konstrukcí a potrubí</h6>
+            <p class="why-box__text">Nemusíte se obávat o sousední konstrukce nebo podzemní potrubí.</p>
+        </div>
+        <div class="why-box why-box--fixed-height">
+            <div class="why-box__img-box">
+                <img class="why-box__img" src="/img/frontpage/why-dust.svg" alt="Bez narušení pozemních komunikací"/>
+            </div>
+            <h6 class="why-box__title">Téměř bez prachu a hluku</h6>
+            <p class="why-box__text">Práce jsou bezprašné a vzniká při nich minimum hluku.</p>
+        </div>
+    </main>
+</section>
+
 <Contact/>
