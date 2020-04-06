@@ -5,7 +5,7 @@
 
 <section class="section section--wide section--centered">
 <div class="info-box info-box--image-left info-box--blue info-box--image-small">
-    <img class="info-box__img" src="/img/frontpage/2.png" alt=""/>
+    <img class="info-box__img" src="/img/o-nas/1.png" alt=""/>
     <main class="info-box__content">
         <h4 class="info-box__content__header">Specialista na bezvýkopové technologie</h4>
         <p class="info-box__content__text">Už téměř 30 let zajišťujeme opravy a rekonstrukce trubních systémů. Pro bezvýkopovou sanaci kanalizačního nebo vodovodního potrubí vždy navrhujeme to nejlepší technologické řešení.<br/>Na míru.</p>
@@ -33,8 +33,8 @@
 
 <section class="image-preview image-preview--double">
     <main class="image-preview__content">
-        <img class="image-preview__img" src="/img/o-nas/1.png" alt=""/>
         <img class="image-preview__img" src="/img/o-nas/2.png" alt=""/>
+        <img class="image-preview__img" src="/img/o-nas/3.png" alt=""/>
     </main>
 </section>
 
@@ -49,7 +49,7 @@
 
 <section class="image-preview image-preview--single">
     <main class="image-preview__content">
-        <img class="image-preview__img" src="/img/o-nas/3.png" alt=""/>
+        <img class="image-preview__img" src="/img/o-nas/4.png" alt=""/>
     </main>
 </section>
 
