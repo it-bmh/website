@@ -1,4 +1,10 @@
 module.exports = {
+    plugins: {
+      'sitemap': {
+        hostname: 'https://bmhcz.netlify.com/',
+        exclude: ['/404.html']
+      },
+    },
     head: [
       ['link', { rel: 'icon', href: '/logo.png' }]
     ],
