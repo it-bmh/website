@@ -5,12 +5,10 @@ layout: FrontPage
 <header class="frontpage__header">
     <main class="frontpage__header__content">
         <h1 class="frontpage__header__jsme-specialiste">
-            Jsme specialisté 
-            na bezvýkopové sanační 
-            práce v potrubích
+            Jsme specialisté na bezvýkopové sanační práce v potrubích
         </h1>
         <h3 class="frontpage__header__uz-temer-30-let">
-            Už téměř 30 let zajišťujeme opravy a rekonstrukce trubních systémů. Pro bezvýkopovou sanaci kanalizačního nebo vodovodního potrubí vždy navrhujeme to nejlepší technologické řešení. Na míru.
+            Zajišťujeme opravy a rekonstrukce trubních systémů a používáme přitom ty nejmodernější dostupné technologie. Jsme česká firma a máme 30 let zkušeností. Pro bezvýkopovou sanaci kanalizačního nebo vodovodního potrubí vždy navrhujeme to nejlepší technologické řešení. Na míru.
         </h3>
         <router-link class="frontpage__header__button--kontaktujte-nas" to="/kontakt">Kontaktujte nás</router-link>
         <img class="frontpage__header__img" src="/img/frontpage/1.jpg" alt="">
@@ -28,7 +26,7 @@ layout: FrontPage
             <img class="info-box__img" src="/img/frontpage/2.jpg" alt=""/>
             <main class="info-box__content">
                 <h4 class="info-box__content__header">Proč pro sanaci kanalizace, vodovodního potrubí nebo revizní šachty zvolit bezvýkopovou metodu</h4>
-                <p class="info-box__content__text">Konvenční obnova potrubí - tj. kopání a výměna celého potrubí - je časově a personálně značně nákladná. Bezvýkopové technologie umožňují velmi efektivní způsob opravy kanalizací i vodovodů, a představují tak plnohodnotnou alternativu, která v budoucnosti téměř nahradí klasické výkopové práce.</p>
+                <p class="info-box__content__text">Konvenční obnova potrubí - tj. kopání a výměna celého potrubí - je časově a personálně značně nákladná. Bezvýkopové technologie umožňují velmi efektivní způsob opravy kanalizací i vodovodů, a představují tak skvělé řešení, které v mnohém předčí klasické výkopové práce.</p>
             </main>
         </div>
     </section>
