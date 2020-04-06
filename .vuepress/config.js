@@ -2,7 +2,7 @@ module.exports = {
     plugins: {
       'sitemap': {
         hostname: 'https://bmhcz.netlify.com/',
-        exclude: ['/404.html']
+        exclude: ['/404.html', '/test.html']
       },
     },
     head: [
