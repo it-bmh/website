@@ -1,5 +1,6 @@
 <header class="page-header page-header--centered">
-    <h2 class="page-header__subtitle">Naše služby</h2>
+    <router-link to="/sluzby"><h2 class="page-header__subtitle page-header__subtitle--link">Naše služby</h2></router-link>
+    <router-link to="/sluzby/vodovody"><h3 class="page-header__category page-header__category--link">Rekonstrukce a opravy vodovodů</h3></router-link>
     <h1 class="page-header__title">SAERTEX-LINER H₂O</h1>
 </header>
 
@@ -34,6 +35,13 @@
     </main>
 </section>
 
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/vodovody/saertex/2.png" alt=""/>
+        <img class="image-preview__img" src="/img/sluzby/vodovody/saertex/3.png" alt=""/>
+    </main>
+</section>
+
 <header class="page-header page-header--centered page-header--bottom-margin-small">
     <h4 class="page-header__paragraph-title">Jak to funguje</h4>
 </header>
@@ -41,6 +49,12 @@
 <section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
         <p class="page-paragraph__text">Bezešvý rukávec SAERTEX-LINER H₂O ze skelných vláken, která mají strukturu mřížky, se při výrobě napustí polyesterovou nebo vinylesterovou pryskyřicí.  Tento rukávec se vtáhne do očištěného potrubí a pomocí UV lamp se pryskyřice vytvrdí. Tím vznikne zcela nové samonosné potrubí. Instalace rukávce probíhá rychle a šetrně k okolí.</p>
+    </main>
+</section>
+
+<section class="image-preview image-preview--single">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/vodovody/saertex/6.png" alt=""/>
     </main>
 </section>
 
@@ -57,6 +71,12 @@
     </main>
 </section>
 
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/vodovody/saertex/4.png" alt=""/>
+        <img class="image-preview__img" src="/img/sluzby/vodovody/saertex/5.png" alt=""/>
+    </main>
+</section>
 
 <section class="list list--bullets">
     <main class="list__content">

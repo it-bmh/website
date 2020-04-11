@@ -1,5 +1,5 @@
 <header class="page-header page-header--centered">
-    <h2 class="page-header__subtitle">Naše služby</h2>
+    <router-link to="/sluzby"><h2 class="page-header__subtitle page-header__subtitle--link">Naše služby</h2></router-link>
     <h1 class="page-header__title">Rekonstrukce a opravy kanalizací</h1>
 </header>
 

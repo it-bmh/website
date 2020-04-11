@@ -1,5 +1,6 @@
 <header class="page-header page-header--centered">
-    <h2 class="page-header__subtitle">Naše služby</h2>
+    <router-link to="/sluzby"><h2 class="page-header__subtitle page-header__subtitle--link">Naše služby</h2></router-link>
+    <router-link to="/sluzby/kanalizace"><h3 class="page-header__category page-header__category--link">Rekonstrukce a opravy kanalizací</h3></router-link>
     <h1 class="page-header__title">INSAK - nové potrubí z tvrzeného<br>plastu ve staré kanalizaci</h1>
 </header>
 

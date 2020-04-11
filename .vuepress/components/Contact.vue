@@ -8,8 +8,8 @@
             <main class="contact__main">
                 <div class="contact__group">
                     <section class="contact__phones">
-                        <a class="contact__phone" href="tel:+420585313549">+420 585 313 549</a>
-                        <a class="contact__phone" href="tel:+420585314997">+420 585 314 997</a>
+                        <span class="contact__phone__wrapper"><a class="contact__phone" href="tel:+420585313549">+420 585 313 549</a> (7:00 - 15:00)</span>
+                        <span class="contact__phone__wrapper"><a class="contact__phone" href="tel:+420585314997">+420 585 314 997</a> (7:00 - 15:00)</span>
                     </section>
                     <section class="contact__mails">
                         <a class="contact__mail" href="mailto:bmh@bmh.cz">bmh@bmh.cz</a>
@@ -20,7 +20,7 @@
                         <!-- <a class="contact__social-media__link"><img src="/img/twitter.svg" alt=""></a> -->
                     </section>
                 </div>
-                <div class="contact__group">
+                <!-- <div class="contact__group">
                     <section class="contact__links">
                         <header class="contact__links__header">
                             <h3 class="contact__links__title">Užitečné informace</h3>
@@ -30,7 +30,7 @@
                             <router-link class="contact__link" to="/kontakt">Časté dotazy</router-link>
                         </main>
                     </section>
-                </div>
+                </div> -->
                 <div class="contact__group">
                     <section class="contact__maps">
                         <iframe class="contact__map" src="https://en.frame.mapy.cz/s/nokomopame" frameborder="0"></iframe>
@@ -94,7 +94,7 @@ export default {
         letter-spacing 0.11px
         line-height 60px
     
-    .contact__phone
+    .contact__phone__wrapper
         display block
 
     .contact__phone,
@@ -151,6 +151,7 @@ export default {
 
     .contact__main
         display flex
+        justify-content space-between
         flex-flow row
         flex-wrap wrap
 
@@ -169,6 +170,7 @@ export default {
         border none
 
     .contact__address
+        font-style normal
         align-self center
         position absolute
         top -8rem

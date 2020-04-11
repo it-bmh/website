@@ -1,5 +1,6 @@
 <header class="page-header page-header--centered">
-    <h2 class="page-header__subtitle">Naše služby</h2>
+    <router-link to="/sluzby"><h2 class="page-header__subtitle page-header__subtitle--link">Naše služby</h2></router-link>
+    <router-link to="/sluzby/vodovody"><h3 class="page-header__category page-header__category--link">Rekonstrukce a opravy vodovodů</h3></router-link>
     <h1 class="page-header__title">Metoda cementace</h1>
 </header>
 
@@ -34,6 +35,12 @@
     </main>
 </section>
 
+<section class="image-preview image-preview--single">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/vodovody/cementace/5.png" alt=""/>
+    </main>
+</section>
+
 <section class="list list--numbers">
     <main class="list__content">
         <h5 class="list__header">Průběh cementace</h5>
@@ -58,6 +65,19 @@
             <li class="list__item">Na vnitřních stranách potrubí nedochází k usazování inkrustace.</li>
             <li class="list__item">Díky cementaci se obnoví hydraulické vlastnosti povrchu trubního řádu.</li>
         </ul>
+    </main>
+</section>
+
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/vodovody/cementace/2.png" alt=""/>
+        <img class="image-preview__img" src="/img/sluzby/vodovody/cementace/3.png" alt=""/>
+    </main>
+</section>
+
+<section class="image-preview image-preview--double">
+    <main class="image-preview__content">
+        <img class="image-preview__img" src="/img/sluzby/vodovody/cementace/4.png" alt=""/>
     </main>
 </section>
 
