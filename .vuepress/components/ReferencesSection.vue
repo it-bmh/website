@@ -2,7 +2,7 @@
   <section class="section section--wide section--blue section--centered">
     <header class="section__header header--default">
         <h5 class="section__subtitle">Reference</h5>
-        <h2 class="section__title references__title title--big">S kým jsme<br/>spolupracovali</h2>
+        <h2 class="section__title references__title title--big">Naši<br/>partneři</h2>
     </header>
     <main class="section__content">
         <p class="section__content__text">Realizujeme zakázky napříč celou republikou. Podívejte se, kterým firmám, organizacím a institucím už jsme pomohli vyřešit problémy s potrubím.</p>

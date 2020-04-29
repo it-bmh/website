@@ -58,6 +58,20 @@
     </main>
 </section>
 
+<section class="list list--numbers">
+    <main class="list__content">
+        <h5 class="list__header">Proces instalace</h5>
+        <ol class="list__list">
+            <li class="list__item">Zpřístupnění sanovaného potrubí z obou stran</li>
+            <li class="list__item">Vtažení rukávce SAERTEX-LINER H₂O</li>
+            <li class="list__item">Nafouknutí a vytvrzení rukávce pomocí UV záření</li>
+            <li class="list__item">Kamerová prohlídka</li>
+            <li class="list__item">Napojení sanovaného potrubí zpět k vodovodní síti</li>
+            <li class="list__item">Uvedení do provozu</li>
+        </ol>
+    </main>
+</section>
+
 <section class="list list--bullets">
     <main class="list__content">
         <h5 class="list__header">Výhody bezvýkopové instalace rukávce SAERTEX-LINER H₂O</h5>
@@ -107,20 +121,6 @@
 <section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
         <p class="page-paragraph__text">Česká republika: SZÚ – EX 170029, No. 66/2017<br/>Slovensko: RÚVZ – No. 33/2017<br/>Německo: DVGW W 270 und KTW-Guideline<br/>Polsko: NIPH – NIH Hygienic Certificate<br/>USA: NSF / ANSI Standard 61</p>
-    </main>
-</section>
-
-<section class="list list--numbers">
-    <main class="list__content">
-        <h5 class="list__header">Proces instalace</h5>
-        <ol class="list__list">
-            <li class="list__item">Zpřístupnění sanovaného potrubí z obou stran</li>
-            <li class="list__item">Vtažení rukávce SAERTEX-LINER H₂O</li>
-            <li class="list__item">Nafouknutí a vytvrzení rukávce pomocí UV záření</li>
-            <li class="list__item">Kamerová prohlídka</li>
-            <li class="list__item">Napojení sanovaného potrubí zpět k vodovodní síti</li>
-            <li class="list__item">Uvedení do provozu</li>
-        </ol>
     </main>
 </section>
 

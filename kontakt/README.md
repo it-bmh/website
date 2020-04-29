@@ -6,7 +6,7 @@
 <section class="section section--centered">
     <main class="section__content contact-content">
         <div class="contact-address">
-        <h6 class="address-company-name">BMH spol. s. r. o</h6>
+        <h6 class="address-company-name">BMH spol. s r. o.</h6>
         <span class="address-line">Ondřejova 592/11A</span>
         <span class="address-line">779 00 Olomouc</span>
         <span class="address-line">IČ: 42869668</span>

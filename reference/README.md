@@ -1,6 +1,6 @@
 <header class="page-header page-header--centered">
     <h2 class="page-header__subtitle">Reference</h2>
-    <h1 class="page-header__title">S kým jsme spolupracovali</h1>
+    <h1 class="page-header__title">Naši partneři</h1>
 </header>
 
 <section class="page-paragraph">
