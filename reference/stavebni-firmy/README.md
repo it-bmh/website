@@ -44,6 +44,6 @@
 
 <AboutUsSection/>
 
-<BlogPreviewSection/>
+<!-- <BlogPreviewSection/> -->
 
 <Contact/>

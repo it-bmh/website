@@ -59,6 +59,6 @@ a Strední pedagogická škola Přerov"
 
 <AboutUsSection/>
 
-<BlogPreviewSection/>
+<!-- <BlogPreviewSection/> -->
 
 <Contact/>

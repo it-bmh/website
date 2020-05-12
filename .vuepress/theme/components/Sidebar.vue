@@ -30,7 +30,6 @@ export default {
     display inline-block
   .nav-links
     display none
-    border-bottom 1px solid $borderColor
     padding 0.5rem 0 0.75rem 0
     a
       font-weight 600
@@ -50,8 +49,15 @@ export default {
 
 @media (max-width: $MQMobile)
   .sidebar
+    background-color $accentColor
+    position absolute
+    margin-top $navbarHeight
+    height (100.1vh - 2*$navbarHeight)
+    width 100vw
+    z-index 100
     .nav-links
       display block
+      color $whiteColor
       .dropdown-wrapper .nav-dropdown .dropdown-item a.router-link-active::after
         top calc(1rem - 2px)
     & > .sidebar-links

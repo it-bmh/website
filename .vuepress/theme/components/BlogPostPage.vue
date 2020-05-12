@@ -30,6 +30,8 @@
       }"/>
     </section>
 
+    <Contact/>
+
     <slot name="bottom"/>
     <div class="copyright">
       <div class="copyright__content">

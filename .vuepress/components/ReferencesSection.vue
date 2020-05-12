@@ -1,8 +1,8 @@
 <template>
-  <section class="section section--wide section--blue section--centered">
+  <section class="section section--wide section--blue section--centered section--references">
     <header class="section__header header--default">
         <h5 class="section__subtitle">Reference</h5>
-        <h2 class="section__title references__title title--big">Naši<br/>partneři</h2>
+        <h2 class="section__title references__title title--big">Naši <br class="breakline"/>partneři</h2>
     </header>
     <main class="section__content">
         <p class="section__content__text">Realizujeme zakázky napříč celou republikou. Podívejte se, kterým firmám, organizacím a institucím už jsme pomohli vyřešit problémy s potrubím.</p>
@@ -49,4 +49,52 @@ export default {
 
     .section
         margin-bottom 168px
+    
+    .section__content
+        display flex
+        flex-direction column
+
+    @media (max-width: 1180px)
+        .section
+            margin-bottom 32px
+
+        .breakline
+            display none
+
+        .references
+            position relative
+            top 0
+            left 0
+            order 1
+
+        .button.button--red
+            order 3
+            margin-top 16px
+            align-self center
+
+        .section__content
+            align-items center
+
+        .section__content__text
+            margin-top 32px
+            order 2
+            max-width 36rem
+
+        .references__masonry
+            margin-left 0
+            align-items center
+
+        .section__header
+            width auto
+
+        .section__subtitle
+            text-align center
+    
+    @media (max-width: 760px)
+        .references__masonry
+            max-height none
+
+        .reference__link
+            margin-top 24px
+
 </style>

@@ -1,9 +1,9 @@
-<header class="page-header page-header--block">
+<header class="page-header page-header--block page-header--contact">
     <h2 class="page-section__subtitle">Kontakt</h2>
     <h1 class="page-section__title">Kde nás najdete?</h1>
 </header>
 
-<section class="section section--centered">
+<section class="section section--centered section--contact">
     <main class="section__content contact-content">
         <div class="contact-address">
         <h6 class="address-company-name">BMH spol. s r. o.</h6>
@@ -23,12 +23,12 @@
     </main>
 </section>
 
-<header class="page-header page-header--block contact-us">
+<header class="page-header page-header--block page-header--contact contact-us">
     <h2 class="page-section__subtitle">Kontakt</h2>
     <h1 class="page-section__title">Napište nám</h1>
 </header>
 
-<section class="section section--centered">
+<section class="section section--centered section--contact">
     <main class="section__content">
         <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
         <div class="hidden-field">

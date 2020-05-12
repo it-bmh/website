@@ -65,10 +65,11 @@ export default {
 
     .contact.contact--no-margin-top
         margin-top 0
-    
+
     .contact__content
         width 100%
         max-width $pageMaxWidth
+        margin 0 32px
 
     .contact__group
         position relative
@@ -155,6 +156,20 @@ export default {
         flex-flow row
         flex-wrap wrap
 
+    @media (max-width: 920px)
+        .contact__main
+            align-items center
+            flex-flow column-reverse
+
+        .contact__maps
+            margin-bottom 32px
+
+    @media (max-width: 760px)
+        .contact__header
+            text-align center
+        .contact__maps
+            margin-top 128px
+
     .contact__maps
         position relative
         display flex
@@ -162,6 +177,7 @@ export default {
         min-width 34rem
         width 34rem
         height 16rem
+        transition 500ms all ease
 
     .contact__map
         border-radius $imageCornerRadius

@@ -45,3 +45,5 @@
       :isWhite="true"
     />
 </section>
+
+<Contact/>

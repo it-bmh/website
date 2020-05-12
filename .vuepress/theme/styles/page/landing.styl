@@ -7,12 +7,20 @@
   justify-content center
   margin-bottom 2rem
 
+@media (max-width: 1500px)
+  .frontpage__header
+    overflow hidden
+
 .frontpage__header__content
   position relative
   display flex
   flex auto
   flex-flow column
   max-width $pageMaxWidth
+
+@media (max-width: 1180px)
+  .frontpage__header__content
+    margin 0 32px
 
 .frontpage__header__jsme-specialiste
   height 179px
@@ -26,6 +34,17 @@
   margin-top 2.5rem
   margin-bottom 1rem
 
+@media (max-width: 570px)
+  .frontpage__header__jsme-specialiste
+    height auto
+    width auto
+    font-size 2rem
+    line-height 40px
+
+@media (max-width: 760px)
+  .frontpage__header__jsme-specialiste
+    margin-left 64px
+
 .frontpage__header__uz-temer-30-let
   height 104px
   width 475px
@@ -36,6 +55,10 @@
   letter-spacing 0.5px
   line-height 1.5rem
   margin-bottom 2rem
+
+@media (max-width: 760px)
+  .frontpage__header__uz-temer-30-let
+    margin-left 64px
 
 .frontpage__header__button--kontaktujte-nas
   display flex
@@ -60,11 +83,28 @@
     background-color #ffffff
     color $redColor
 
+@media (max-width: 760px)
+  .frontpage__header__button--kontaktujte-nas
+    margin-left 64px
+
 .frontpage__header__img
   position absolute
   border-radius $imageCornerRadius
   right -12rem
   bottom -2rem
+  transition 500ms all ease
+
+@media (max-width: 1500px)
+  .frontpage__header__img
+    bottom 2rem
+
+@media (max-width: 1180px)
+  .frontpage__header__img
+    left 32rem
+    
+@media (max-width: 760px)
+  .frontpage__header__img
+    display none
 
 .frontpage__content
   display flex
@@ -108,128 +148,6 @@
   margin-left 4rem
   z-index 1
 
-.service-link
-  width 1092px
-  display flex
-  flex-flow row
-  position relative
-  margin-bottom 6rem
-
-.service-link--image-left
-  margin-left 18px
-  justify-content flex-end
-
-.service-link--image-right
-  margin-right 18px
-  justify-content flex-start
-
-.service-link__header
-  position absolute
-  display flex
-
-.service-link--image-left .service-link__header
-  top 0
-  left 0
-  order 1
-
-.service-link--image-right .service-link__header
-  top 0
-  right 0
-  order 3
-
-.service-link__img
-  position relative
-  z-index 1
-  order 2
-  border-radius $imageCornerRadius
-
-.service-link--image-left .service-link__img
-  top 2.25rem
-  left 1.8rem
-
-.service-link--image-right .service-link__img
-  top 2.25rem
-  right 1.8rem
-
-.service-link__title
-  width 505px
-  color #F2F2F2
-  font-size 2.5rem
-  font-weight 700
-  text-transform uppercase
-  letter-spacing 0.01px
-  display inline-block
-  position relative
-  text-align center
-  transform-origin center center
-  top 10.5rem
-
-.service-link--image-left .service-link__title
-  transform rotate(270deg)
-  left -13rem
-
-.service-link--image-right .service-link__title
-  transform rotate(90deg)
-  right -13rem
-
-.service-link__content
-  box-sizing border-box
-  border-radius 5px
-
-.service-link--image-left .service-link__content
-  order 3
-  padding 1.5rem 1.5rem 1.5rem 7.5rem
-
-.service-link--image-right .service-link__content
-  order 1
-  padding 1.5rem 6rem 1.5rem 6rem
-
-//custom visual tweaks
-.service-link--vodovody .service-link__content
-  padding 1.5rem 2rem 1.5rem 6rem
-
-.service-link__img
-  width 505px
-
-.service-link__content
-  box-sizing border-box
-  width 570px
-
-.service-link__content.service-link--kanalizace
-  height 300px
-
-.service-link__content.service-link--vodovody
-  height 324px
-
-.service-link__content__header
-  font-weight 600
-  font-size 30px
-  letter-spacing 0.07px
-  line-height 48px
-  margin-bottom 0.75rem
-
-.service-link__content__text
-  font-size 1rem
-  letter-spacing 0.5px
-  line-height 1.5rem
-  margin-bottom 2.25rem
-  max-width 380px
-
-.service-link__content__cta
-  display inline-flex
-  justify-content center
-  align-items center
-  height 48px
-  width 190px
-  border-radius 5px
-  font-size 1rem
-  font-weight 700
-  letter-spacing 0.06px
-  line-height 1.5rem
-  text-transform uppercase
-  cursor pointer
-  transition all 150ms ease
-
 .section__content__cta
   display inline-flex
   justify-content center
@@ -248,43 +166,6 @@
   color #ffffff
   background-color #FF3037
   border 2px solid #FF3037
-
-.service-link--white .service-link__content
-  background-color #ffffff
-  border 2px solid #F2F2F2
-
-.service-link--white .service-link__content__header
-  color #000000
-
-.service-link--white .service-link__content__text
-  color #121212
-
-.service-link--white .service-link__content__cta
-  color #000000
-  border 2px solid #FF3037
-
-.service-link--white .service-link__content__cta:hover
-  color #ffffff
-  border 2px solid transparent
-  background-color #FF3037
-
-.service-link--blue .service-link__content
-  background-color #00027D
-  border 2px solid #00027D
-
-.service-link--blue .service-link__content__header
-  color #ffffff
-.service-link--blue .service-link__content__text
-  color #ffffff
-
-.service-link--blue .service-link__content__cta
-  color #ffffff
-  border 2px solid #ffffff
-
-.service-link--blue .service-link__content__cta:hover
-  color #00027D
-  border 2px solid #00027D
-  background-color #ffffff
 
 .co-nabizime .section__content
   display flex

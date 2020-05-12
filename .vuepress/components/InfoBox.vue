@@ -7,13 +7,14 @@
       'info-box--white': isWhite,
       'info-box--image-big': imageBig,
       'info-box--image-small': imageSmall,
-      'info-box--dense-header': denseHeader
+      'info-box--dense-header': denseHeader,
+      'info-box--extended-header': extendedHeader
     }">
         <img class="info-box__img" :src="imageUrl" alt=""/>
         <main class="info-box__content">
             <h6 class="info-box__content__date" v-if="date">{{ formatedDate }}</h6>
             <h4 class="info-box__content__header" v-if="title">{{ title }}</h4>
-            <p class="info-box__content__text" v-if="text">{{ text }}</p>
+            <p class="info-box__content__text" v-if="text" v-html="text"></p>
             <router-link v-if="ctaUrl" :to="ctaUrl" :class="{
               'button': true,
               'button--blue': isBlue,
@@ -49,7 +50,8 @@ export default {
     'imageRight',
     'imageBig',
     'imageSmall',
-    'denseHeader'
+    'denseHeader',
+    'extendedHeader'
   ]
 }
 </script>

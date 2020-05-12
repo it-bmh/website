@@ -236,6 +236,16 @@ function flatten (items, res) {
   letter-spacing 0.5px
   line-height 1.5rem
 
+@media (max-width: 1180px)
+  .copyright__content
+    margin-left 32px
+    margin-right 32px
+
+@media (max-width: 860px)
+  .copyright__content
+    flex-flow column
+    align-items center
+
 .page-edit
   @extend $wrapper
   //padding-top 1rem

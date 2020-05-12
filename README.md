@@ -37,50 +37,49 @@ layout: FrontPage
             <h2 class="section__title title--big">Co nabízíme?</h2>
         </header>
         <main class="section__content">
-            <div class="service-link service-link--kanalizace service-link--image-left service-link--white">
-                <header class="service-link__header">
-                    <h3 class="service-link__title">Kanalizace</h3>
-                </header>
-                <img class="service-link__img" src="/img/frontpage/3.jpg" alt=""/>
-                <main class="service-link__content">
-                    <h4 class="service-link__content__header">Rekonstrukce a opravy kanalizací</h4>
-                    <p class="service-link__content__text">Provádíme bezvýkopové opravy a rekonstrukce kanalizací. Používáme k tomu rukávcové inverzní metody <b>INSAK</b> a <b>UV liner</b>. Zaměřujeme se jak na celé stavby, tak na lokální opravy a čištění kanalizací.</p>
-                    <router-link to="/sluzby/kanalizace" class="service-link__content__cta">zjistit více</router-link>
-                </main>
-            </div>
-            <div class="service-link service-link--vodovody service-link--image-right service-link--blue">
-                <header class="service-link__header">
-                    <h3 class="service-link__title">Vodovody</h3>
-                </header>
-                <img class="service-link__img" src="/img/frontpage/4.jpg" alt=""/>
-                <main class="service-link__content">
-                    <h4 class="service-link__content__header">Rekonstrukce a opravy vodovodů</h4>
-                    <p class="service-link__content__text">Opravy a rekonstrukce vodovodů realizujeme buď pomocí bezvýkopové metody cementace nebo za použití unikátního UV rukávce <b>SAERTEX-LINER H₂O</b>, který je speciálně určený k sanaci potrubí na pitnou vodu.</p>
-                    <router-link to="/sluzby/vodovody" class="service-link__content__cta">zjistit více</router-link>
-                </main>
-            </div>
-            <div class="service-link service-link--revizni-sachty service-link--image-left service-link--white">
-                <header class="service-link__header">
-                    <h3 class="service-link__title">REVIZNI ŠACHTY</h3>
-                </header>
-                <img class="service-link__img" src="/img/frontpage/5.jpg" alt=""/>
-                <main class="service-link__content">
-                    <h4 class="service-link__content__header">Rekonstrukce revizních šachet</h4>
-                    <p class="service-link__content__text">Opravujeme a rekonstruujeme revizní nebo kanalizační šachty různého typu (kruhové i hranaté s proměnlivým průřezem). Využíváme při tom inovativní bezvýkopovou technologii Vertiliner nebo klasickou zednickou metodu.</p>
-                    <router-link to="/sluzby/revizni-sachty" class="service-link__content__cta">zjistit více</router-link>
-                </main>
-            </div>
-            <div class="service-link service-link--robotika service-link--image-right service-link--blue">
-                <header class="service-link__header">
-                    <h3 class="service-link__title">ROBOTIKA</h3>
-                </header>
-                <img class="service-link__img" src="/img/frontpage/6.jpg" alt=""/>
-                <main class="service-link__content">
-                    <h4 class="service-link__content__header">Monitoring a lokální bezvýkopové opravy</h4>
-                    <p class="service-link__content__text">Vlastníme 5 unikátních robotů s nejmodernější technologií. Každý robot se specializuje na určitý druh činnosti a je na to vybaven specifickým nástrojem či kamerou. Roboty ovládá operátor z kabiny vozu.</p>
-                    <router-link to="/sluzby/monitoring-a-lokalni-opravy" class="service-link__content__cta">zjistit více</router-link>
-                </main>
-            </div>
+            <InfoBox
+                title="Rekonstrukce a opravy kanalizací"
+                text="Provádíme bezvýkopové opravy a rekonstrukce kanalizací. Používáme k tomu rukávcové inverzní metody <b>INSAK</b> a <b>UV liner</b>. Zaměřujeme se jak na celé stavby, tak na lokální opravy a čištění kanalizací."
+                ctaUrl="/sluzby/kanalizace"
+                ctaText="Zjistit více"
+                imageUrl="/img/frontpage/3.jpg"
+                :imageLeft="true"
+                :imageBig="true"
+                :isWhite="true"
+                :extendedHeader="true"
+            />
+            <InfoBox
+                title="Rekonstrukce a opravy vodovodů"
+                text="Opravy a rekonstrukce vodovodů realizujeme buď pomocí bezvýkopové metody cementace nebo za použití unikátního UV rukávce <b>SAERTEX-LINER H₂O</b>, který je speciálně určený k sanaci potrubí na pitnou vodu."
+                ctaUrl="/sluzby/vodovody"
+                ctaText="Zjistit více"
+                imageUrl="/img/frontpage/4.jpg"
+                :imageRight="true"
+                :imageBig="true"
+                :isBlue="true"
+                :extendedHeader="true"
+            />
+            <InfoBox
+                title="Rekonstrukce revizních šachet"
+                text="Opravujeme a rekonstruujeme revizní nebo kanalizační šachty různého typu (kruhové i hranaté s proměnlivým průřezem). Využíváme při tom inovativní bezvýkopovou technologii Vertiliner nebo klasickou zednickou metodu."
+                ctaUrl="/sluzby/revizni-sachty"
+                ctaText="Zjistit více"
+                imageUrl="/img/frontpage/5.jpg"
+                :imageLeft="true"
+                :imageBig="true"
+                :isWhite="true"
+                :extendedHeader="true"
+            />
+            <InfoBox
+                title="Monitoring a lokální bezvýkopové opravy"
+                text="Vlastníme 5 unikátních robotů s nejmodernější technologií. Každý robot se specializuje na určitý druh činnosti a je na to vybaven specifickým nástrojem či kamerou. Roboty ovládá operátor z kabiny vozu."
+                ctaUrl="/sluzby/monitoring-a-lokalni-opravy"
+                ctaText="Zjistit více"
+                imageUrl="/img/frontpage/6.jpg"
+                :imageRight="true"
+                :imageBig="true"
+                :isBlue="true"
+            />
         </main>
     </section>
     <ReferencesSection/>

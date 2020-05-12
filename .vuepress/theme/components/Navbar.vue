@@ -144,6 +144,14 @@ $navbar-horizontal-padding = 1.5rem
       flex: 0 0 auto
       vertical-align top
 
+@media (max-width: 1280px)
+  .navbar
+    padding 0 32px
+
+@media (max-width: 740px)
+  .navbar
+    padding 0 16px
+
 @media (max-width: $MQMobile)
   .navbar
     padding-left 4rem

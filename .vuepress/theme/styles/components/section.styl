@@ -6,6 +6,10 @@
   max-width $pageMaxWidth
   padding 2rem 0
 
+@media (max-width: 1180px)
+  .section--contact
+    margin: 0 32px;
+
 .section--blogpost
   display flex
   flex auto
@@ -48,6 +52,11 @@
   letter-spacing 2px
   line-height 3rem
   text-transform uppercase
+
+@media (max-width: 760px)
+  .section__title,
+  .section__subtitle
+    text-align center
 
 .section__title
   color: #00027D
@@ -102,3 +111,9 @@
 .section__content
   max-width $pageMaxWidth
   width 100%
+
+@media (max-width: 1180px)
+  .section__header
+    width auto
+    margin-left 32px
+    margin-right 32px

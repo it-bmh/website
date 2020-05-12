@@ -9,12 +9,16 @@ $infoBoxImageOverlap = 1.875rem
 $infoBoxHeaderHeight = 3.125rem
 
 $infoBoxContentWidth = 35.625rem
-$infoBoxContentHorizontalPadding = 5.9375rem
+$infoBoxContentHorizontalPadding = 5.8rem
 $infoBoxContentVerticalPadding = 2.5rem
 
 .info-box
   width $infoBoxWidth
   height auto
+
+@media (max-width: 1180px)
+  .info-box
+    width auto
 
 .info-box:not(:first-of-type)
   margin-top 4.5rem
@@ -92,12 +96,15 @@ $infoBoxContentVerticalPadding = 2.5rem
   font-family Cabin
   font-weight 600
   letter-spacing 0.07px
-  line-height 48px
+  line-height 3rem
   margin-bottom 0.75rem
 
 .info-box--dense-header .info-box__content__header
-  font-size 24px
-  line-height 28px
+  font-size 1.5rem
+  line-height 1.75rem
+
+.info-box--extended-header .info-box__content__header
+  margin-right -3rem
 
 .info-box__content__text
   font-family Cabin
@@ -110,10 +117,10 @@ $infoBoxContentVerticalPadding = 2.5rem
   margin-top 30px
 
 h4.info-box__content__header
-  font-size 30px
+  font-size 1.875rem
 
 h5.info-box__content__header
-  font-size 24px
+  font-size 1.5rem
 
 .info-box
   h1, h2, h3, h4, h5, h6
@@ -123,8 +130,18 @@ h5.info-box__content__header
 .info-box.info-box--image-right
   flex-flow row-reverse
 
+@media (max-width: 1180px)
+  .info-box.info-box--image-right
+    flex-flow column
+    align-items center
+
 .info-box--image-right .info-box__img
   right $infoBoxImageOverlap
+
+@media (max-width: 1180px)
+  .info-box--image-right .info-box__img
+    bottom -1rem
+    right 0
 
 .info-box--image-right .info-box__header
   transform-origin bottom right
@@ -136,8 +153,18 @@ h5.info-box__content__header
 .info-box.info-box--image-left
   flex-flow row
 
+@media (max-width: 1180px)
+  .info-box.info-box--image-left
+    flex-flow column
+    align-items center
+
 .info-box--image-left .info-box__img
   left $infoBoxImageOverlap
+
+@media (max-width: 1180px)
+  .info-box--image-left .info-box__img
+    bottom -1rem
+    left 0
 
 .info-box--image-left .info-box__header
   transform-origin bottom left
