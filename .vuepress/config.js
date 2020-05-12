@@ -5,6 +5,10 @@ module.exports = {
         hostname: 'https://bmhcz.netlify.com/',
         exclude: ['/404.html', '/test.html']
       },
+      'robots': {
+            host: 'https://bmhcz.netlify.com/',
+            sitemap: "/sitemap.xml"
+        },
     },
     head: [
       ['link', { rel: 'icon', href: '/logo.png' }]
