@@ -1,15 +1,39 @@
 <template>
-<div>
-    <div v-for="post in posts">
-        <h2>
-            <router-link :to="post.path">{{ post.frontmatter.title }}</router-link>
-        </h2>
-        
-        <p>{{ post.frontmatter.description }}</p>
+    <section class="section section--wide section--centered">
+        <div v-for="(post, index) in posts">
+            <InfoBox
+                :title="post.frontmatter.title"
+                :text="post.frontmatter.description"
+                :date="post.frontmatter.date"
+                :ctaUrl="post.path"
+                ctaText="Číst více"
+                :imageUrl="post.frontmatter.image"
 
-        <p><router-link :to="post.path">{{ readmore }}</router-link></p>
-    </div>
-</div>
+                :imageLeft="true"
+                :imageBig="true"
+                :isWhite="true"
+                :denseHeader="true"
+                
+                v-if="((index+1)%2)?true:false"
+            />
+
+            <InfoBox
+                :title="post.frontmatter.title"
+                :text="post.frontmatter.description"
+                :date="post.frontmatter.date"
+                :ctaUrl="post.path"
+                ctaText="Číst více"
+                :imageUrl="post.frontmatter.image"
+
+                :imageRight="true"
+                :imageBig="true"
+                :isBlue="true"
+                :denseHeader="true"
+
+                v-else
+            />
+        </div>
+    </section>
 </template>
 
 <script>

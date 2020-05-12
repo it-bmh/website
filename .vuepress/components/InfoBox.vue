@@ -11,8 +11,9 @@
     }">
         <img class="info-box__img" :src="imageUrl" alt=""/>
         <main class="info-box__content">
-            <h4 class="info-box__content__header">{{ title }}</h4>
-            <p class="info-box__content__text">{{ text }}</p>
+            <h6 class="info-box__content__date" v-if="date">{{ formatedDate }}</h6>
+            <h4 class="info-box__content__header" v-if="title">{{ title }}</h4>
+            <p class="info-box__content__text" v-if="text">{{ text }}</p>
             <router-link v-if="ctaUrl" :to="ctaUrl" :class="{
               'button': true,
               'button--blue': isBlue,
@@ -23,13 +24,25 @@
 </template>
 
 <script>
+import moment from 'moment';
+
 export default {
+  computed: {
+    formatedDate() {
+      if(this.date){
+        return moment(String(this.date)).format('DD.MM.YYYY');
+      } else {
+        return '';
+      }
+    }
+  },
   props: [
     'title',
     'text',
     'imageUrl',
     'ctaUrl',
     'ctaText',
+    'date',
     'isBlue',
     'isWhite',
     'imageLeft',

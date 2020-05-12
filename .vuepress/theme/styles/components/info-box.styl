@@ -29,6 +29,12 @@ $infoBoxContentVerticalPadding = 2.5rem
   width $infoBoxContentWidth
   height auto
 
+.info-box h6.info-box__content__date
+  font-weight 500
+  font-size 16px
+  line-height 24px
+  margin-bottom 12px
+
 .info-box__img
   width $infoBoxImageWidth
   height auto
@@ -144,11 +150,17 @@ h5.info-box__content__header
   background-color $accentColor
   color $whiteColor
 
+.info-box--blue .info-box__content__date
+  color $whiteColor
+
 //WHITE
 .info-box--white .info-box__content
   background-color $whiteColor
   color $textColor
   border 1px solid $shadeColor
+
+.info-box--white .info-box__content__date
+  color $accentLightColor
 
 .info-box .button
   margin-top 24px

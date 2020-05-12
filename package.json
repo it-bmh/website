@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/it-bmh/website#readme",
   "dependencies": {
+    "moment": "^2.25.3",
     "vuepress": "^1.0.2",
     "vuepress-plugin-robots": "^1.0.1",
     "vuepress-plugin-sitemap": "^2.3.1"
