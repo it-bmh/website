@@ -30,7 +30,9 @@
       }"/>
     </section>
 
-    <Contact/>
+    <section class="section section--wide">
+      <Contact/>
+    </section>
 
     <slot name="bottom"/>
     <div class="copyright">

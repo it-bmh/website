@@ -16,7 +16,7 @@
                     </section>
                     <section class="contact__social-media">
                         Sledujte nás na
-                        <a target="_blank" class="contact__social-media__link" href="https://www.linkedin.com/company/bmh-spol-s-r-o/"><img src="/img/linkedin.png" alt=""></a>
+                        <a target="_blank" class="contact__social-media__link" href="https://www.linkedin.com/company/bmh-spol-s-r-o/"><img src="/img/linkedin.svg" alt=""></a>
                         <!-- <a class="contact__social-media__link"><img src="/img/twitter.svg" alt=""></a> -->
                     </section>
                 </div>
