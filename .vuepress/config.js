@@ -2,11 +2,11 @@ module.exports = {
     title: "BMH spol. s r.o.",
     plugins: {
       'sitemap': {
-        hostname: 'https://bmhcz.netlify.com/',
+        hostname: 'https://bmh.cz/',
         exclude: ['/404.html', '/test.html']
       },
       'robots': {
-            host: 'https://bmhcz.netlify.com/',
+            host: 'https://bmh.cz/',
             sitemap: "/sitemap.xml"
         },
     },
