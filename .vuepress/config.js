@@ -1,4 +1,5 @@
 module.exports = {
+    title: "BMH spol. s r.o.",
     plugins: {
       'sitemap': {
         hostname: 'https://bmhcz.netlify.com/',
