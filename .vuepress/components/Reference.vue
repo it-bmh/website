@@ -44,6 +44,7 @@ $referenceWidthLarge = 445px
   flex-flow column
   justify-content flex-end
   align-items center
+  margin 16px
 
 .refrence__image-wrapper
   height 100%
@@ -79,6 +80,10 @@ $referenceWidthLarge = 445px
   height 348px
   width $referenceWidthLarge
 
+@media (max-width: 980px)
+  .reference--large .reference__img
+    max-width ($referenceWidthMedium - (2 * $referencePadding))
+    
 .reference__name
   color $blueColor
   font-family Cabin
