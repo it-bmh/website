@@ -5,7 +5,7 @@
 
 <section class="page-paragraph">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Při sanaci kanalizačního potrubí využíváme dvě unikátní bezvýkopové metody: INSAK a UV liner. Obě metody jsou založené na použití textilního rukávce, který je napuštěn speciální směsí pryskyřice. Po vytvrzení rukávce polymerací (INSAK) nebo UV lampou (UV liner) se ve staré kanalizaci vytvoří nové samonosné potrubí. Obě technologie zlepšují hydraulické parametry potrubí, které pak lépe odolává abrazi i působení chemikálií a nepraská ani v pohyblivých půdách.</p>
+        <p class="page-paragraph__text">Při sanaci kanalizačního potrubí využíváme dvě unikátní bezvýkopové metody: INSAK a UV liner. Obě metody jsou založené na použití rukávce, který je napuštěn speciální směsí pryskyřice. Po vytvrzení rukávce polymerací (INSAK) nebo UV lampou (UV liner) se ve staré kanalizaci vytvoří nové samonosné potrubí. Obě technologie zlepšují hydraulické parametry potrubí, které pak lépe odolává abrazi i působení chemikálií a nepraská ani v pohyblivých půdách.</p>
     </main>
 </section>
 

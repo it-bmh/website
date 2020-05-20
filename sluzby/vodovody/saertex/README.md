@@ -48,7 +48,7 @@
 
 <section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Bezešvý rukávec SAERTEX-LINER H₂O ze skelných vláken, která mají strukturu mřížky, se při výrobě napustí polyesterovou nebo vinylesterovou pryskyřicí.  Tento rukávec se vtáhne do očištěného potrubí a pomocí UV lamp se pryskyřice vytvrdí. Tím vznikne zcela nové samonosné potrubí. Instalace rukávce probíhá rychle a šetrně k okolí.</p>
+        <p class="page-paragraph__text">Bezešvý rukávec SAERTEX-LINER H₂O ze skelných vláken, která mají strukturu mřížky, se při výrobě napustí vinylesterovou pryskyřicí bez styrenu. Tento rukávec se vtáhne do očištěného potrubí a pomocí UV lamp se pryskyřice vytvrdí. Tím vznikne zcela nové samonosné potrubí. Instalace rukávce probíhá rychle a šetrně k okolí.</p>
     </main>
 </section>
 

@@ -7,15 +7,14 @@
     <main class="section__content contact-content">
         <div class="contact-address">
         <h6 class="address-company-name">BMH spol. s r. o.</h6>
-        <span class="address-line">Ondřejova 592/11A</span>
+        <span class="address-line">Ondřejova 592/11a</span>
         <span class="address-line">779 00 Olomouc</span>
         <span class="address-line">IČ: 42869668</span>
         <br>
         <span class="address-signed">Zapsána u Krajského soudu v Ostravě, oddíl C, vložka 1897</span>
         <br>
         <br>
-        <span class="address-line">+420 585 313 549</span>
-        <span class="address-line">+420 585 314 997</span>
+        <span class="address-line">+420 585 313 549 (7:00 - 15:00)</span>
         <br>
         <span class="address-line">bmh@bmh.cz</span>
         </div>

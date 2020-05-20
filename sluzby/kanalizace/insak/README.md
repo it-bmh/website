@@ -53,7 +53,7 @@ metodou INSAK"
 </header>
 <section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Do očištěného kanalizačního potrubí se pomocí hydrostatického tlaku vody nebo horké páry zavede poddajný rukávec tvořený jednou nebo několika vrstvami netkané textilie ze syntetických vláken. Rukávec je napuštěný vhodně formovanou pryskyřicí. Tato textilní vložka se vytvrdí polymerací a v poškozené kanalizaci tak vznikne zcela nové potrubí z tvrzeného plastu. Instalace rukávce probíhá rychle a šetrně k okolí.</p>
+        <p class="page-paragraph__text">Do očištěného kanalizačního potrubí se pomocí hydrostatického tlaku vody nebo tlaku vzduchu zavede poddajný rukávec tvořený jednou nebo několika vrstvami netkané textilie ze syntetických vláken. Rukávec je napuštěný vhodně formovanou pryskyřicí. Tato textilní vložka se vytvrdí polymerací a v poškozené kanalizaci tak vznikne zcela nové potrubí z tvrzeného plastu. Instalace rukávce probíhá rychle a šetrně k okolí.</p>
     </main>
 </section>
 

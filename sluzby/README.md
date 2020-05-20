@@ -6,7 +6,7 @@
 <section class="section section--wide section--centered">
     <InfoBox
       title="Rekonstrukce a opravy kanalizací"
-      text="Provádíme bezvýkopové opravy a rekonstrukce kanalizací. Používáme k tomu rukávcové inverzní metody INSAK a UV liner. Zaměřujeme se jak na celé stavby, tak na lokální opravy a čištění kanalizací."
+      text="Provádíme bezvýkopové opravy a rekonstrukce kanalizací. Používáme k tomu rukávcové metody INSAK a UV liner. Zaměřujeme se jak na celé stavby, tak na lokální opravy a čištění kanalizací."
       ctaUrl="/sluzby/kanalizace"
       ctaText="Zjistit více"
       imageUrl="/img/frontpage/3.jpg"

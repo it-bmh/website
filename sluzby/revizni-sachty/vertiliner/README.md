@@ -31,7 +31,7 @@
 
 <section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Textilní rukávec pro metodu Vertiliner tvoří několik vrstev skelných vláken, které jsou nasyceny speciální pryskyřicí a tvrzeny světlem.  Vnější stranu vložky pokrývá vodě odpudivá těsnicí fólie, která nepropouští UV záření. Uvnitř rukávce se nachází světlo propustná fólie, která se po instalaci rukávce odstraní.</p>
+        <p class="page-paragraph__text">Rukávec pro metodu Vertiliner tvoří několik vrstev skelných vláken, které jsou nasyceny speciální pryskyřicí a tvrzeny světlem.  Vnější stranu vložky pokrývá vodě odpudivá těsnicí fólie, která nepropouští UV záření. Uvnitř rukávce se nachází světlo propustná fólie, která se po instalaci rukávce odstraní.</p>
     </main>
 </section>
 
@@ -41,7 +41,7 @@
 
 <section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Metoda Vertiliner pracuje se stejným principem jako klasické vložkování potrubí. Do revizní šachty se vsune na míru vyrobený textilní rukávec protkaný skelnými vlákny, který je napuštěn speciální pryskyřicí. Rukávec se natlakuje a působením UV lamp se pryskyřice obsažená ve stěnách vložky vytvrdí ve velmi pevný sklolaminát. Stěny nevyhovující šachty tak dostanou nový samonosný plášť.</p>
+        <p class="page-paragraph__text">Metoda Vertiliner pracuje se stejným principem jako klasické vložkování potrubí. Do revizní šachty se vsune na míru vyrobený rukávec ze skelných vláken, který je napuštěn speciální pryskyřicí. Rukávec se natlakuje a působením UV lamp se pryskyřice obsažená ve stěnách vložky vytvrdí ve velmi pevný sklolaminát. Stěny nevyhovující šachty tak dostanou nový samonosný plášť.</p>
     </main>
 </section>
 

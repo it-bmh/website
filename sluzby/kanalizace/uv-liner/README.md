@@ -55,7 +55,7 @@
 
 <section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Bezešvý textilní rukávec, kterým prostupují skelná vlákna nasycená polyesterovou nebo vinylesterovou pryskyřicí, se vtáhne do sanovaného potrubí a natlakuje vzduchem. Pomocí UV lamp se pryskyřice obsažená v rukávci vytvrdí. Ve staré kanalizaci tak vznikne úplně nové plastové potrubí, jež je samonosné.</p>
+        <p class="page-paragraph__text">Bezešvý rukávec ze skelných vláken, který ke nasycen polyesterovou nebo vinylesterovou pryskyřicí, se vtáhne do sanovaného potrubí a natlakuje vzduchem. Pomocí UV lamp se pryskyřice obsažená v rukávci vytvrdí. Ve staré kanalizaci tak vznikne úplně nové plastové potrubí, jež je samonosné.</p>
     </main>
 </section>
 

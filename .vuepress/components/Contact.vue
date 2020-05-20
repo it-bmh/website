@@ -9,7 +9,6 @@
                 <div class="contact__group">
                     <section class="contact__phones">
                         <span class="contact__phone__wrapper"><a class="contact__phone" href="tel:+420585313549">+420 585 313 549</a> (7:00 - 15:00)</span>
-                        <span class="contact__phone__wrapper"><a class="contact__phone" href="tel:+420585314997">+420 585 314 997</a> (7:00 - 15:00)</span>
                     </section>
                     <section class="contact__mails">
                         <a class="contact__mail" href="mailto:bmh@bmh.cz">bmh@bmh.cz</a>

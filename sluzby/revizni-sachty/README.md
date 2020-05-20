@@ -5,7 +5,7 @@
 
 <section class="page-paragraph">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Revizní a kanalizační šachty opravujeme buď klasickou zednickou prací, anebo prostřednictvím unikátní bezvýkopové technologie Vertiliner. Tato metoda funguje na principu vytvrzení formované pryskyřice v textilním rukávci se skelnými vlákny. Vytvrzení probíhá pomocí UV paprsku. Metoda Vertiliner je rychlá, čistá a šetrná k životnímu prostředí. Takto sanovaná šachta má životnost až 100 let.</p>
+        <p class="page-paragraph__text">Revizní a kanalizační šachty opravujeme buď klasickou zednickou prací, anebo prostřednictvím unikátní bezvýkopové technologie Vertiliner. Tato metoda funguje na principu vytvrzení formované pryskyřice v rukávci se skelnými vlákny. Vytvrzení probíhá pomocí UV paprsku. Metoda Vertiliner je rychlá, čistá a šetrná k životnímu prostředí. Takto sanovaná šachta má životnost až 100 let.</p>
     </main>
 </section>
 
@@ -16,7 +16,7 @@
 <section class="section section--wide section--centered">
     <InfoBox
       title="Bezvýkopová rekonstrukce revizních šachet metodou Vertiliner"
-      text="Tato metoda funguje na principu vytvrzení formované pryskyřice v textilním rukávci se skelnými vlákny. Metoda Vertiliner je rychlá a šetrná k životnímu prostředí. Takto sanovaná šachta má životnost až 100 let."
+      text="Tato metoda funguje na principu vytvrzení formované pryskyřice v rukávci se skelnými vlákny. Metoda Vertiliner je rychlá a šetrná k životnímu prostředí. Takto sanovaná šachta má životnost až 100 let."
       ctaUrl="/sluzby/revizni-sachty/vertiliner"
       ctaText="Zjistit více"
       imageUrl="/img/sluzby/revizni-sachty/1.png"

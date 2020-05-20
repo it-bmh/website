@@ -39,7 +39,7 @@ layout: FrontPage
         <main class="section__content">
             <InfoBox
                 title="Rekonstrukce a opravy kanalizací"
-                text="Provádíme bezvýkopové opravy a rekonstrukce kanalizací. Používáme k tomu rukávcové inverzní metody <b>INSAK</b> a <b>UV liner</b>. Zaměřujeme se jak na celé stavby, tak na lokální opravy a čištění kanalizací."
+                text="Provádíme bezvýkopové opravy a rekonstrukce kanalizací. Používáme k tomu rukávcové metody <b>INSAK</b> a <b>UV liner</b>. Zaměřujeme se jak na celé stavby, tak na lokální opravy a čištění kanalizací."
                 ctaUrl="/sluzby/kanalizace"
                 ctaText="Zjistit více"
                 imageUrl="/img/frontpage/3.jpg"
