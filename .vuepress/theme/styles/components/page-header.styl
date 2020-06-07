@@ -5,6 +5,11 @@
   margin 2.25rem 0
   box-sizing border-box
 
+@media only screen and (max-width : 414px)
+  .page-header
+    margin-top 2rem
+    margin-bottom 1rem
+
 .page-header--bottom-margin-small
   margin-bottom 1rem
 
@@ -41,6 +46,11 @@ h1.page-header__title
   letter-spacing 0.11px
   line-height 4.5rem
 
+@media only screen and (max-width : 414px)
+  h1.page-header__title
+    line-height 3rem
+    margin 16px 0
+
 @media (max-width: 1180px)
   .page-header.page-header--contact
     padding-right 32px
@@ -60,6 +70,14 @@ h3.page-header__category
   letter-spacing 0.24px
   line-height 36px
   margin 16px 0
+
+.page-header__subtitle--link:active,
+.page-header__category--link:active
+  text-decoration none
+
+.page-header__subtitle--link::before,
+.page-header__category--link::before
+  content: '← '
 
 h2.page-header__subtitle.page-header__subtitle--link,
 h3.page-header__category.page-header__category--link
@@ -88,6 +106,11 @@ h3.page-header__section-title
   line-height 1.5rem
   text-transform uppercase
 
+@media only screen and (max-width : 414px)
+  h3.page-header__section-title
+    font-size 1.2rem
+    line-height 1.2rem
+
 h4.page-header__paragraph-title
   width 100%
   max-width 730px
@@ -98,3 +121,7 @@ h4.page-header__paragraph-title
   letter-spacing 0.16px
   line-height 1.5rem
   text-transform uppercase
+
+@media only screen and (max-width : 414px)
+  h4.page-header__paragraph-title
+    text-align center

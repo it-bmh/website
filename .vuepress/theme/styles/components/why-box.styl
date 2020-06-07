@@ -44,12 +44,23 @@
     margin 16px
     justify-content flex-start
 
+  .why-box.why-box--fixed-height
+    height 204px
+
   .why-box__title
     height 42px
 
   .why-box__img-box
     width 2.6rem
     height 2.6rem
+
+  .why-box--fixed-height .why-box__img-box
+    width 3rem
+    height 3rem
+
+  .why-box--fixed-height .why-box__img-box > img
+    max-width 3rem
+    max-height 3rem
 
   .why-box__img-box > img
     max-width 2.6rem

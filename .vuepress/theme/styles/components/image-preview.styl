@@ -27,3 +27,19 @@
 .image-preview--single,
 .image-preview--double
   margin-bottom 1.875rem
+
+@media only screen and (max-width : 414px)
+  .image-preview__img
+    border-radius 0
+
+  .image-preview--double .image-preview__img
+    max-width 445px
+    width calc(50% - 0.5rem)
+    border-radius 0
+  
+  .image-preview--double .image-preview__img:first-of-type
+    margin-right 0.5rem
+
+  .image-preview--single,
+  .image-preview--double
+    margin-bottom 0.5rem
