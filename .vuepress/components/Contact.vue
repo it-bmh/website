@@ -184,8 +184,8 @@ export default {
 
     @media only screen and (max-width : 414px)
         .contact__maps
-            min-width 22rem
-            width 22rem
+            min-width 20rem
+            width 20rem
             height 16rem
 
     .contact__map
