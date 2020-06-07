@@ -54,6 +54,11 @@ export default {
         display flex
         flex-direction column
 
+    @media only screen and (max-width : 414px)
+        .references
+            min-width unset
+            width auto
+
     @media (max-width: 1180px)
         .section
             margin-bottom 32px
@@ -96,5 +101,20 @@ export default {
 
         .reference__link
             margin-top 24px
+
+    @media only screen and (max-width : 414px)
+        .reference__link:nth-of-type(even),
+        .reference__link
+            margin-top 0
+            
+        .section__content__text
+            padding 0 16px
+
+        .references__masonry
+            flex-flow row wrap
+            justify-content center
+
+        .section
+            margin-bottom 0
 
 </style>

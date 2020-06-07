@@ -46,6 +46,10 @@ $referenceWidthLarge = 445px
   align-items center
   margin 16px
 
+@media only screen and (max-width : 414px)
+  .reference
+    margin 8px
+
 .refrence__image-wrapper
   height 100%
   display flex
@@ -76,6 +80,18 @@ $referenceWidthLarge = 445px
   height 312px
   width $referenceWidthMedium
 
+@media only screen and (max-width : 414px)
+  .reference--medium
+    height 156px
+    width ((350/2) - 8)px//$referenceWidthMedium
+    padding 8px
+
+@media only screen and (max-width : 414px)
+  .reference--small
+    height 156px
+    width ((350/2) - 8)px//$referenceWidthMedium
+    padding 8px
+
 .reference--large
   height 348px
   width $referenceWidthLarge
@@ -83,6 +99,13 @@ $referenceWidthLarge = 445px
 @media (max-width: 980px)
   .reference--large .reference__img
     max-width ($referenceWidthMedium - (2 * $referencePadding))
+
+@media only screen and (max-width : 414px)
+  .reference--small .reference__img,
+  .reference--medium .reference__img,
+  .reference--large .reference__img
+    max-width 100px
+    max-height 80px
     
 .reference__name
   color $blueColor
@@ -93,6 +116,11 @@ $referenceWidthLarge = 445px
   line-height 24px
   text-transform uppercase
 
+@media only screen and (max-width : 414px)
+  .reference__name
+    font-size 0.7rem
+    line-height 16px
+
 .reference__category
   color $lightGrayColor
   font-family Cabin
@@ -101,7 +129,16 @@ $referenceWidthLarge = 445px
   line-height 24px
   text-transform uppercase
 
+@media only screen and (max-width : 414px)
+  .reference__category
+      font-size 0.7rem
+      line-height 16px
+
 .reference__label
   text-align center
   margin-top $referencePadding
+
+@media only screen and (max-width : 414px)
+  .reference__label
+      margin-top 8px
 </style>

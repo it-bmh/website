@@ -6,6 +6,10 @@
   max-width $pageMaxWidth
   padding 2rem 0
 
+@media only screen and (max-width : 414px)
+  .section--narrow
+    padding 0
+
 @media (max-width: 1180px)
   .section--contact
     margin: 0 32px;
@@ -36,6 +40,11 @@
   padding 1.5rem 0
   display flex
   flex-flow column
+
+@media only screen and (max-width : 414px)
+  .section--wide
+    width 100%
+    padding 8px 0
 
 .section--centered
   display flex
@@ -87,6 +96,11 @@
   letter-spacing 0.13px
   line-height 4.5rem
 
+@media only screen and (max-width : 414px)
+  .title--big
+    font-size 2rem
+    line-height 2.2rem
+
 .title--small
   font-size 1rem
   font-weight 500
@@ -97,6 +111,10 @@
 
 .header--default
   margin-bottom 2.25rem
+
+@media only screen and (max-width : 414px)
+  .header--default
+    margin-bottom 16px
 
 .header--small
   margin-bottom 1.125rem
@@ -121,3 +139,9 @@
     width auto
     margin-left 32px
     margin-right 32px
+
+@media only screen and (max-width : 414px)
+  .section__header
+    width auto
+    margin-left 8px
+    margin-right 8px

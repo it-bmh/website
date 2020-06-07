@@ -26,12 +26,23 @@ $infoBoxContentVerticalPadding = 2.5rem
 .info-box:last-of-type
   margin-bottom 4.5rem
 
+@media only screen and (max-width : 414px)
+  .info-box:not(:first-of-type)
+    margin-top 0.5rem
+
+  .info-box:last-of-type
+    margin-bottom 0.5rem
+
 .info-box *
   box-sizing border-box
 
 .info-box__content
   width $infoBoxContentWidth
   height auto
+
+@media only screen and (max-width : 414px)
+  .info-box__content
+    width 100%
 
 .info-box h6.info-box__content__date
   font-weight 500
@@ -43,6 +54,11 @@ $infoBoxContentVerticalPadding = 2.5rem
   width $infoBoxImageWidth
   height auto
   border-radius $imageCornerRadius
+
+@media only screen and (max-width : 414px)
+  .info-box__img
+    border-radius unset
+    margin-top 0
 
 .info-box
   display flex
@@ -68,6 +84,12 @@ $infoBoxContentVerticalPadding = 2.5rem
 .info-box__img
   margin-top $infoBoxImageTopMargin
 
+@media only screen and (max-width : 414px)
+  .info-box__img
+    margin-top 8px
+    width 100%
+    max-width 100%
+
 .info-box__title
   color #F2F2F2
   font-size 2.5rem
@@ -92,6 +114,11 @@ $infoBoxContentVerticalPadding = 2.5rem
   border-radius $boxesRadius
   padding $infoBoxContentVerticalPadding $infoBoxContentHorizontalPadding
 
+@media only screen and (max-width : 414px)
+  .info-box__content
+    padding 32px 16px
+    border-radius unset
+
 .info-box__content__header
   font-family Cabin
   font-weight 600
@@ -105,6 +132,11 @@ $infoBoxContentVerticalPadding = 2.5rem
 
 .info-box--extended-header .info-box__content__header
   margin-right -3rem
+
+@media only screen and (max-width : 414px)
+  .info-box--extended-header .info-box__content__header
+    margin-right 0
+    line-height 2rem
 
 .info-box__content__text
   font-family Cabin

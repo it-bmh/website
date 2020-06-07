@@ -62,6 +62,10 @@ export default {
         padding 3rem 0
         margin-top 4rem
 
+    @media only screen and (max-width : 414px)
+        .contact
+            margin-top 0
+
     .contact.contact--no-margin-top
         margin-top 0
 
@@ -177,6 +181,12 @@ export default {
         width 34rem
         height 16rem
         transition 500ms all ease
+
+    @media only screen and (max-width : 414px)
+        .contact__maps
+            min-width 22rem
+            width 22rem
+            height 16rem
 
     .contact__map
         border-radius $imageCornerRadius

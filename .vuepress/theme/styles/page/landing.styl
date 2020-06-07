@@ -7,6 +7,11 @@
   justify-content center
   margin-bottom 2rem
 
+@media only screen and (max-width : 414px)
+  .frontpage__header
+    padding 8px
+    margin-bottom 16px
+
 @media (max-width: 1500px)
   .frontpage__header
     overflow hidden
@@ -45,6 +50,11 @@
   .frontpage__header__jsme-specialiste
     margin-left 64px
 
+@media only screen and (max-width : 414px)
+  .frontpage__header__jsme-specialiste
+    margin-left 0
+    margin-top 16px
+
 .frontpage__header__uz-temer-30-let
   height 104px
   width 475px
@@ -59,6 +69,12 @@
 @media (max-width: 760px)
   .frontpage__header__uz-temer-30-let
     margin-left 64px
+
+@media only screen and (max-width : 414px)
+  .frontpage__header__uz-temer-30-let
+    margin-left 0
+    height auto
+    width auto
 
 .frontpage__header__button--kontaktujte-nas
   display flex
@@ -86,6 +102,10 @@
 @media (max-width: 760px)
   .frontpage__header__button--kontaktujte-nas
     margin-left 64px
+
+@media only screen and (max-width : 414px)
+  .frontpage__header__button--kontaktujte-nas
+    margin-left 0
 
 .frontpage__header__img
   position absolute
@@ -171,3 +191,8 @@
   display flex
   flex-flow column
   justify-content center
+
+@media only screen and (max-width : 414px)
+  .proc-zvolit-bezvykopovou-metodu,
+  .section--references
+    display none

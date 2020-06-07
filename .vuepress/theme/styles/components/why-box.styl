@@ -6,6 +6,8 @@
   width 190px
   margin 2rem
 
+  justify-content: center;
+
 .why-box--fixed-height
   height 228px
 
@@ -34,3 +36,21 @@
   line-height 1.125rem
   text-align center
   margin-top 0.75rem
+
+@media only screen and (max-width : 414px)
+  .why-box
+    width 140px
+    height 160px
+    margin 16px
+    justify-content flex-start
+
+  .why-box__title
+    height 42px
+
+  .why-box__img-box
+    width 2.6rem
+    height 2.6rem
+
+  .why-box__img-box > img
+    max-width 2.6rem
+    max-height 2.6rem

@@ -246,6 +246,14 @@ function flatten (items, res) {
     flex-flow column
     align-items center
 
+@media only screen and (max-width : 414px)
+  .copyright
+    height 2rem
+
+  .copyright__content
+    font-size 0.6rem
+    line-height 1rem
+
 .page-edit
   @extend $wrapper
   //padding-top 1rem
