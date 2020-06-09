@@ -52,7 +52,9 @@ export default {
     background-color $accentColor
     position absolute
     margin-top $navbarHeight
+    min-height -webkit-fill-available
     height (100.1vh - 2*$navbarHeight)
+    min-width -webkit-fill-available
     width 100vw
     z-index 100
     .nav-links
