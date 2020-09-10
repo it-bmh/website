@@ -35,7 +35,7 @@
                         <iframe class="contact__map" src="https://en.frame.mapy.cz/s/nokomopame" frameborder="0"></iframe>
                         <address class="contact__address">
                             <h6 class="contact__company">B M H spol. s r.o.</h6>
-                            <p class="contact__address__text">Ondřejova 592/11A<br/>779 00 Olomouc<br/>IČ: 42869668</p>
+                            <p class="contact__address__text">Ondřejova 592/11A<br/>779 00 Olomouc<br/>IČ: 42869668<br/>DIČ: CZ42869668</p>
                         </address>
                     </section>
                 </div>

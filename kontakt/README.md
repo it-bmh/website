@@ -10,6 +10,7 @@
         <span class="address-line">Ondřejova 592/11a</span>
         <span class="address-line">779 00 Olomouc</span>
         <span class="address-line">IČ: 42869668</span>
+        <span class="address-line">DIČ: CZ42869668</span>
         <br>
         <span class="address-signed">Zapsána u Krajského soudu v Ostravě, oddíl C, vložka 1897</span>
         <br>
