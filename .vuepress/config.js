@@ -2,7 +2,7 @@ module.exports = {
     title: "BMH spol. s r.o.",
     plugins: {
       'google-analytics': {
-          'ga': '' // UA-00000000-0
+          'ga': 'UA-177614826-1'
       },
       'sitemap': {
         hostname: 'https://bmh.cz/',
