@@ -21,7 +21,7 @@
 
 <section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Cementace je vhodná pro bezvýkopové sanace potrubí o průměru DN 80 – 2 200 mm. Sanovaná potrubí mohou být ocelová, litinová i azbestocementová.</p>
+        <p class="page-paragraph__text">Cementace je vhodná pro bezvýkopové sanace potrubí o průměru DN 200 – 1 200 mm. Sanovaná potrubí mohou být ocelová, litinová i azbestocementová.</p>
     </main>
 </section>
 
@@ -31,7 +31,7 @@
 
 <section class="page-paragraph page-paragraph--with-title">
     <main class="page-paragraph__content">
-        <p class="page-paragraph__text">Sanační cementační směs se aplikuje na očištěný vnitřní povrch potrubí, a to za pomoci vlečného stroje, který díky rotační hlavě umožňuje použití v potrubích o průměru DN 80 – 2 200 mm. Standardně se cementová stěrka nanáší v tloušťce 3–12 mm, ale tloušťku upravujeme i na přání zákazníka. Bezvýkopové práce metodou cementace probíhají rychle a jsou šetrné k okolí.</p>
+        <p class="page-paragraph__text">Sanační cementační směs se aplikuje na očištěný vnitřní povrch potrubí, a to za pomoci vlečného stroje, který díky rotační hlavě umožňuje použití v potrubích o průměru DN 200 – 1 200 mm. Standardně se cementová stěrka nanáší v tloušťce 3–12 mm, ale tloušťku upravujeme i na přání zákazníka. Bezvýkopové práce metodou cementace probíhají rychle a jsou šetrné k okolí.</p>
     </main>
 </section>
 
