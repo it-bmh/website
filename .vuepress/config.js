@@ -1,8 +1,11 @@
 module.exports = {
     title: "BMH spol. s r.o.",
     plugins: {
+      'seo': {
+        siteTitle: (_, $site) => $site.title,
+      },
       'google-analytics': {
-          'ga': 'UA-177614826-1'
+          'ga': 'UA-177430055-1'
       },
       'sitemap': {
         hostname: 'https://bmh.cz/',
