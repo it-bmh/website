@@ -1,4 +1,5 @@
 ---
+layout: BlogPost
 lang: cs-CZ
 title: Co dokáže kanalizační robot při rekonstrukci potrubí?
 date: 2020-08-19

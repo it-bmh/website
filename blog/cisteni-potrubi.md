@@ -1,4 +1,5 @@
 ---
+layout: BlogPost
 lang: cs-CZ
 title: Proč a jak je důležité čištění potrubí?
 date: 2020-09-30

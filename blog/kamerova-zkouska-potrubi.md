@@ -1,4 +1,5 @@
 ---
+layout: BlogPost
 lang: cs-CZ
 title: Kdy je vhodná kamerová zkouška potrubí?
 date: 2020-09-02
