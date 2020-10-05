@@ -1,8 +1,8 @@
 ---
 lang: cs-CZ
 title: Proč a jak je důležité čištění potrubí?
-date: 2020-07-08
-image: /img/blogposts/1.png
+date: 2020-09-30
+image: /img/blogposts/cisteni_potrubi.png
 description:
     Řešíte problémy s kanalizací? Potřebujete čištění potrubí? ✔ Přečtěte si, proč je čištění potrubí důležité a jaké další práce jsou s ním spojené. 
 tags: [

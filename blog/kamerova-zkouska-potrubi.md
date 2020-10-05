@@ -1,8 +1,8 @@
 ---
 lang: cs-CZ
 title: Kdy je vhodná kamerová zkouška potrubí?
-date: 2020-07-01
-image: /img/blogposts/1.png
+date: 2020-09-02
+image: /img/blogposts/kamerova_zkouska_potrubi.png
 description:
     Objevili jste příznaky závady na kanalizaci? ✔ Nechte nejprve provést kamerovou zkoušku potrubí. ✔ Přečtěte si, jak probíhá a co všechno zvládnou moderní kamery a roboty. 
 tags: [

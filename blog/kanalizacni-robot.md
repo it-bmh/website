@@ -1,8 +1,8 @@
 ---
 lang: cs-CZ
 title: Co dokáže kanalizační robot při rekonstrukci potrubí?
-date: 2020-06-20
-image: /img/blogposts/1.png
+date: 2020-08-19
+image: /img/blogposts/kanalizacni_roboty.png
 description:
     Spolehněte se při revizi a opravách odpadního potrubí na kanalizační roboty ✔ Přečtěte si na blogu, kde je možné je použít a jaké typy prací zvládnou. 
 tags: [

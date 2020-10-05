@@ -1,21 +1,21 @@
 module.exports = {
     title: "BMH spol. s r.o.",
-    plugins: {
-      'seo': {
+    plugins: [
+      ['seo', {
         siteTitle: (_, $site) => $site.title,
-      },
-      'google-analytics': {
-          'ga': 'UA-177430055-1'
-      },
-      'sitemap': {
+      }],
+      ['@vuepress/plugin-google-analytics', {
+        'ga': 'UA-177430055-1'
+      }],
+      ['sitemap', {
         hostname: 'https://bmh.cz/',
         exclude: ['/404.html', '/test.html']
-      },
-      'robots': {
-            host: 'https://bmh.cz/',
-            sitemap: "/sitemap.xml"
-      },
-    },
+      }],
+      ['robots', {
+        host: 'https://bmh.cz/',
+        sitemap: "/sitemap.xml"
+      }]
+    ],
     head: [
       ['link', { rel: 'icon', href: '/logo.png' }]
     ],

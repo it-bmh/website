@@ -2,8 +2,8 @@
 layout: BlogPost
 lang: cs-CZ
 title: Vložkování odpadního potrubí sanačním rukávcem
-date: 2020-06-14
-image: /img/blogposts/1.png
+date: 2020-07-22
+image: /img/blogposts/sanacni_rukavec.png
 description:
     Proč dát při opravách kanalizace přednost vložkování odpadního potrubí sanačním rukávcem před klasickým výkopem? ✔ Jaké jsou výhody, nevýhody a speciální metody? Čtěte na blogu.
 tags: [

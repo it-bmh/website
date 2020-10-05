@@ -2,8 +2,8 @@
 layout: BlogPost
 lang: cs-CZ
 title: Kdy využít monitoring kanalizace a jak probíhá? 
-date: 2020-07-15
-image: /img/blogposts/1.png
+date: 2020-08-05
+image: /img/blogposts/monitoring_kanalizace.png
 description:
     Trápí vás závada na potrubí a chcete zjistit příčinu? ✔ Spolehněte se na monitoring kanalizace. Zjistěte, jaké má výhody a jak probíhá.
 tags: [

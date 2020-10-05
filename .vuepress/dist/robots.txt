@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
-Sitemap: https:/bmhcz.netlify.com/sitemap.xml
-Host: https://bmhcz.netlify.com
+Sitemap: https:/bmh.cz/sitemap.xml
+Host: https://bmh.cz

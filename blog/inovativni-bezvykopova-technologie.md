@@ -1,8 +1,8 @@
 ---
 layout: BlogPost
 title: Jak inovativní bezvýkopová technologie Vertiliner pro rekonstrukci revizních šachet pomáhá v praxi
-date: 2020-05-11
-image: /img/blogposts/1.png
+date: 2020-09-16
+image: /img/blogposts/vertiliner.png
 description:
     Jak si poradit se sanací šachet v místech, kde rekonstrukce výkopem nepřipadá v úvahu?Společnost BMH s.r.o. pracuje s moderní bezvýkopovou technologii Vertiliner, která se uplatní například na křižovatkách rušných cest, v historických centrech a průmyslových areálech. Důkazem inovativnosti je nejen cena Zlatá VOD-KA 2019 za vítězný exponát, ale hlavně praktické využití.
 ---
