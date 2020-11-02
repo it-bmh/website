@@ -2,7 +2,7 @@
 layout: BlogPost
 lang: cs-CZ
 title: Oprava odpadního potrubí nebo výměna? Jaké jsou možnosti?
-date: 2020-10-22
+date: 2020-10-21
 image: /img/blogposts/opravy_odpadniho_potrubi.png
 description:
     Zjistili jste závadu na kanalizaci? Nevíte, zda je lepší výměna nebo oprava odpadního potrubí? ✔ Zjistěte, jaké máte možnosti a kdy jde využít bezvýkopové technologie.
