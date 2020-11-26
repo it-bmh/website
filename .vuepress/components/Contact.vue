@@ -18,6 +18,12 @@
                         <a target="_blank" class="contact__social-media__link" href="https://www.linkedin.com/company/bmh-spol-s-r-o/"><img src="/img/linkedin.svg" alt=""></a>
                         <!-- <a class="contact__social-media__link"><img src="/img/twitter.svg" alt=""></a> -->
                     </section>
+                    <section class="contact__sponsoring">
+                        <strong>Sponzorujeme</strong>
+                        <a class="contact__logo-box" href="https://www.volejbalov.cz/" target="_blank">
+                            <img class="contact__logo" src="/img/aero_logo.png" alt="Aero Logo"/>
+                        </a>
+                    </section>
                 </div>
                 <!-- <div class="contact__group">
                     <section class="contact__links">
