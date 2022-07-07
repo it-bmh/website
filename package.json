@@ -25,7 +25,7 @@
   "homepage": "https://github.com/it-bmh/website#readme",
   "dependencies": {
     "@vuepress/plugin-google-analytics": "^1.6.0",
-    "moment": "^2.25.3",
+    "moment": "^2.29.4",
     "vuepress": "^1.0.2",
     "vuepress-plugin-robots": "^1.0.1",
     "vuepress-plugin-seo": "^0.1.4",
